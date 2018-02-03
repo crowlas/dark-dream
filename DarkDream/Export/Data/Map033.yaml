@@ -1,0 +1,3531 @@
+---
+root: !ruby/object:RPG::Map
+  parallax_name: ''
+  height: 13
+  events:
+    1: !ruby/object:RPG::Event
+      id: 1
+      name: EV001
+      x: 6
+      y: 12
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Move
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 121
+          parameters:
+          - 2
+          - 2
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 201
+          parameters:
+          - 0
+          - 8
+          - 9
+          - 10
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    2: !ruby/object:RPG::Event
+      id: 2
+      name: EV002
+      x: 10
+      y: 12
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Move
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 121
+          parameters:
+          - 2
+          - 2
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 201
+          parameters:
+          - 0
+          - 8
+          - 11
+          - 10
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    3: !ruby/object:RPG::Event
+      id: 3
+      name: receptionniste
+      x: 12
+      y: 3
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: People3
+          character_index: 3
+          direction: 2
+          pattern: 1
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 111
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 111
+          parameters:
+          - 1
+          - 4
+          - 0
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 111
+          parameters:
+          - 8
+          - 412
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 126
+          parameters:
+          - 409
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 111
+          parameters:
+          - 1
+          - 22
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 111
+          parameters:
+          - 8
+          - 405
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - On a terminé notre mission.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Vraiment ? Montrez moi ça...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 126
+          parameters:
+          - 405
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Léo donne le colis au réceptionniste !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &1 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 150
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 505
+          parameters:
+          - *1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "...\\!"
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Le livreur est...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Introuvable.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Vu l'état de sa maison,\! il semble
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - être parti dans la précipitation.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Je vois.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &2 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 505
+          parameters:
+          - *2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Aussi, on a croisé un monstre.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Un monstre ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Ouais, ç'est bizarre.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'Actuellement, discuter ne nous mènera '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - nulle part.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Tenez.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Light donne le liquide amorphe au
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - receptionniste.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 126
+          parameters:
+          - 406
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 121
+          parameters:
+          - 15
+          - 15
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Qu'est-ce que c'est ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Le corps du monstre.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'Vous croyez que ça intéresserais '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - certaines personnes ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Eh bien,\! si ça vient d'un monstre
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - vivant, certainement...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Il y a une personne. \!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'Si vous me le confiez, je lui ferais '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - parvenir.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Faite, s'il vous plait.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "...et n'oubliez pas notre nom."
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Je vais faire ça.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Bon travail.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &3 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 505
+          parameters:
+          - *3
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Vous avez rempli votre part du contrat.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Je transmettrais le colis à Laurent.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Comme promis, les points de la mission
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - ainsi que la récompense vous serons
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'remis dès que vous repasserez avec '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - vos insignes.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - YES !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Génial !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - A très bientôt, je l'espère.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Merci à vous.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Merci pour tout !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - A bientôt !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 22
+          - 22
+          - 0
+          - 0
+          - 4
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 4
+          - 4
+          - 0
+          - 0
+          - 3
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - On a une bonne nouvelle.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Vous avez réussi ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Euh...\!non.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - On crois avoir découvert une nouvelle
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - espèce vivante dans la maison du livreur.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Une nouvelle espèce vivante ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Comme un loup ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Plutôt comme de la confiture, mais
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - l'idée est là.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - On ne pouvait pas récupérer le
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - colis sans la tuer, donc on est parti.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Hum...je vois.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Désolé, mais je ne peux pas valider
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - votre mission dans ces circonstences.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - On s'en doutais.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Pour votre histoire de monstre, c'est
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - plus compliqué.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Je vous fait confiance mais...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Vous devez envoyez des Hommes.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - En effet, nous ne sommes pas encore
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'soldat, donc notre parole n''a pas '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - beaucoup de valeur...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "...mais le risque en vaut la chandelle.\\!"
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'S''il le faut, j''enverrais ma mère, '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Mellow Desmark , en reconnaissance.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Cela vous convient ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Mellow ?\! Vous êtes son fils ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Actuellement, j'ai les mains liées.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Cependant, si le rapport vient de Mellow,
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - il n'y aura aucun souci.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Alors nous ferons ainsi.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Bonne jounée.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Bonne journée à vous.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 126
+          parameters:
+          - 412
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 21
+          - 21
+          - 0
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 22
+          - 22
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 4
+          - 4
+          - 0
+          - 0
+          - 3
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 111
+          parameters:
+          - 1
+          - 22
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Il a signé le contrat ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'Tant mieux pour vous.\! '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Surtout, restez prudent.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - On le sera, monsieur !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Si vous voulez faire cette mission,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - vous devrez convaincre Laurent de
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - vous embaucher...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 243
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 242
+          parameters:
+          - 10
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Bonjour.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - On recherche du travail.\! Y aurait-il
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'des requêtes que nous pourrions '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - accomplir ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Hum...\! Vous êtes à l'école de
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - soldat, non ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Oui.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Vous avez reçu votre insigne ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Non,\! pas encore...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "...mais on l'aura dans moins d'une "
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - semaine.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &4 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *4
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Je vois...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Ecoutez,\! vous semblez de bonne fois,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - donc je vais faire quelque chose pour
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - vous.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'En temps normal,\! lorsque qu''une '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - mission est effectuée,\! nous mettons
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - à jour votre insigne pour garder trâce
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - de vos faits.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Cette pratique permet de déterminer
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - le niveau d'expertise d'un soldat.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'Ainsi, on sait quelle mission lui donner. '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - De ce fait,\! les première missions
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - sont très importantes pour trouver
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - du travail plus tard.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'J''ai effectivement une mission qui '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - devrait être à votre portée.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Comme vous n'avez pas l'expérience
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'minimum,\! vous devez d''abord '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'convaincre le demandeur de vous '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - embaucher.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'Une fois fait,\! faite lui signez le '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'contrat,\! sans oublier de tous signer '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - à votre tour.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 126
+          parameters:
+          - 412
+          - 0
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Contrat obtenu !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Ramenez moi à la fois le contrat
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - et la preuve de votre accomplissement,
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - et votre mission sera accomplit.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Je noterais votre accomplissement
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - et mettrais à jour votre insigne dès
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - que vous me l'apporterez.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Merci beaucoup.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Merci, monsieur.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - On reviendra avec le contrat signé,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - c'est sûr !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Je suis de tout coeur avec vous.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &5 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 2
+            - &6 !ruby/object:RPG::MoveCommand
+              code: 1
+              parameters: []
+            - &7 !ruby/object:RPG::MoveCommand
+              code: 1
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *5
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *6
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *7
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'Vous ne voulez pas savoir qui est le '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - demandeur ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &8 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 3
+            - &9 !ruby/object:RPG::MoveCommand
+              code: 4
+              parameters: []
+            - &10 !ruby/object:RPG::MoveCommand
+              code: 4
+              parameters: []
+            - &11 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 4
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *8
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *9
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *10
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 505
+          parameters:
+          - *11
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - J'avais oublié...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "*rigole*"
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Haha! \! Ne soyez pas trop pressé !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Qui est le demandeur ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Le demandeur est M. Deforge Lau...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Laurent !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - "...\\!"
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Oui, c'est ça.\! Je présume que beaucoup
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - de gens le connait par ici...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - C'est vrai.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - En espérant que ça vous porte chance...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Merci encore.
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Chime2
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Objectif de quête mis à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 244
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 122
+          parameters:
+          - 21
+          - 21
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 122
+          parameters:
+          - 22
+          - 22
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Que puis-je pour vous ?
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: true
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 413
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: People3
+          character_index: 3
+          direction: 2
+          pattern: 1
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 111
+          parameters:
+          - 1
+          - 21
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 111
+          parameters:
+          - 1
+          - 22
+          - 0
+          - 4
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Allors ça y est, vous êtes un
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - vrai diplomé ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Mes félicitations.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Merci.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Si vous me le permettez...
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Le receptionniste prend l'insigne
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - de Light et la met à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 122
+          parameters:
+          - 15
+          - 15
+          - 1
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 2 points de réputation de obtenus !
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Voilà pour la réputation...\!et voici
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - pour la récompense.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 125
+          parameters:
+          - 0
+          - 0
+          - 6
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 6 Gold obtenus !
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Je vous souhaite la réussite pour vos
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - projets à venir.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Merci encore ! \!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Bonne journée à vous.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Bonne journée.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 122
+          parameters:
+          - 21
+          - 21
+          - 0
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 122
+          parameters:
+          - 22
+          - 22
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 126
+          parameters:
+          - 412
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Chime2
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Objectif de quête mis à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Que puis-je pour vous ?
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 21
+          variable_value: 1
+          self_switch_ch: A
+          item_id: 413
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: People3
+          character_index: 3
+          direction: 2
+          pattern: 1
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 111
+          parameters:
+          - 0
+          - 6
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - 'J''attends le rapport de Mellow avec '
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - impatience.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 111
+          parameters:
+          - 0
+          - 15
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Bonne journée à vous.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Que puis-je pour vous ?
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+  parallax_sx: 0
+  bgm: !ruby/object:RPG::BGM
+    name: ''
+    volume: 100
+    pitch: 100
+  tileset_id: 2
+  encounter_step: 30
+  width: 17
+  data: !ruby/object:Table
+    dim: 3
+    zsize: 4
+    ysize: 13
+    xsize: 17
+    data:
+    - 6660
+    - 6684
+    - 6684
+    - 6684
+    - 6684
+    - 6684
+    - 6664
+    - 6656
+    - 6656
+    - 6656
+    - 6660
+    - 6684
+    - 6684
+    - 6684
+    - 6684
+    - 6684
+    - 6664
+    - 6680
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 6672
+    - 6656
+    - 6656
+    - 6656
+    - 6680
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 6672
+    - 6680
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 6672
+    - 6656
+    - 6656
+    - 6656
+    - 6680
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 2850
+    - 3732
+    - 3756
+    - 6696
+    - 6684
+    - 6684
+    - 6684
+    - 6694
+    - 3736
+    - 3728
+    - 2852
+    - 3728
+    - 3728
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 2856
+    - 2846
+    - 2861
+    - 7043
+    - 7042
+    - 7042
+    - 7042
+    - 7046
+    - 2856
+    - 2844
+    - 2854
+    - 3728
+    - 3728
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 3728
+    - 3730
+    - 3764
+    - 7049
+    - 7048
+    - 7048
+    - 7048
+    - 7052
+    - 3744
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 3730
+    - 3748
+    - 3748
+    - 3748
+    - 3748
+    - 3748
+    - 3729
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 3732
+    - 3756
+    - 3756
+    - 3756
+    - 3736
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6698
+    - 3752
+    - 6690
+    - 6676
+    - 6692
+    - 3744
+    - 6698
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6672
+    - 6680
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6688
+    - 3752
+    - 6672
+    - 6656
+    - 6680
+    - 3744
+    - 6688
+    - 3728
+    - 3728
+    - 3728
+    - 3728
+    - 6672
+    - 6686
+    - 6689
+    - 6689
+    - 6689
+    - 6689
+    - 6695
+    - 3730
+    - 6696
+    - 6684
+    - 6694
+    - 3729
+    - 6697
+    - 6689
+    - 6689
+    - 6689
+    - 6689
+    - 6685
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 7046
+    - 3728
+    - 7043
+    - 7042
+    - 7046
+    - 3728
+    - 7043
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 7042
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 7052
+    - 3728
+    - 7049
+    - 7048
+    - 7052
+    - 3728
+    - 7049
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 7048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3194
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3194
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3193
+    - 3185
+    - 3197
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3195
+    - 3185
+    - 3191
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 583
+    - 532
+    - 741
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 741
+    - 532
+    - 583
+    - 0
+    - 0
+    - 0
+    - 0
+    - 599
+    - 0
+    - 591
+    - 0
+    - 741
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 741
+    - 0
+    - 591
+    - 0
+    - 599
+    - 0
+    - 0
+    - 607
+    - 0
+    - 336
+    - 577
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 577
+    - 738
+    - 0
+    - 607
+    - 0
+    - 0
+    - 0
+    - 0
+    - 340
+    - 0
+    - 0
+    - 0
+    - 0
+    - 935
+    - 0
+    - 0
+    - 0
+    - 0
+    - 340
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 943
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 995
+    - 997
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 995
+    - 997
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 584
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 583
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 583
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 583
+    - 0
+    - 0
+    - 0
+    - 0
+    - 591
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 591
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 591
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  bgs: !ruby/object:RPG::BGS
+    name: ''
+    volume: 80
+    pitch: 100
+  parallax_loop_y: false
+  autoplay_bgm: false
+  encounter_list: []
+  autoplay_bgs: false
+  parallax_show: false
+  scroll_type: 0
+  parallax_loop_x: false
+  disable_dashing: true
+  parallax_sy: 0
+  display_name: Mairie
+  specify_battleback: false
+  note: ''
+  battleback1_name: ''
+  battleback2_name: ''

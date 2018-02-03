@@ -1,0 +1,1407 @@
+---
+root:
+- 
+- !ruby/object:RPG::State
+  message2: " est vaincu !"
+  name: Mort
+  priority: 100
+  icon_index: 1
+  message1: " est tombé au combat !"
+  message4: " revient à la vie !"
+  restriction: 4
+  release_by_damage: false
+  message3: ''
+  note: "Le statut #1 est automatiquement infligé\r\nquand les PV atteignent 0."
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 0.0
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " est empoisonné !"
+  name: Poison
+  priority: 65
+  icon_index: 2
+  message1: " est empoisonné !"
+  message4: " est guéri du poison !"
+  restriction: 0
+  release_by_damage: false
+  message3: ''
+  note: ''
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.02
+  auto_removal_timing: 2
+  min_turns: 20
+  max_turns: 20
+  chance_by_damage: 2
+  steps_to_remove: 2000
+  remove_by_walking: true
+  remove_at_battle_end: false
+  remove_by_damage: true
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " est aveuglé !"
+  name: Aveugle
+  priority: 70
+  icon_index: 3
+  message1: " devient aveugle !"
+  message4: " recouvre la vision !"
+  restriction: 0
+  release_by_damage: false
+  message3: ''
+  note: ''
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.6
+  auto_removal_timing: 1
+  min_turns: 3
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " ne peut plus utiliser de magie !"
+  name: Muet
+  priority: 75
+  icon_index: 4
+  message1: " ne peut plus utiliser de magie !"
+  message4: " peut à nouveau utiliser la magie !"
+  restriction: 0
+  release_by_damage: false
+  message3: ''
+  note: ''
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 42
+    data_id: 2
+    value: 0.0
+  auto_removal_timing: 1
+  min_turns: 3
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " est confus !"
+  name: Confus
+  priority: 80
+  icon_index: 5
+  message1: " est confus !"
+  message4: " retrouve ses esprits !"
+  restriction: 2
+  release_by_damage: false
+  message3: ''
+  note: ''
+  id: 5
+  features: []
+  auto_removal_timing: 1
+  min_turns: 2
+  max_turns: 4
+  chance_by_damage: 50
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " s'endort !"
+  name: Sommeil
+  priority: 85
+  icon_index: 6
+  message1: " s'endort !"
+  message4: " se réveille !"
+  restriction: 4
+  release_by_damage: true
+  message3: " dort..."
+  note: ''
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -1.0
+  auto_removal_timing: 1
+  min_turns: 3
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " est paralysé !"
+  name: Paralysie
+  priority: 90
+  icon_index: 7
+  message1: " est paralysé !"
+  message4: " n'est plus paralysé !"
+  restriction: 4
+  release_by_damage: false
+  message3: " ne peut plus bouger !"
+  note: ''
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -1.0
+  auto_removal_timing: 1
+  min_turns: 4
+  max_turns: 6
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: " ne peut plus bouger !"
+  name: Immobile
+  priority: 60
+  icon_index: 8
+  message1: " ne peut plus bouger !"
+  message4: " peut à nouveau bouger !"
+  restriction: 4
+  release_by_damage: false
+  message3: " est toujours immobilisé..."
+  note: ''
+  id: 8
+  features: []
+  auto_removal_timing: 2
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 10
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: ''
+  name: En garde
+  priority: 0
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 1
+    value: 0.0
+  auto_removal_timing: 2
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: true
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Immortel
+  priority: 0
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 14
+    data_id: 1
+    value: 0.0
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Protège
+  priority: 0
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 62
+    data_id: 2
+    value: 0.0
+  auto_removal_timing: 2
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: true
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Provoque
+  priority: 50
+  icon_index: 9
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 10.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 3
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Caché
+  priority: 50
+  icon_index: 12
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 0.1
+  auto_removal_timing: 2
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: true
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PV rapide
+  priority: 50
+  icon_index: 10
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 36
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 14
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 3
+  chance_by_damage: 10
+  steps_to_remove: 50
+  remove_by_walking: true
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PM rapide
+  priority: 50
+  icon_index: 121
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 15
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 27
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 37
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 3
+  chance_by_damage: 10
+  steps_to_remove: 300
+  remove_by_walking: true
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PT
+  priority: 50
+  icon_index: 10
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 9
+    value: 0.1
+  auto_removal_timing: 2
+  min_turns: 4
+  max_turns: 4
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Défense ultime
+  priority: 50
+  icon_index: 13
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 6
+    value: 0.1
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 3
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: true
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Contre-attaque
+  priority: 50
+  icon_index: 11
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 3
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: true
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Esquive magie
+  priority: 50
+  icon_index: 13
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 3
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Renvoi magie
+  priority: 50
+  icon_index: 15
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: " gagne le pouvoir du feu !"
+  name: Attribut feu
+  priority: 50
+  icon_index: 32
+  message1: " gagne le pouvoir du feu !"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  auto_removal_timing: 2
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: " gagne le pouvoir de la glace !"
+  name: Attribut glace
+  priority: 50
+  icon_index: 33
+  message1: " gagne le pouvoir de la glace !"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 4
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  auto_removal_timing: 2
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: " gagne le pouvoir de la foudre !"
+  name: Attribut foudre
+  priority: 50
+  icon_index: 34
+  message1: " gagne le pouvoir de la foudre !"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 5
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  auto_removal_timing: 2
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Pas d'altérations
+  priority: 50
+  icon_index: 13
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 8
+    value: 0.0
+  auto_removal_timing: 2
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Coût PM réduit
+  priority: 50
+  icon_index: 14
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.25
+  auto_removal_timing: 2
+  min_turns: 5
+  max_turns: 5
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PV lente
+  priority: 50
+  icon_index: 10
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 36
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 14
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 15
+  max_turns: 15
+  chance_by_damage: 3
+  steps_to_remove: 1500
+  remove_by_walking: true
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PM lente
+  priority: 50
+  icon_index: 121
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 15
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 27
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 37
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 15
+  max_turns: 15
+  chance_by_damage: 3
+  steps_to_remove: 1500
+  remove_by_walking: true
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Concentration (1)
+  priority: 50
+  icon_index: 14
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.8
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Concentration (2)
+  priority: 50
+  icon_index: 14
+  message1: " se concentre!"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.6
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Concentration (3)
+  priority: 50
+  icon_index: 14
+  message1: " se concentre!"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.4
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Concentration (4)
+  priority: 50
+  icon_index: 14
+  message1: " se concentre!"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 0.2
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Attaque + (long)
+  priority: 50
+  icon_index: 34
+  message1: Votre attaque augmente!
+  message4: Votre attaque revient à la normal.
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.1
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 9999
+  remove_by_walking: true
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Défense + (long)
+  priority: 50
+  icon_index: 35
+  message1: Votre défense augmente!
+  message4: Votre défense revient à la normal.
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 9999
+  remove_by_walking: true
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Agilité + (long)
+  priority: 50
+  icon_index: 38
+  message1: Votre agilité augmente!
+  message4: Votre agilité revient à la normal.
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.1
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 9999
+  remove_by_walking: true
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: " évolu!"
+  name: Evolution
+  priority: 50
+  icon_index: 103
+  message1: " évolu!"
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 35
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PV moyenne
+  priority: 50
+  icon_index: 10
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 26
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 36
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 14
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 6
+  max_turns: 6
+  chance_by_damage: 5
+  steps_to_remove: 600
+  remove_by_walking: true
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Régèn PM moyenne
+  priority: 50
+  icon_index: 121
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 8
+    value: 0.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 15
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 27
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 37
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 6
+  max_turns: 6
+  chance_by_damage: 5
+  steps_to_remove: 600
+  remove_by_walking: true
+  remove_at_battle_end: true
+  remove_by_damage: true
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 38
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 39
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 40
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 41
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 42
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 43
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 44
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 45
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 46
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 47
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 48
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 49
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 50
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''

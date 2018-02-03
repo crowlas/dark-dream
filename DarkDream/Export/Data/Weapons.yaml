@@ -1,0 +1,2740 @@
+---
+root:
+- 
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: EPEE
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: "********************"
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "Une épée en bois destinée à l'entraînement.\r\nPoids : 10                                                  "
+  name: Epée en bois (lv1)
+  icon_index: 378
+  price: 14
+  animation_id: 7
+  note: "<inv size: 10>\r\n"
+  id: 3
+  features: []
+  params:
+  - 0
+  - 0
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Une épée en bois destinée à l'entraînement.\r\nPoids : 10                                                  "
+  name: Epée en bois (lv2)
+  icon_index: 378
+  price: 28
+  animation_id: 7
+  note: "<inv size: 10>\r\n\r\n"
+  id: 4
+  features: []
+  params:
+  - 0
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Une épée en bois destinée à l'entraînement.\r\nPoids : 9                                                  "
+  name: Epée en bois (lv3)
+  icon_index: 378
+  price: 45
+  animation_id: 7
+  note: "<inv size: 19>\r\n"
+  id: 5
+  features: []
+  params:
+  - 0
+  - 0
+  - 4
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Une épée lourde idéal pour le renforcement physique.\r\nPoids : 17
+    \                                                 "
+  name: Epée en pierre (lv1)
+  icon_index: 380
+  price: 81
+  animation_id: 7
+  note: "<inv size: 17>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:083x11\r\n=
+    Pierre\r\ngold:9\r\n<ingredients>"
+  id: 6
+  features: []
+  params:
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Une épée lourde idéal pour le renforcement physique.\r\nPoids : 17
+    \                                                 "
+  name: Epée en pierre (lv2)
+  icon_index: 380
+  price: 100
+  animation_id: 7
+  note: "<inv size: 17>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:006x1\r\n=
+    Epée en pierre (lv1)\r\nitem:083x4\r\n= Pierre\r\ngold:10\r\n<ingredients>"
+  id: 7
+  features: []
+  params:
+  - 0
+  - 0
+  - 6
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Une épée lourde idéal pour le renforcement physique.\r\nPoids : 16
+    \                                                 "
+  name: Epée en pierre (lv3)
+  icon_index: 380
+  price: 135
+  animation_id: 7
+  note: "<inv size: 16>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:007x1\r\n=
+    Epée en pierre (lv2)\r\nitem:083x5\r\n= Pierre\r\ngold:11\r\n<ingredients>\r\n"
+  id: 8
+  features: []
+  params:
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Un classique.\r\nPoids : 13                                                  "
+  name: Epée en fer (lv1)
+  icon_index: 387
+  price: 172
+  animation_id: 7
+  note: "<inv size: 13>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:084x5\r\n=
+    Minerai de fer\r\ngold:13\r\n<ingredients>"
+  id: 9
+  features: []
+  params:
+  - 0
+  - 0
+  - 9
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Un classique.\r\nPoids : 13                                                  "
+  name: Epée en fer (lv2)
+  icon_index: 387
+  price: 210
+  animation_id: 7
+  note: "<inv size: 13>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:009x1\r\n=
+    Epée en fer (lv1)\r\nitem:084x2\r\n= Minerai de fer\r\ngold:15\r\n<ingredients>\r\n\r\n"
+  id: 10
+  features: []
+  params:
+  - 0
+  - 0
+  - 11
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: "Un classique.\r\nPoids : 12                                                  "
+  name: Epée en fer (lv3)
+  icon_index: 387
+  price: 277
+  animation_id: 7
+  note: "<inv size: 12>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:010x1\r\n=
+    Epée en fer (lv2)\r\nitem:084x4\r\n= Minerai de fer\r\ngold:17\r\n<ingredients>\r\n"
+  id: 11
+  features: []
+  params:
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 62
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 76
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 85
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 87
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 88
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 89
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 90
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 91
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 92
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 93
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 94
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 95
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 96
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 98
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 99
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0

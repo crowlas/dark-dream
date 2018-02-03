@@ -1,0 +1,2450 @@
+---
+root:
+- 
+- !ruby/object:RPG::Actor
+  name: 'Light '
+  face_index: 0
+  character_index: 7
+  initial_level: 7
+  face_name: Light1
+  class_id: 1
+  character_name: Light1
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 55
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 0.91
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 0.88
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.93
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 5
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 6
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 2
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 1.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 61
+    data_id: 0
+    value: 0.05
+  note: "<death event: 11>\r\n<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n</inv
+    formula>\r\n<win quotes>\r\nIls se sont bien battu.\r\n[New Quote]\r\nPuissiez-vous
+    trouver la paix.\r\n</win quotes>\r\n<level quotes>\r\nJe me sens...plutôt bien.\r\n[New
+    Quote]\r\nA chaque combat, son enseignement.\r\n</level quotes>\r\n<drops quotes>\r\n...\r\n[New
+    Quote]\r\nAucune mort ne doit être vaine.\r\n[New Quote]\r\nJ'honorerais votre
+    mort.\r\n</drops quotes>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 4
+  - 0
+  nickname: Desmark
+  description: ''
+  max_level: 44
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: 'Lockfried '
+  face_index: 1
+  character_index: 5
+  initial_level: 3
+  face_name: Lockfried1
+  class_id: 1
+  character_name: Light1
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 1.05
+  note: "<death event: 11>\r\n<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n </inv
+    formula>\r\n<win quotes>\r\nMerci pour le combat !\r\n[New Quote]\r\nBon combat
+    !\r\n[New Quote]\r\nJe deviendrais encore plus fort!\r\n</win quotes>\r\n<level
+    quotes>\r\nJe ne fais que commencer !\r\n[New Quote]\r\nRegarde moi, grand frère
+    !\r\n</level quotes>\r\n<drops quotes>\r\nGrand frère, ça se mange ça ?\r\n[New
+    Quote]\r\nJ'honorerais votre mort.\r\n</drops quotes>"
+  equips:
+  - 0
+  - 0
+  - 33
+  - 4
+  - 0
+  nickname: Desmark
+  description: ''
+  max_level: 80
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: 'Lockfried '
+  face_index: 0
+  character_index: 4
+  initial_level: 3
+  face_name: Lockfried1
+  class_id: 1
+  character_name: Light1
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 1.05
+  note: "<death event: 11>"
+  equips:
+  - 0
+  - 0
+  - 33
+  - 4
+  - 0
+  nickname: Desmark
+  description: ''
+  max_level: 80
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: 'Mellow '
+  face_index: 4
+  character_index: 4
+  initial_level: 35
+  face_name: ParentsLight
+  class_id: 1
+  character_name: ParentLight
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 55
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  note: "<death event: 11>\r\n<inv formula>\r\n  level * 2\r\n  </inv formula>\r\n<inv
+    plus: 50>"
+  equips:
+  - 5
+  - 4
+  - 0
+  - 4
+  - 95
+  nickname: Desmark
+  description: ''
+  max_level: 83
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: 'Edouard '
+  face_index: 0
+  character_index: 0
+  initial_level: 37
+  face_name: ParentsLight
+  class_id: 1
+  character_name: ParentLight
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.18
+  note: "<death event: 11>\r\n<inv formula>\r\n  level * 2\r\n  </inv formula>\r\n<inv
+    plus: 60>"
+  equips:
+  - 11
+  - 0
+  - 0
+  - 3
+  - 94
+  nickname: Desmark
+  description: ''
+  max_level: 78
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: "******SANJ*********"
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 6
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Laurent
+  face_index: 6
+  character_index: 6
+  initial_level: 11
+  face_name: Actor3
+  class_id: 1
+  character_name: Actor3
+  id: 7
+  features: []
+  note: "<death event: 11>"
+  equips:
+  - 10
+  - 0
+  - 38
+  - 9
+  - 0
+  nickname: Marchand d'armure
+  description: Amie de la famille Desmark.
+  max_level: 80
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Receptionniste
+  face_index: 3
+  character_index: 3
+  initial_level: 1
+  face_name: People3
+  class_id: 1
+  character_name: People3
+  id: 8
+  features: []
+  note: "<death event: 11>"
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: "??"
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 9
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: "****BASELOIRE******"
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 10
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Blue
+  face_index: 4
+  character_index: 4
+  initial_level: 7
+  face_name: Tristion
+  class_id: 1
+  character_name: Tristion
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  note: "<death event: 11>\r\n<win quotes>\r\n*souffle*\r\n[New Quote]\r\nJe survivrais
+    un jour de plus !\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nTout
+    n'est pas perdue.\r\n[New Quote]\r\nOnt-ils été généreux ?\r\n</drops quotes>"
+  equips:
+  - 9
+  - 64
+  - 34
+  - 5
+  - 0
+  nickname: ''
+  description: Maire
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 12
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Grégoire
+  face_index: 2
+  character_index: 2
+  initial_level: 6
+  face_name: Actor2
+  class_id: 1
+  character_name: Actor2
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  note: "<death event: 11>\r\n<win quotes>\r\nEnfin terminé !\r\n[New Quote]\r\nIls
+    étaient coriace.\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nLaissez-moi
+    vous aider.\r\n[New Quote]\r\nTuer et récolter pour survivre\\n un jour \r\nde
+    plus.\r\n</drops quotes>"
+  equips:
+  - 9
+  - 63
+  - 34
+  - 5
+  - 0
+  nickname: ''
+  description: Milice
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: "****CHAZAY********"
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 14
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Milia
+  face_index: 1
+  character_index: 1
+  initial_level: 1
+  face_name: Actor5
+  class_id: 1
+  character_name: Actor5
+  id: 15
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Maire
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 16
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 17
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 18
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 19
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 20
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: "*********************"
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 21
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: CAMARADE LIGHT
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 22
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: "*********************"
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 23
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Julie
+  face_index: 5
+  character_index: 5
+  initial_level: 5
+  face_name: Actor2
+  class_id: 1
+  character_name: Actor2
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.14
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.14
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.14
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.12
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  note: "<inv plus: 50>\r\n<inv formula>\r\n  level * 2\r\n</inv formula>\r\n<win
+    quotes>\r\nTout le monde va bien ?\r\n[New Quote]\r\nC'était...fun. Je crois.\r\n</win
+    quotes>\r\n<level quotes>\r\nMon style gagne en stabilité.\r\n[New Quote]\r\nJe
+    peux encore progresser.\r\n</level quotes>\r\n<drops quotes>\r\nY-a des trucs
+    à récupérer ?\r\n[New Quote]\r\nJ'en ferais bonne usage.\r\n[New Quote]\r\nParfois,
+    il faut se salir les mains...\r\n</drops quotes>"
+  equips:
+  - 4
+  - 0
+  - 33
+  - 3
+  - 0
+  nickname: Valchea
+  description: ''
+  max_level: 80
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Estelle
+  face_index: 1
+  character_index: 1
+  initial_level: 7
+  face_name: CopainLight 1
+  class_id: 1
+  character_name: copainLight1
+  id: 25
+  features: []
+  note: ''
+  equips:
+  - 4
+  - 0
+  - 33
+  - 4
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 77
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Théo
+  face_index: 2
+  character_index: 2
+  initial_level: 5
+  face_name: CopainLight 1
+  class_id: 1
+  character_name: copainLight1
+  id: 26
+  features: []
+  note: ''
+  equips:
+  - 3
+  - 0
+  - 34
+  - 5
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 66
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Chloé
+  face_index: 3
+  character_index: 3
+  initial_level: 8
+  face_name: CopainLight 1
+  class_id: 1
+  character_name: copainLight1
+  id: 27
+  features: []
+  note: ''
+  equips:
+  - 3
+  - 0
+  - 33
+  - 6
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 80
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Red
+  face_index: 1
+  character_index: 1
+  initial_level: 7
+  face_name: CopainLight 2
+  class_id: 1
+  character_name: copainLight2
+  id: 28
+  features: []
+  note: ''
+  equips:
+  - 6
+  - 0
+  - 35
+  - 6
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 78
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sylvain
+  face_index: 3
+  character_index: 3
+  initial_level: 6
+  face_name: CopainLight 2
+  class_id: 1
+  character_name: copainLight2
+  id: 29
+  features: []
+  note: ''
+  equips:
+  - 4
+  - 0
+  - 35
+  - 6
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 74
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Raphaël
+  face_index: 2
+  character_index: 2
+  initial_level: 6
+  face_name: CopainLight 2
+  class_id: 1
+  character_name: copainLight2
+  id: 30
+  features: []
+  note: ''
+  equips:
+  - 5
+  - 0
+  - 34
+  - 5
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 73
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Josselin
+  face_index: 0
+  character_index: 0
+  initial_level: 6
+  face_name: CopainLight 2
+  class_id: 1
+  character_name: copainLight2
+  id: 31
+  features: []
+  note: ''
+  equips:
+  - 5
+  - 0
+  - 34
+  - 5
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 90
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Léo
+  face_index: 0
+  character_index: 0
+  initial_level: 5
+  face_name: CopainLight 1
+  class_id: 1
+  character_name: copainLight1
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.09
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.18
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 0.95
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  note: "<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n</inv formula>\r\n<win
+    quotes>\r\nBOUILLA !\r\n[New Quote]\r\nFWAHH ! J'ai eu chaud !\r\n</win quotes>\r\n<level
+    quotes>\r\nIl faut que je teste des nouveaux trucs.\r\n[New Quote]\r\nJe suis
+    chaud bouillant !\r\n</level quotes>\r\n<drops quotes>\r\nIls nous ont laissé
+    des cadeaux ?\r\n[New Quote]\r\nMerci les gars !\r\n[New Quote]\r\nMince! Ce bout
+    de viande est en charpie !\r\n</drops quotes>"
+  equips:
+  - 3
+  - 63
+  - 0
+  - 3
+  - 0
+  nickname: Bouclid
+  description: ''
+  max_level: 80
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Instructeur Degar
+  face_index: 7
+  character_index: 7
+  initial_level: 19
+  face_name: Actor1
+  class_id: 1
+  character_name: Actor1
+  id: 33
+  features: []
+  note: ''
+  equips:
+  - 10
+  - 0
+  - 35
+  - 7
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 74
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: "*******************"
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 34
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 35
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 36
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 37
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 38
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 39
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 40
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 41
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 42
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 43
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 44
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 45
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 46
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 47
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 48
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 49
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 50
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 51
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 52
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 53
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 54
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 55
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 56
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 57
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 58
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 59
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 60
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 61
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 62
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 63
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 64
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 65
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 66
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 67
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 68
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 69
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 70
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 71
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 72
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 73
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 74
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 75
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 76
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 77
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 78
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 79
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 80
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 81
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 82
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 83
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 84
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 85
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 86
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 87
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 88
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 89
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 90
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 91
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 92
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 93
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 94
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 95
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 96
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 97
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 98
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 99
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 100
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0

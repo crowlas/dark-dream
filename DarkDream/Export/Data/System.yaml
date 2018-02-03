@@ -1,0 +1,464 @@
+---
+root: !ruby/object:RPG::System
+  elements:
+  - ''
+  - Vent
+  - Terre
+  - Eau
+  - Feu
+  - Tueur Volatile
+  - Tueur Tenace
+  - Tueur Fluide
+  - Tueur Feroce
+  start_y: 6
+  airship: !ruby/object:RPG::System::Vehicle
+    start_y: 0
+    bgm: !ruby/object:RPG::BGM
+      name: Airship
+      volume: 100
+      pitch: 100
+    start_x: 0
+    character_index: 3
+    character_name: Vehicle
+    start_map_id: 0
+  test_battlers:
+  - !ruby/object:RPG::System::TestBattler
+    actor_id: 1
+    level: 9
+    equips:
+    - 6
+    - 6
+    - 33
+    - 5
+    - 98
+  _: 7829367
+  edit_map_id: 1
+  battle_end_me: !ruby/object:RPG::ME
+    name: Victory1
+    pitch: 100
+    volume: 100
+  party_members:
+  - 1
+  start_x: 0
+  ship: !ruby/object:RPG::System::Vehicle
+    start_y: 0
+    bgm: !ruby/object:RPG::BGM
+      name: Ship
+      volume: 100
+      pitch: 100
+    start_x: 0
+    character_index: 1
+    character_name: Vehicle
+    start_map_id: 0
+  battler_hue: 0
+  sounds:
+  - !ruby/object:RPG::SE
+    name: Cursor2
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Decision3
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Cancel2
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Buzzer1
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Equip1
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Save
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Load
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Battle3
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Run
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Attack3
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Damage4
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Collapse1
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Collapse3
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Collapse4
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Damage5
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Collapse2
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Recovery
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Miss
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Evasion1
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Evasion2
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Reflection
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Shop
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Equip2
+    pitch: 100
+    volume: 80
+  - !ruby/object:RPG::SE
+    name: Item3
+    pitch: 100
+    volume: 80
+  variables:
+  - 
+  - Journal de quête
+  - Cycle jour-nuit
+  - Rareté
+  - Objectif de quête
+  - tmp1*
+  - Jour Recolte
+  - Grade
+  - Rang
+  - aléa
+  - ''
+  - ''
+  - ''
+  - tmp2*
+  - id coffre util
+  - Réputation
+  - sous-objectif de quete
+  - Pierre violette
+  - ''
+  - ''
+  - ''
+  - Contrat Sanj
+  - Objectif contrat Sanj
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Tenace(lv)
+  - Tenace(xp)
+  - Feroce(lv)
+  - Feroce(xp)
+  - Volatile(lv)
+  - Volatile(xp)
+  - Fluide(lv)
+  - Fluide(xp)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  battle_bgm: !ruby/object:RPG::BGM
+    name: Battle5
+    volume: 100
+    pitch: 90
+  version_id: 77323823
+  start_map_id: 2
+  battler_name: Assassin
+  magic_number: 77696160
+  switches:
+  - 
+  - Feu allumé
+  - Terrain Intérieur
+  - Respawn A
+  - Respawn B
+  - Emmener Lockfried
+  - Slime tué ?
+  - discussion Sylvain
+  - Neige
+  - Chasse Lockfried
+  - Terrain Sombre
+  - Milice Grégoire mort
+  - Maire Blue mort
+  - apparait PNJ !
+  - PeauRat-->Mellow
+  - LiquideAmorphe-->Mairie
+  - invasion
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  gameover_me: !ruby/object:RPG::ME
+    name: Gameover1
+    pitch: 100
+    volume: 100
+  game_title: Dark Dream
+  title_bgm: !ruby/object:RPG::BGM
+    name: Theme2
+    volume: 100
+    pitch: 100
+  terms: !ruby/object:RPG::System::Terms
+    params:
+    - PV Max
+    - PM Max
+    - Attaque
+    - Défense
+    - Magie
+    - Déf. mag.
+    - Agilité
+    - Chance
+    etypes:
+    - Arme
+    - Bouclier
+    - Casque
+    - Armure
+    - Accessoire
+    commands:
+    - Combattre
+    - Fuir
+    - Attaquer
+    - Se défendre
+    - Objets
+    - Compétences
+    - Équipement
+    - Statut
+    - Formation
+    - Sauvegarder
+    - Quitter
+    - ''
+    - Armes
+    - Armures
+    - Objets clés
+    - Changer équip.
+    - Optimiser
+    - Tout enlever
+    - Nouvelle partie
+    - Charger
+    - Quitter
+    - Écran titre
+    - Annuler
+    - ''
+    basic:
+    - Niveau
+    - Niv.
+    - PV
+    - PV
+    - PM
+    - PM
+    - TP
+    - TP
+  test_troop_id: 45
+  boat: !ruby/object:RPG::System::Vehicle
+    start_y: 0
+    bgm: !ruby/object:RPG::BGM
+      name: Ship
+      volume: 100
+      pitch: 100
+    start_x: 0
+    character_index: 0
+    character_name: Vehicle
+    start_map_id: 0
+  skill_types:
+  - ''
+  - Technique
+  - Magie
+  weapon_types:
+  - ''
+  - Epée
+  - Hache
+  - Arc
+  armor_types:
+  - ''
+  - Armure générale
+  - Bouclier
+  currency_unit: PO
+  window_tone: !ruby/object:Tone
+    red: 51.0
+    green: 51.0
+    blue: 51.0
+    gray: 0.0
+  japanese: false
+  opt_draw_title: true
+  opt_use_midi: false
+  opt_transparent: false
+  opt_followers: true
+  opt_slip_death: false
+  opt_extra_exp: true
+  opt_display_tp: true
+  battleback1_name: Grassland
+  battleback2_name: Grassland
+  title1_name: Gates
+  title2_name: Mist
+  opt_floor_death: false
