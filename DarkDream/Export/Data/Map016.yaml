@@ -6539,7 +6539,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Je m'appel Mellow Desmark.
+          - Je m'appelle Mellow Desmark.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -6768,7 +6768,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - J'espère que l'épreuve ce passera
+          - J'espère que l'épreuve se passera
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -10816,7 +10816,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Dit-moi,\! as-tu choisi ton orientation ?\!
+          - Dis-moi,\! as-tu choisi ton orientation ?\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401

@@ -3704,18 +3704,25 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 111
+          parameters:
+          - 4
+          - 32
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
           code: 230
           parameters:
           - 200
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 111
           parameters:
           - 0
           - 5
           - 0
         - !ruby/object:RPG::EventCommand
-          indent: 2
+          indent: 3
           code: 101
           parameters:
           - CopainLight 1
@@ -3723,17 +3730,17 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 2
+          indent: 3
           code: 401
           parameters:
           - 'Bon !\! Sur ce,\! '
         - !ruby/object:RPG::EventCommand
-          indent: 2
+          indent: 3
           code: 401
           parameters:
           - à demain pour emmener Lockfried !
         - !ruby/object:RPG::EventCommand
-          indent: 2
+          indent: 3
           code: 101
           parameters:
           - Actor2
@@ -3741,10 +3748,57 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 2
+          indent: 3
           code: 401
           parameters:
           - A demain !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 'Bon !\! Sur ce,\! '
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - on se voit à la remise des insignes !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Salut !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 412
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 0
@@ -3755,35 +3809,10 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 2
-          code: 101
+          code: 123
           parameters:
-          - CopainLight 1
+          - B
           - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 401
-          parameters:
-          - 'Bon !\! Sur ce,\! '
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 401
-          parameters:
-          - on se voit à la remise des insignes !
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 101
-          parameters:
-          - Actor2
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 401
-          parameters:
-          - Salut !
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 0

@@ -1578,7 +1578,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'pas honnètes avec toi, alors soit '
+          - 'pas honnêtes avec toi, alors soit '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -2112,7 +2112,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "...des moments difficiles ce seront"
+          - "...des moments difficiles se seront"
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -2364,7 +2364,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 405
           parameters:
-          - qui serait le changer.
+          - qui saurait le changer.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 405
@@ -2569,7 +2569,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 405
           parameters:
-          - améliorant grandement son quotidient.
+          - améliorant grandement son quotidien.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 405
@@ -2659,7 +2659,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 405
           parameters:
-          - Il continuait inlassable de marcher.
+          - Il continuait inlassablement de marcher.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 405
@@ -2789,12 +2789,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 405
           parameters:
-          - si ils ont changé,
+          - s'ils ont changé,
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 405
           parameters:
-          - si ils pensent à lui.
+          - s'ils pensent à lui.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 405

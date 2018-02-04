@@ -8885,7 +8885,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - C'est quoi cette endroit ?
+          - C'est quoi cet endroit ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -10052,7 +10052,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - C'est quoi cete endroit ?
+          - C'est quoi cet endroit ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123

@@ -774,9 +774,9 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 2
-          - 1
           - 0
-          - 2
+          - 0
+          - 8
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 117

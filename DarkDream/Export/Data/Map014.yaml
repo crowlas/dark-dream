@@ -3098,15 +3098,23 @@ root: !ruby/object:RPG::Map
           - Oui
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 223
+          code: 121
           parameters:
-          - !ruby/object:Tone
-            red: -50.0
-            green: -50.0
-            blue: -50.0
-            gray: 0.0
-          - 1
-          - false
+          - 2
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 121
+          parameters:
+          - 10
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 201
@@ -3212,15 +3220,23 @@ root: !ruby/object:RPG::Map
           - Oui
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 223
+          code: 121
           parameters:
-          - !ruby/object:Tone
-            red: -50.0
-            green: -50.0
-            blue: -50.0
-            gray: 0.0
-          - 1
-          - false
+          - 2
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 121
+          parameters:
+          - 10
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 201
@@ -9386,15 +9402,23 @@ root: !ruby/object:RPG::Map
           - Oui
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 223
+          code: 121
           parameters:
-          - !ruby/object:Tone
-            red: -50.0
-            green: -50.0
-            blue: -50.0
-            gray: 0.0
-          - 1
-          - false
+          - 2
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 121
+          parameters:
+          - 10
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 201

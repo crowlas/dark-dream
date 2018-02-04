@@ -587,6 +587,24 @@ root:
     - 1
   - !ruby/object:RPG::EventCommand
     indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 16
+    - 0
+    - 4
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 111
+    parameters:
+    - 1
+    - 16
+    - 0
+    - 5
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 6
     code: 101
     parameters:
     - ''
@@ -594,10 +612,83 @@ root:
     - 0
     - 2
   - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 401
+    parameters:
+    - La clé se trouve au SUD,
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 401
+    parameters:
+    - partie CENTRE-EST,
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 401
+    parameters:
+    - dans une grotte.
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 411
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 401
+    parameters:
+    - La clé se trouve au SUD,
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 401
+    parameters:
+    - partie CENTRE-EST.
+  - !ruby/object:RPG::EventCommand
+    indent: 6
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
     indent: 4
+    code: 411
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 5
     code: 401
     parameters:
     - La clé se trouve au SUD.
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 4
     code: 0
@@ -617,6 +708,15 @@ root:
     - 1
   - !ruby/object:RPG::EventCommand
     indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 16
+    - 0
+    - 4
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 5
     code: 101
     parameters:
     - ''
@@ -624,10 +724,44 @@ root:
     - 0
     - 2
   - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 401
+    parameters:
+    - Le coffre se trouve au CENTRE,
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 401
+    parameters:
+    - partie CENTRE-EST.
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
     indent: 4
+    code: 411
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 5
     code: 401
     parameters:
     - Le coffre se trouve au CENTRE.
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 4
     code: 0
@@ -3635,6 +3769,169 @@ root:
     - 1
     - 16
     - 0
+    - 6
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 250
+    parameters:
+    - !ruby/object:RPG::SE
+      name: Item1
+      pitch: 100
+      volume: 80
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'Nouvelle indice de recherche :'
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Le coffre est situé dans une grotte.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 16
+    - 0
+    - 5
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 250
+    parameters:
+    - !ruby/object:RPG::SE
+      name: Item1
+      pitch: 100
+      volume: 80
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'Nouvelle indice de recherche :'
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Le coffre est situé dans la partie
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - CENTRE-EST de sa zone.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 16
+    - 0
+    - 4
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 250
+    parameters:
+    - !ruby/object:RPG::SE
+      name: Item1
+      pitch: 100
+      volume: 80
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'Nouvelle indice de recherche :'
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - La clé est située dans la partie
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - CENTRE-EST de sa zone.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 16
+    - 0
     - 3
     - 0
   - !ruby/object:RPG::EventCommand
@@ -3808,12 +4105,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Un indice ?\! C'est génial !\!
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - C'est écrit quoi ?
+    - Un indice ?\! C'est écrit quoi ?
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 250
@@ -6892,7 +7184,7 @@ root:
     - 5
     - 0
     - 0
-    - 300
+    - 200
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 122
@@ -7045,7 +7337,7 @@ root:
     - 5
     - 0
     - 0
-    - 300
+    - 200
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 122
@@ -7198,7 +7490,7 @@ root:
     - 5
     - 0
     - 0
-    - 300
+    - 200
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 122
@@ -7351,7 +7643,7 @@ root:
     - 5
     - 0
     - 0
-    - 300
+    - 200
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 122
@@ -7496,6 +7788,15 @@ root:
     - 1
     - 0
     - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 122
+    parameters:
+    - 13
+    - 13
+    - 3
+    - 0
+    - 2
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 122
@@ -7664,6 +7965,15 @@ root:
     indent: 0
     code: 122
     parameters:
+    - 13
+    - 13
+    - 3
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 122
+    parameters:
     - 5
     - 5
     - 0
@@ -7823,6 +8133,15 @@ root:
     indent: 0
     code: 122
     parameters:
+    - 13
+    - 13
+    - 3
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 122
+    parameters:
     - 5
     - 5
     - 0
@@ -7978,6 +8297,15 @@ root:
     - 1
     - 0
     - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 122
+    parameters:
+    - 13
+    - 13
+    - 3
+    - 0
+    - 2
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 122

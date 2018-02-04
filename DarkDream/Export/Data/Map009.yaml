@@ -2353,7 +2353,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Tu te moquerais pas de moi par hazard...
+          - Tu te moquerais pas de moi par hasard...
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -3031,7 +3031,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Tu ne peux faire comme ci ton
+          - Tu ne peux faire comme si ton
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
@@ -3062,12 +3062,12 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Tout les matins,\! je te vois
+          - Tous les matins,\! je te vois
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
           parameters:
-          - dans le même état, ronger pas ton
+          - dans le même état, rongé pas ton
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
@@ -3098,7 +3098,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Tu n'es pas fait pour vivre comme-ça.\!
+          - Tu n'es pas fait pour vivre comme ça.\!
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
@@ -3121,7 +3121,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Peut importe tes chances de réussites.
+          - Peu importe tes chances de réussites.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -3139,7 +3139,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - 'Je sais mais,\! faire comme ci tout allait '
+          - 'Je sais mais,\! faire comme si tout allait '
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
@@ -3222,7 +3222,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - dit la vérité.
+          - dis la vérité.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -3258,7 +3258,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Même si ils savent que ça t'effrai.
+          - Même s'ils savent que ça t'effrai.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -3271,7 +3271,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - 'Mais si ils le découvrent par eux-même,\! '
+          - 'Mais s''ils le découvrent par eux-même,\! '
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
@@ -3406,7 +3406,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - 'Je...\!je vais essayé.\! je vais essayé de '
+          - 'Je...\!je vais essayer.\! je vais essayé de '
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 401
@@ -3542,7 +3542,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Aller trace, et ne te retourne pas !
+          - Allez fonce, et ne te retourne pas !
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101

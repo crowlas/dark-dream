@@ -8,16 +8,16 @@ root:
     scroll_y: 208
     parent_id: 0
   1: !ruby/object:RPG::MapInfo
-    scroll_x: 3691
+    scroll_x: 3158
     name: Forêt de Sanj (0,-1)
-    expanded: true
+    expanded: false
     order: 12
     scroll_y: 798
     parent_id: 7
   3: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Maison des Desmark
-    expanded: true
+    expanded: false
     order: 13
     scroll_y: 336
     parent_id: 1
@@ -38,7 +38,7 @@ root:
   7: !ruby/object:RPG::MapInfo
     scroll_x: 1196
     name: Forêt de Sanj (SUD)
-    expanded: true
+    expanded: false
     order: 11
     scroll_y: 922
     parent_id: 2
@@ -82,14 +82,14 @@ root:
     name: Forêt de Sanj (-1,0)
     expanded: false
     order: 15
-    scroll_y: 982
+    scroll_y: 1716
     parent_id: 7
   14: !ruby/object:RPG::MapInfo
-    scroll_x: 1148
+    scroll_x: 1064
     name: Forêt de Sanj (-1,-1)
     expanded: false
     order: 19
-    scroll_y: 1608
+    scroll_y: 612
     parent_id: 13
   16: !ruby/object:RPG::MapInfo
     scroll_x: 528
@@ -134,11 +134,11 @@ root:
     scroll_y: 608
     parent_id: 14
   21: !ruby/object:RPG::MapInfo
-    scroll_x: 1298
+    scroll_x: 2290
     name: Forêt de Sanj (-2,-1)
     expanded: false
     order: 27
-    scroll_y: 1302
+    scroll_y: 612
     parent_id: 7
   22: !ruby/object:RPG::MapInfo
     scroll_x: 272
@@ -148,7 +148,7 @@ root:
     scroll_y: 208
     parent_id: 21
   23: !ruby/object:RPG::MapInfo
-    scroll_x: 3094
+    scroll_x: 3014
     name: Forêt de Sanj (-1,-2)
     expanded: false
     order: 23

@@ -198,6 +198,25 @@ root: !ruby/object:RPG::Map
           - Oui
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 121
+          parameters:
+          - 2
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 121
+          parameters:
+          - 10
+          - 10
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 111
           parameters:
           - 0
@@ -214,33 +233,6 @@ root: !ruby/object:RPG::Map
             gray: 0.0
           - 1
           - false
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 411
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 121
-          parameters:
-          - 2
-          - 2
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 121
-          parameters:
-          - 10
-          - 10
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 117
-          parameters:
-          - 2
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 0
@@ -7313,6 +7305,24 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 101
           parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'Qu''on a failli perdre à  3 contre '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - un rat ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
           - CopainLight 1
           - 0
           - 0
@@ -7321,7 +7331,17 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "..."
+          - Ce n'est pas le problème.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'On doit prévenir la ville qu''elle doit '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - être prudente.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -7330,6 +7350,11 @@ root: !ruby/object:RPG::Map
           - 5
           - 0
           - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "...\\!"
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -7347,40 +7372,17 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Pas faux.\!
+          - Même si personne ne nous croit,\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - Enfin, c'était plutôt marrant.
+          - on dois faire ce qu'on peut.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
-          - Actor2
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Marrant ?\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - 'J''espère juste qu''il n''y en a pas '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - d'autres...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - CopainLight 1
+          - Light1
           - 0
           - 0
           - 2
@@ -7411,6 +7413,77 @@ root: !ruby/object:RPG::Map
           code: 505
           parameters:
           - *7
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Enfin,\! c'était plutôt marrant.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Marrant ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'C''est pas l''impression que tu donnais '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - pendant le combat...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ca,\! c'est douloureux.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &8 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *8
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101

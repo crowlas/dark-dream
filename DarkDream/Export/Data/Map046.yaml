@@ -336,7 +336,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'Prenez les armes ! \! On ve pas les '
+          - 'Prenez les armes ! \! On ne va pas les '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401

@@ -84,7 +84,7 @@ root:
     data_id: 0
     value: 0.05
   note: "<death event: 11>\r\n<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n</inv
-    formula>\r\n<win quotes>\r\nIls se sont bien battu.\r\n[New Quote]\r\nPuissiez-vous
+    formula>\r\n<win quotes>\r\nIls se sont bien battus.\r\n[New Quote]\r\nPuissiez-vous
     trouver la paix.\r\n</win quotes>\r\n<level quotes>\r\nJe me sens...plutôt bien.\r\n[New
     Quote]\r\nA chaque combat, son enseignement.\r\n</level quotes>\r\n<drops quotes>\r\n...\r\n[New
     Quote]\r\nAucune mort ne doit être vaine.\r\n[New Quote]\r\nJ'honorerais votre
