@@ -11213,6 +11213,51 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 3
+    code: 108
+    parameters:
+    - La reinette de neige est une petite grenouille
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - vivant dans les zones enneigés.
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - Disposant d'un poison très puissant mais d'une espérence
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - de vie courte, les centres d'alchimie en sont en constante
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - recherche.
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 108
+    parameters:
+    - Cette quête permet de se familiariser au system du
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - poison. De plus, elle permettra de croiser un slime
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - qui se "colore" afin d'exprimer les impressions de Light,
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 408
+    parameters:
+    - ainsi que la nature froussarde de ces monstres.
+  - !ruby/object:RPG::EventCommand
+    indent: 3
     code: 101
     parameters:
     - ''

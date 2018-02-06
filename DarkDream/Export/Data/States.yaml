@@ -29,7 +29,7 @@ root:
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: " est empoisonné !"
-  name: Poison
+  name: Poison(lv1)
   priority: 65
   icon_index: 2
   message1: " est empoisonné !"
@@ -43,8 +43,8 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 7
-    value: -0.02
-  auto_removal_timing: 2
+    value: -0.03
+  auto_removal_timing: 0
   min_turns: 20
   max_turns: 20
   chance_by_damage: 2
@@ -1120,71 +1120,83 @@ root:
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ''
-  name: ''
-  priority: 50
-  icon_index: 0
-  message1: ''
-  message4: ''
+  message2: " est empoisonné !"
+  name: Poison(lv2)
+  priority: 65
+  icon_index: 2
+  message1: " est empoisonné !"
+  message4: " est guéri du poison !"
   restriction: 0
+  release_by_damage: false
   message3: ''
   note: ''
   id: 38
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.02
   auto_removal_timing: 0
-  min_turns: 1
-  max_turns: 1
-  chance_by_damage: 100
-  steps_to_remove: 100
-  remove_by_walking: false
+  min_turns: 20
+  max_turns: 20
+  chance_by_damage: 2
+  steps_to_remove: 4000
+  remove_by_walking: true
   remove_at_battle_end: false
-  remove_by_damage: false
+  remove_by_damage: true
   remove_by_restriction: false
-  description: ''
 - !ruby/object:RPG::State
-  message2: ''
-  name: ''
-  priority: 50
-  icon_index: 0
-  message1: ''
-  message4: ''
+  message2: " est empoisonné !"
+  name: Poison(lv3)
+  priority: 65
+  icon_index: 2
+  message1: " est empoisonné !"
+  message4: " est guéri du poison !"
   restriction: 0
+  release_by_damage: false
   message3: ''
   note: ''
   id: 39
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.02
   auto_removal_timing: 0
-  min_turns: 1
-  max_turns: 1
-  chance_by_damage: 100
-  steps_to_remove: 100
-  remove_by_walking: false
+  min_turns: 20
+  max_turns: 20
+  chance_by_damage: 1
+  steps_to_remove: 8000
+  remove_by_walking: true
   remove_at_battle_end: false
-  remove_by_damage: false
+  remove_by_damage: true
   remove_by_restriction: false
-  description: ''
 - !ruby/object:RPG::State
-  message2: ''
-  name: ''
-  priority: 50
-  icon_index: 0
-  message1: ''
-  message4: ''
+  message2: " est empoisonné !"
+  name: Poison(lv4)
+  priority: 65
+  icon_index: 2
+  message1: " est empoisonné !"
+  message4: " est guéri du poison !"
   restriction: 0
+  release_by_damage: false
   message3: ''
   note: ''
   id: 40
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.02
   auto_removal_timing: 0
-  min_turns: 1
-  max_turns: 1
-  chance_by_damage: 100
-  steps_to_remove: 100
+  min_turns: 20
+  max_turns: 20
+  chance_by_damage: 1
+  steps_to_remove: 2000
   remove_by_walking: false
   remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
-  description: ''
 - !ruby/object:RPG::State
   message2: ''
   name: ''

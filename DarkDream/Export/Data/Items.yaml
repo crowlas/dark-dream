@@ -7686,8 +7686,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "A 70% de chance de soigner de l'empoisonnement. \r\nPoids : 0 ; Utilisable
-    en combat."
+  description: "Soigne d'un faible empoisonnement.\r\nPoids : 0 ; Utilisable en combat."
   name: Antidote(lv1)
   consumable: true
   occasion: 0
@@ -7704,7 +7703,12 @@ root:
   - !ruby/object:RPG::UsableItem::Effect
     code: 22
     data_id: 2
-    value1: 0.7
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 38
+    value1: 0.33
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
