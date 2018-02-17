@@ -10215,19 +10215,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: ''
-  consumable: true
-  occasion: 0
-  icon_index: 0
+  description: "Un contrat avec l'emblème de la ville\r\nde Baséloire. Poids : 0"
+  name: Contrat de Baséloire
+  consumable: false
+  occasion: 2
+  icon_index: 479
   price: 0
-  scope: 7
+  scope: 0
   animation_id: 0
-  note: ''
+  note: "<inv size: 0>"
   speed: 0
   id: 403
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 64
+    value1: 0.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -10236,7 +10241,7 @@ root:
     critical: false
   success_rate: 100
   hit_type: 0
-  itype_id: 1
+  itype_id: 2
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
