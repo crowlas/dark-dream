@@ -1836,30 +1836,17 @@ root: !ruby/object:RPG::Map
           - intéresse les alchimistes de la capitale.
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 101
-          parameters:
-          - Tristion
-          - 4
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - Tu me suis ?
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 102
           parameters:
-          - - Oui, tu peux continuer.
+          - - "..."
             - Elle les intéresse ?
-          - 2
+          - 1
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 402
           parameters:
           - 0
-          - Oui, tu peux continuer.
+          - "..."
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 0
@@ -1878,6 +1865,55 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 404
           parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Si tu trouves une grenouille bleue
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - dans la région, ramène-la moi.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - 'Aussi,\! si jamais tu commences à te '
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - sentir mal, \! n'hésites pas à boire ça.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - ''
+          - 4
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - 'Antidote (lv2) obtenu ! '
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
