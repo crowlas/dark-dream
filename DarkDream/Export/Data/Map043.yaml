@@ -364,6 +364,117 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 111
+          parameters:
+          - 8
+          - 176
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Non...\! tu en as trouvé une ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Mes félicitations !
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 111
+          parameters:
+          - 8
+          - 308
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Toujours pas de piste ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Héhé!\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Si c'était facile,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - on le ferais nous-même...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Tu veux acheter une antidote ?
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
@@ -1732,6 +1843,13 @@ root: !ruby/object:RPG::Map
           - Quête secondaire.
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 111
+          parameters:
+          - 2
+          - A
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
           code: 101
           parameters:
           - Tristion
@@ -1739,12 +1857,12 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - J'attendais que tu me le demandes !
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 205
           parameters:
           - -1
@@ -1761,12 +1879,12 @@ root: !ruby/object:RPG::Map
               code: 0
               parameters: []
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 505
           parameters:
           - *12
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 101
           parameters:
           - Tristion
@@ -1774,22 +1892,22 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - Baséloire peut sembler être une zone
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - inhospitalière,\! mais elle n'est pas sans
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - ressources...
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 101
           parameters:
           - Tristion
@@ -1797,22 +1915,22 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
-          - Il existe une espèce de grenouilles
+          - 'En autres, \!il existe une espèce de '
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
-          - qui a tendance à se cacher dans les
+          - 'grenouilles qui a tendance à se cacher '
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
-          - grottes de la région.
+          - dans les grottes de la région.
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 101
           parameters:
           - Tristion
@@ -1820,100 +1938,401 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - Elle est extrémement vénimeuse,\!
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - 'et c''est précisément pourquoi elle '
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 401
           parameters:
           - intéresse les alchimistes de la capitale.
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 102
           parameters:
           - - "..."
             - Elle les intéresse ?
           - 1
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 402
           parameters:
           - 0
           - "..."
         - !ruby/object:RPG::EventCommand
-          indent: 2
+          indent: 3
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
-          indent: 1
+          indent: 2
           code: 402
           parameters:
           - 1
           - Elle les intéresse ?
         - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 404
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &13 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 505
+          parameters:
+          - *13
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 'Du fait de la nature de la mission,\! '
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 'je te recommande d''avoir un antidote '
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - avec toi.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Niveau 1 ?
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Niveau 2.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Ca aurait été trop facile...
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - "*sourit*"
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Evidemment.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &14 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 505
+          parameters:
+          - *14
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Tu en aurais de disponible ?
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Le village a toujours un petit stock,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - juste au cas où.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 'Dans le cadre de la mission,\! '
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - je peux t'en vendre une au prix d'achat.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Cependant,\! c'est pas donnée...
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &15 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 505
+          parameters:
+          - *15
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Combien ?
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 50 Gold.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Ouch.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Je te le fais pas dire.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &16 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 100
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 505
+          parameters:
+          - *16
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Bref,\! t'es pas obligé d'acheter ici,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - mais je te déconseille de chasser sans.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Tristion
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Sans antidote, \! l'empoisonnement,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - c'est la mort assurée.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Compris.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Je vais y réfléchir.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 123
+          parameters:
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
           indent: 2
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 404
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 101
-          parameters:
-          - Tristion
-          - 4
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - Si tu trouves une grenouille bleue
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - dans la région, ramène-la moi.
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 101
-          parameters:
-          - Tristion
-          - 4
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - 'Aussi,\! si jamais tu commences à te '
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - sentir mal, \! n'hésites pas à boire ça.
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 101
-          parameters:
-          - ''
-          - 4
-          - 1
-          - 1
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - 'Antidote (lv2) obtenu ! '
+          code: 412
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -2423,7 +2842,7 @@ root: !ruby/object:RPG::Map
             skippable: false
             wait: true
             list:
-            - &13 !ruby/object:RPG::MoveCommand
+            - &17 !ruby/object:RPG::MoveCommand
               code: 15
               parameters:
               - 60
@@ -2434,7 +2853,7 @@ root: !ruby/object:RPG::Map
           indent: 5
           code: 505
           parameters:
-          - *13
+          - *17
         - !ruby/object:RPG::EventCommand
           indent: 5
           code: 101

@@ -4419,10 +4419,10 @@ root:
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: ''
+  name: Reinette des neiges
   consumable: true
   occasion: 0
-  icon_index: 0
+  icon_index: 712
   price: 0
   scope: 7
   animation_id: 0
@@ -7686,15 +7686,15 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Soigne d'un faible empoisonnement.\r\nPoids : 0 ; Utilisable en combat."
+  description: "Soigne d'empoisonnements faibles.\r\nPoids : 0 ; Utilisable en combat."
   name: Antidote(lv1)
   consumable: true
   occasion: 0
   icon_index: 494
-  price: 48
+  price: 24
   scope: 7
   animation_id: 0
-  note: "<inv size: 0>\r\n<ingredients>\r\nitem:175x2\r\n=Racine\r\nitem:056x1\r\n=champi-veneneux\r\nitem:306x1\r\n=Fiole
+  note: "<inv size: 0>\r\n<ingredients>\r\nitem:175x1\r\n=Racine\r\nitem:056x1\r\n=champi-veneneux\r\nitem:306x1\r\n=Fiole
     vide\r\n<ingredients>"
   speed: 0
   id: 303
@@ -7722,16 +7722,17 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Génère 18 points de TP. Utilisable en combat.\r\nPoids : 0 ;  "
+  description: "Génère 15 points de TP. Utilisable en combat.\r\nPoids : 0 ;  "
   name: Potion de TP(lv1)
   consumable: true
   occasion: 0
   icon_index: 499
-  price: 56
+  price: 30
   scope: 7
   animation_id: 0
   note: "<inv size: 0>\r\n<ingredients>\r\nitem:173x2\r\n=Herbe Tonique\r\nitem:060x1\r\n=Carotte\r\nitem:058x1\r\n=Pomme
-    verte\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>"
+    verte\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
+    2\r\n</craft result>"
   speed: 0
   id: 304
   features: []
@@ -7739,7 +7740,7 @@ root:
   - !ruby/object:RPG::UsableItem::Effect
     code: 13
     data_id: 0
-    value1: 18.0
+    value1: 15.0
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
@@ -7753,16 +7754,17 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 135 PV. Utilisable en combat.\r\nPoids : 0"
+  description: "Redonne 120 PV. Utilisable en combat.\r\nPoids : 0"
   name: Potion de soin(lv1)
   consumable: true
   occasion: 0
   icon_index: 492
-  price: 60
+  price: 29
   scope: 7
   animation_id: 0
   note: "<inv size: 0>\r\n<ingredients>\r\nitem:053x3\r\n=Herbe médicinale\r\nitem:063x1\r\n=ail\r\nitem:062x1\r\n=pomme
-    rouge\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>"
+    rouge\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
+    2\r\n</craft result>"
   speed: 0
   id: 305
   features: []
@@ -7771,7 +7773,7 @@ root:
     code: 11
     data_id: 1
     value1: 0.0
-    value2: 135.0
+    value2: 120.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -7835,19 +7837,34 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: ''
+  description: "Soigne d'empoisonnements modérés.\r\nPoids : 0 ; Utilisable en combat."
+  name: Antidote(lv2)
   consumable: true
   occasion: 0
-  icon_index: 0
-  price: 0
+  icon_index: 494
+  price: 50
   scope: 7
   animation_id: 0
-  note: ''
+  note: "<inv size: 0>\r\n"
   speed: 0
   id: 308
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 2
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 38
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 39
+    value1: 0.33
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
