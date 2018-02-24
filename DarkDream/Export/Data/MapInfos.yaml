@@ -40,7 +40,7 @@ root:
     name: Forêt de Sanj (SUD)
     expanded: false
     order: 11
-    scroll_y: 3392
+    scroll_y: 2274
     parent_id: 2
   8: !ruby/object:RPG::MapInfo
     scroll_x: 1064

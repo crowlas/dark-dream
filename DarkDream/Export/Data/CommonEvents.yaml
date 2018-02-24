@@ -11151,41 +11151,15 @@ root:
     - Quête n° 0
   - !ruby/object:RPG::EventCommand
     indent: 0
-    code: 101
-    parameters:
-    - ''
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 0
-    code: 401
-    parameters:
-    - Quete...
-  - !ruby/object:RPG::EventCommand
-    indent: 0
-    code: 102
-    parameters:
-    - - Secondaire
-      - Répétable
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 0
-    code: 402
-    parameters:
-    - 0
-    - Secondaire
-  - !ruby/object:RPG::EventCommand
-    indent: 1
     code: 111
     parameters:
     - 1
-    - 21
+    - 23
     - 0
     - 0
     - 0
   - !ruby/object:RPG::EventCommand
-    indent: 2
+    indent: 1
     code: 101
     parameters:
     - ''
@@ -11193,71 +11167,71 @@ root:
     - 0
     - 2
   - !ruby/object:RPG::EventCommand
-    indent: 2
+    indent: 1
     code: 401
     parameters:
     - "\\{BASELOIRE\\} : Quête secondaire n°0"
   - !ruby/object:RPG::EventCommand
-    indent: 2
+    indent: 1
     code: 401
     parameters:
     - Reinette des neiges.
   - !ruby/object:RPG::EventCommand
-    indent: 2
+    indent: 1
     code: 111
     parameters:
     - 1
-    - 22
+    - 24
     - 0
     - 0
     - 0
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 108
     parameters:
     - La reinette de neige est une petite grenouille
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - vivant dans les zones enneigés.
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - Disposant d'un poison très puissant mais d'une espérence
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - de vie courte, les centres d'alchimie en sont en constante
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - recherche.
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 108
     parameters:
-    - Cette quête permet de se familiariser au system du
+    - Cette quête permet de se familiariser au systeme du
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - poison. De plus, elle permettra de croiser un slime
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - qui se "colore" afin d'exprimer les impressions de Light,
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 408
     parameters:
     - ainsi que la nature froussarde de ces monstres.
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 101
     parameters:
     - ''
@@ -11265,29 +11239,21 @@ root:
     - 0
     - 2
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 401
     parameters:
     - 'Objectif en cours : '
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 401
     parameters:
     - 'Trouvez et ramener une reinette '
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 401
     parameters:
     - au Maire de Baséloire.
   - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
     parameters: []
@@ -11301,58 +11267,7 @@ root:
     parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 0
-    code: 402
-    parameters:
-    - 1
-    - Répétable
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 101
-    parameters:
-    - ''
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 401
-    parameters:
-    - "\\{BASELOIRE\\} : Quête répétable."
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 401
-    parameters:
-    - Approvisionner la ville.
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 101
-    parameters:
-    - ''
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 401
-    parameters:
-    - 'Objectif : '
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 401
-    parameters:
-    - 'Ramener 10 steaks (loup/sanglier/ours) '
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 401
-    parameters:
-    - au maire de Baséloire.
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 0
-    code: 404
+    code: 412
     parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 0
