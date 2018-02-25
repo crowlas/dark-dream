@@ -241,14 +241,14 @@ root:
   29: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: Baséloire
-    expanded: true
+    expanded: false
     order: 35
     scroll_y: 628
     parent_id: 6
   30: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: Chemin de Baséloire (0,2)
-    expanded: false
+    expanded: true
     order: 43
     scroll_y: 628
     parent_id: 32
@@ -262,7 +262,7 @@ root:
   32: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(NORD)
-    expanded: false
+    expanded: true
     order: 41
     scroll_y: 628
     parent_id: 6
@@ -283,7 +283,7 @@ root:
   42: !ruby/object:RPG::MapInfo
     scroll_x: 672
     name: GrotteMurmures(ext)
-    expanded: true
+    expanded: false
     order: 47
     scroll_y: 608
     parent_id: 32

@@ -4418,7 +4418,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
+  description: "\r\nPoids : 1 ; Utile en alchimie."
   name: Reinette des neiges
   consumable: true
   occasion: 0
