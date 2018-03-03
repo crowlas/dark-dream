@@ -10,7 +10,7 @@ root: !ruby/object:RPG::System
   - Tueur Tenace
   - Tueur Fluide
   - Tueur Feroce
-  start_y: 8
+  start_y: 27
   airship: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM
@@ -39,7 +39,7 @@ root: !ruby/object:RPG::System
     volume: 100
   party_members:
   - 1
-  start_x: 51
+  start_x: 2
   ship: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM
@@ -255,7 +255,7 @@ root: !ruby/object:RPG::System
     volume: 100
     pitch: 90
   version_id: 77323823
-  start_map_id: 30
+  start_map_id: 41
   battler_name: Assassin
   magic_number: 77696160
   switches:

@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: true
+    expanded: false
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -246,7 +246,7 @@ root:
     scroll_y: 628
     parent_id: 6
   30: !ruby/object:RPG::MapInfo
-    scroll_x: 1280
+    scroll_x: 894
     name: Chemin de Baséloire (0,2)
     expanded: true
     order: 44
@@ -256,7 +256,7 @@ root:
     scroll_x: 960
     name: CheminBaséloire(OUEST)
     expanded: false
-    order: 51
+    order: 53
     scroll_y: 842
     parent_id: 6
   32: !ruby/object:RPG::MapInfo
@@ -267,7 +267,7 @@ root:
     scroll_y: 628
     parent_id: 6
   34: !ruby/object:RPG::MapInfo
-    scroll_x: 638
+    scroll_x: 960
     name: Chemin de Baséloire (0,1)
     expanded: true
     order: 42
@@ -276,15 +276,15 @@ root:
   41: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: Chemin de Baséloire (0,3)
-    expanded: false
-    order: 47
+    expanded: true
+    order: 48
     scroll_y: 842
     parent_id: 32
   42: !ruby/object:RPG::MapInfo
     scroll_x: 672
     name: GrotteMurmures(ext)
     expanded: true
-    order: 48
+    order: 50
     scroll_y: 608
     parent_id: 32
   43: !ruby/object:RPG::MapInfo
@@ -319,77 +319,77 @@ root:
     scroll_x: 960
     name: GrotteMurmures(int)
     expanded: false
-    order: 49
+    order: 51
     scroll_y: 560
     parent_id: 42
   47: !ruby/object:RPG::MapInfo
     scroll_x: 1072
     name: GrotteMurmures(ss1)
     expanded: false
-    order: 50
+    order: 52
     scroll_y: 624
     parent_id: 5
   48: !ruby/object:RPG::MapInfo
     scroll_x: 532
     name: Chazay(EST)
     expanded: false
-    order: 59
+    order: 61
     scroll_y: 668
     parent_id: 56
   49: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: Chemin de Baséloire (0,-1)
     expanded: false
-    order: 52
+    order: 54
     scroll_y: 842
     parent_id: 31
   50: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(-1,-1)
     expanded: false
-    order: 53
+    order: 55
     scroll_y: 842
     parent_id: 49
   51: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(-1,-2)
     expanded: false
-    order: 54
+    order: 56
     scroll_y: 842
     parent_id: 31
   52: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(-1,-3)
     expanded: false
-    order: 55
+    order: 57
     scroll_y: 628
     parent_id: 31
   53: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(0,1)
     expanded: false
-    order: 66
+    order: 68
     scroll_y: 608
     parent_id: 54
   54: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(NORD)
     expanded: false
-    order: 65
+    order: 67
     scroll_y: 608
     parent_id: 55
   55: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay
     expanded: false
-    order: 64
+    order: 66
     scroll_y: 608
     parent_id: 6
   56: !ruby/object:RPG::MapInfo
     scroll_x: 1056
     name: Chazay
     expanded: false
-    order: 56
+    order: 58
     scroll_y: 608
     parent_id: 6
   57: !ruby/object:RPG::MapInfo
@@ -410,90 +410,90 @@ root:
     scroll_x: 320
     name: Mairie
     expanded: false
-    order: 57
+    order: 59
     scroll_y: 288
     parent_id: 56
   60: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Bijouterie
     expanded: false
-    order: 58
+    order: 60
     scroll_y: 208
     parent_id: 56
   61: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Maison M.Poutou
     expanded: false
-    order: 60
+    order: 62
     scroll_y: 208
     parent_id: 48
   62: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Auberge
     expanded: true
-    order: 61
+    order: 63
     scroll_y: 208
     parent_id: 48
   63: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(EST)
     expanded: false
-    order: 67
+    order: 69
     scroll_y: 608
     parent_id: 55
   64: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(1,0)
     expanded: false
-    order: 68
+    order: 70
     scroll_y: 608
     parent_id: 63
   65: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(0,1)
     expanded: false
-    order: 70
+    order: 72
     scroll_y: 636
     parent_id: 63
   66: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(1,1)
     expanded: false
-    order: 69
+    order: 71
     scroll_y: 608
     parent_id: 64
   67: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Auberge(étage)
     expanded: false
-    order: 62
+    order: 64
     scroll_y: 208
     parent_id: 62
   68: !ruby/object:RPG::MapInfo
     scroll_x: 304
     name: Cauchemar 2
     expanded: false
-    order: 71
+    order: 73
     scroll_y: 628
     parent_id: 0
   69: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: test
     expanded: false
-    order: 72
+    order: 74
     scroll_y: 208
     parent_id: 0
   70: !ruby/object:RPG::MapInfo
     scroll_x: 352
     name: Restaurant
     expanded: false
-    order: 63
+    order: 65
     scroll_y: 256
     parent_id: 56
   71: !ruby/object:RPG::MapInfo
     scroll_x: 400
     name: Grotte(Nord-Est)
-    expanded: false
+    expanded: true
     order: 46
     scroll_y: 304
     parent_id: 30
@@ -504,3 +504,17 @@ root:
     order: 43
     scroll_y: 304
     parent_id: 34
+  73: !ruby/object:RPG::MapInfo
+    scroll_x: 272
+    name: Grotte(Nord)
+    expanded: false
+    order: 47
+    scroll_y: 304
+    parent_id: 71
+  74: !ruby/object:RPG::MapInfo
+    scroll_x: 640
+    name: Grotte(Ouest)
+    expanded: false
+    order: 49
+    scroll_y: 608
+    parent_id: 41
