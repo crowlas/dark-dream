@@ -3233,9 +3233,9 @@ root:
     code: 223
     parameters:
     - !ruby/object:Tone
-      red: -68.0
-      green: -68.0
-      blue: -68.0
+      red: -80.0
+      green: -80.0
+      blue: -80.0
       gray: 0.0
     - 1
     - false
