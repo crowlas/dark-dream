@@ -560,16 +560,6 @@ root:
     - NORD, CENTRE, OUEST, SUD.
   - !ruby/object:RPG::EventCommand
     indent: 4
-    code: 401
-    parameters:
-    - ''
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - Vous êtes au NORD.
-  - !ruby/object:RPG::EventCommand
-    indent: 4
     code: 0
     parameters: []
   - !ruby/object:RPG::EventCommand
