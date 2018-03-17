@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: false
+    expanded: true
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -241,7 +241,7 @@ root:
   29: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: Baséloire
-    expanded: false
+    expanded: true
     order: 35
     scroll_y: 628
     parent_id: 6
@@ -283,7 +283,7 @@ root:
   42: !ruby/object:RPG::MapInfo
     scroll_x: 672
     name: GrotteMurmures(ext)
-    expanded: true
+    expanded: false
     order: 52
     scroll_y: 608
     parent_id: 32
@@ -318,7 +318,7 @@ root:
   5: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: GrotteMurmures(int)
-    expanded: true
+    expanded: false
     order: 53
     scroll_y: 560
     parent_id: 42
@@ -512,11 +512,11 @@ root:
     scroll_y: 304
     parent_id: 71
   74: !ruby/object:RPG::MapInfo
-    scroll_x: 800
+    scroll_x: 907
     name: Grotte(Ouest)
     expanded: true
     order: 50
-    scroll_y: 453
+    scroll_y: 630
     parent_id: 41
   75: !ruby/object:RPG::MapInfo
     scroll_x: 464
