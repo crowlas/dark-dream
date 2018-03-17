@@ -51,7 +51,7 @@ root:
   description: "Des habits tout à fait normaux. \r\nPoids : 4                                 "
   name: Vêtement en tissu (lv1)
   icon_index: 632
-  price: 9
+  price: 11
   note: "<inv size: 4>\r\n"
   id: 3
   features:
@@ -74,7 +74,7 @@ root:
   description: "Des habits tout à fait normaux. \r\nPoids : 4                                 "
   name: Vêtement en tissu (lv2)
   icon_index: 632
-  price: 20
+  price: 22
   note: "<inv size: 4>\r\n"
   id: 4
   features:
@@ -97,7 +97,7 @@ root:
   description: "En cuir simple.\r\nPoids : 5 "
   name: Armure en cuir (lv1)
   icon_index: 647
-  price: 45
+  price: 48
   note: "<inv size: 5>\r\n"
   id: 5
   features:
@@ -120,7 +120,7 @@ root:
   description: "En cuir simple.\r\nPoids : 5"
   name: Armure en cuir (lv2)
   icon_index: 647
-  price: 88
+  price: 92
   note: "<inv size: 5>\r\n"
   id: 6
   features:
@@ -143,7 +143,7 @@ root:
   description: "Cette armure vous protégera dans vos combats.\r\nPoids : 12"
   name: Armure en fer (lv1)
   icon_index: 648
-  price: 199
+  price: 203
   note: "<inv size: 12>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:084x4\r\n=
     Minerai de fer\r\ngold:15\r\n<ingredients>\r\n"
   id: 7
@@ -167,7 +167,7 @@ root:
   description: "Cette armure vous protégera dans vos combats.\r\nPoids : 12"
   name: Armure en fer (lv2)
   icon_index: 648
-  price: 258
+  price: 264
   note: "<inv size: 12>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:007x1\r\n=
     Armure en fer (lv1)\r\nitem:084x2\r\n= Minerai de fer\r\ngold:20\r\n<ingredients>\r\n"
   id: 8
@@ -191,7 +191,7 @@ root:
   description: "Cette armure vous protégera dans vos combats.\r\nPoids : 11"
   name: Armure en fer (lv3)
   icon_index: 648
-  price: 319
+  price: 323
   note: "<inv size: 11>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:008x1\r\n=
     Armure en fer (lv2)\r\nitem:084x3\r\n= Minerai de fer\r\ngold:26\r\n<ingredients>\r\n"
   id: 9
@@ -744,7 +744,7 @@ root:
   description: "Jolie !\r\nPoids : 3"
   name: Bonnet (lv1)
   icon_index: 627
-  price: 7
+  price: 9
   note: "<inv size: 3>\r\n"
   id: 33
   features:
@@ -767,7 +767,7 @@ root:
   description: "Un casque fait de cuir.\r\nPoids : 3"
   name: Casque en cuir (lv1)
   icon_index: 627
-  price: 15
+  price: 17
   note: "<inv size: 3>\r\n"
   id: 34
   features:
@@ -790,7 +790,7 @@ root:
   description: "Un casque fait de cuir.\r\nPoids : 3"
   name: Casque en cuir (lv2)
   icon_index: 627
-  price: 32
+  price: 35
   note: "<inv size: 3>\r\n"
   id: 35
   features:
@@ -813,7 +813,7 @@ root:
   description: "Casque en fer. Enfin une armure descente!\r\nPoids : 6"
   name: Casque en fer (lv1)
   icon_index: 674
-  price: 91
+  price: 95
   note: "<inv size: 6>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:084x3\r\n= Minerai
     de fer\r\ngold:9\r\n<ingredients>"
   id: 36
@@ -837,7 +837,7 @@ root:
   description: "Casque en fer. Enfin une armure descente!\r\nPoids : 6"
   name: Casque en fer (lv2)
   icon_index: 674
-  price: 123
+  price: 127
   note: "<inv size: 6>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:036x1\r\n=
     Casque en fer (lv1)\r\nitem:084x2\r\n= Minerai de fer\r\ngold:14\r\n<ingredients>\r\n"
   id: 37
@@ -861,7 +861,7 @@ root:
   description: "Casque en fer. Enfin une armure descente!\r\nPoids : 5"
   name: Casque en fer (lv3)
   icon_index: 674
-  price: 171
+  price: 177
   note: "<inv size: 5>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:037x1\r\n=
     Casque en fer (lv2)\r\nitem:084x3\r\n= Minerai de fer\r\ngold:19\r\n<ingredients>\r\n"
   id: 38
@@ -1437,7 +1437,7 @@ root:
   description: "Bouclier en bois.\r\nPoids : 5"
   name: Bouclier en bois (lv1)
   icon_index: 697
-  price: 19
+  price: 22
   note: "<inv size: 8>\r\n"
   id: 63
   features:
@@ -1460,7 +1460,7 @@ root:
   description: "Bouclier en bois.\r\nPoids : 5"
   name: Bouclier en bois (lv2)
   icon_index: 697
-  price: 41
+  price: 43
   note: "<inv size: 5>\r\n"
   id: 64
   features:
@@ -1483,7 +1483,7 @@ root:
   description: "Lourd.\r\nPoids : 15"
   name: Bouclier en pierre (lv1)
   icon_index: 701
-  price: 82
+  price: 85
   note: "<inv size: 15>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:083x7\r\n=
     Pierre\r\ngold:8\r\n<ingredients>"
   id: 65
@@ -1507,7 +1507,7 @@ root:
   description: "Lourd.\r\nPoids : 14"
   name: Bouclier en pierre (lv2)
   icon_index: 701
-  price: 120
+  price: 124
   note: "<inv size: 14>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:065x1\r\n=
     Bouclier en pierre (lv1)\r\nitem:083x4\r\n= Pierre\r\ngold:13\r\n<ingredients>"
   id: 66
@@ -1531,7 +1531,7 @@ root:
   description: "Bouclier en fer.\r\nPoids : 8"
   name: Bouclier en fer (lv1)
   icon_index: 699
-  price: 188
+  price: 193
   note: "<inv size: 8>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:084x4\r\n= Minerai
     de fer\r\ngold:19\r\n<ingredients>\r\n"
   id: 67
@@ -1555,7 +1555,7 @@ root:
   description: "Bouclier en fer.\r\nPoids : 8"
   name: Bouclier en fer (lv2)
   icon_index: 699
-  price: 230
+  price: 235
   note: "<inv size: 8>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:067x1\r\n=
     Bouclier en fer (lv1)\r\nitem:084x2\r\n= Minerai de fer\r\ngold:24\r\n<ingredients>\r\n"
   id: 68
@@ -1579,7 +1579,7 @@ root:
   description: "Bouclier en fer.\r\nPoids : 7"
   name: Bouclier en fer (lv3)
   icon_index: 699
-  price: 300
+  price: 305
   note: "<inv size: 7>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\narmor:068x1\r\n=
     Bouclier en fer (lv2)\r\nitem:084x4\r\n= Minerai de fer\r\ngold:29\r\n<ingredients>"
   id: 69
