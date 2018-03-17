@@ -1908,12 +1908,6 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 2
-    code: 111
-    parameters:
-    - 8
-    - 307
-  - !ruby/object:RPG::EventCommand
-    indent: 3
     code: 101
     parameters:
     - ''
@@ -1921,133 +1915,15 @@ root:
     - 0
     - 2
   - !ruby/object:RPG::EventCommand
-    indent: 3
+    indent: 2
     code: 401
     parameters:
-    - Réguler la population des animaux sauvages.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
+    - 'Fabriquer une potion de vie avec le set '
   - !ruby/object:RPG::EventCommand
     indent: 2
-    code: 411
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - ''
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
     code: 401
     parameters:
-    - Trouver et chassez la bête imaginaire.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 111
-    parameters:
-    - 1
-    - 16
-    - 0
-    - 0
-    - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 230
-    parameters:
-    - 100
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - "*chuchote*"
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - Attend.\! Comment on est censé trouver
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - une bête qui n'existe pas ?!
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - "*chuchote*"
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - On chasse au hazard jusqu'à trouver
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - quelque chose qui y ressemble.
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - J'aurais dû m'en douter...
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 401
-    parameters:
-    - "?"
-  - !ruby/object:RPG::EventCommand
-    indent: 4
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 412
-    parameters: []
+    - de cuisine.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -4991,7 +4867,32 @@ root:
     indent: 0
     code: 108
     parameters:
-    - emmener Lockfried
+    - 'LA CABANE DESMARK :'
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 408
+    parameters:
+    - ''
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 408
+    parameters:
+    - Light et ses amis décident d'emmener Lockfried dans la
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 408
+    parameters:
+    - cabane construit par le père de Light.
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 408
+    parameters:
+    - Après avoir observé l'intérieur de la cabane, le groupe
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 408
+    parameters:
+    - décide de s'occuper...
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 111
@@ -5005,140 +4906,9 @@ root:
     indent: 1
     code: 111
     parameters:
-    - 1
-    - 16
-    - 0
     - 4
+    - 24
     - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 301
-    parameters:
-    - 0
-    - 32
-    - false
-    - false
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 44
-    - 44
-    - 1
-    - 0
-    - 20
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 111
-    parameters:
-    - 8
-    - 307
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "*souffle*\\!"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'C''est fatigant !\! '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Ammusant,\! mais fatigant.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 411
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - YES ! On a gagné !
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Bien combattu Lockfried.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Bien joué !
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'C''était fatigant !\! '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Ammusant,\! mais fatigant.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 246
-    parameters:
-    - 20
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 230
-    parameters:
-    - 100
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 250
@@ -5194,18 +4964,368 @@ root:
     - En attente de diplôme.
   - !ruby/object:RPG::EventCommand
     indent: 2
-    code: 122
+    code: 230
     parameters:
-    - 16
-    - 16
+    - 100
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
     - 0
     - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - C'est terminé.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Fait voir !
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
     - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Ca ressemble donc à ça...
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Lockfried1
+    - 1
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "..."
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 1
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Il y a 2 potions pour 4 personnes...\!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Pas besoin d'y réfléchir.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 1
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Tenez.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 250
+    parameters:
+    - !ruby/object:RPG::SE
+      name: Item1
+      pitch: 100
+      volume: 80
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 126
+    parameters:
+    - 305
+    - 1
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 1
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Light donne les potions à Julie et Léo !
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
+    - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "?"
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Quoi ? \!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Ah non !\! Je suis pas venu pour ça.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
+    - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Je tout à fait d'accord.\!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'on est venu pour Lockfried,\! '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - pas pour les potions.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "..."
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 230
     parameters:
-    - 150
+    - 200
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Ecoutez,\!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - je vous suis vraiment reconnaissant
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - de ce que vous avez fait pour nous.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Alors, pour moi,\!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - c'est tout simplement impossible
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - de rentrer sans rien vous laisser.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "..."
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
+    - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "..."
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Acceptez-les.\!
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'Ne serais-ce que pour alléger notre '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - conscience à moi et à Lockfried.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
+    - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "*se tourne vers Lockfried*"
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Lockfried1
+    - 1
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "*sourit*"
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 230
+    parameters:
+    - 100
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
+    - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Merci Light, Lockfried.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "..."
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Et bien,\! dans ce cas,\! dans mon
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'infini bonté,\! je vais te faire cette '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - faveur.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 101
@@ -5223,25 +5343,17 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Je pense qu'on a fait notre quota.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
+    - "...mais bon,\\! attention:\\!"
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 401
     parameters:
-    - On est rendu à combien ?
+    - il faudra que tu me rembourse un jour.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 101
     parameters:
-    - CopainLight 1
+    - Light1
     - 0
     - 0
     - 2
@@ -5249,12 +5361,12 @@ root:
     indent: 2
     code: 401
     parameters:
-    - 4 ou 5 groupes, je crois.
+    - "*sourit*"
   - !ruby/object:RPG::EventCommand
     indent: 2
-    code: 230
+    code: 401
     parameters:
-    - 60
+    - Compte sur moi.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 221
@@ -5266,6 +5378,50 @@ root:
     - 100
   - !ruby/object:RPG::EventCommand
     indent: 2
+    code: 246
+    parameters:
+    - 20
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Lockfried1
+    - 1
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - "*Baille*"
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Tu fatigues ?
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Lockfried1
+    - 1
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Ca va...
+  - !ruby/object:RPG::EventCommand
+    indent: 2
     code: 101
     parameters:
     - Actor2
@@ -5276,7 +5432,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - C'était plutôt satisfaisant.
+    - "*sourit*"
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 101
@@ -5289,310 +5445,74 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Ouais.
+    - 'Ouai,\! je crois qu''il est temps de '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - rentrer.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Peut-on demander escorte ?
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Ca va de soi.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Toujours d'attaque Julie ?
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Actor2
+    - 5
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Je le suis.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - CopainLight 1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Alors, on route !
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 230
     parameters:
     - 100
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - 'Bon sur ce,\! on vous ramène chez '
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - vous ?
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Si vous voulez bien.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Alors, partons sans tarder !
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - C'est parti !
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 117
-    parameters:
-    - 10
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 230
-    parameters:
-    - 300
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - En fait, grand frère...
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Oui ?
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 111
-    parameters:
-    - 8
-    - 307
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Tu as trouvé la réponse à ma question ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 411
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Les humains ont-ils besoin d''être '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - régulé ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Pardon ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Tu as dit qu'on doit réguler les
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - animaux pour qu'ils ont tous de quoi
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - manger...
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Oui.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "...mais nous, les humains,\\! personne"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - ne nous régule...
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - C'est grave ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 230
-    parameters:
-    - 200
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Désolé Lockfried mais,
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Je n'en sais rien.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 230
-    parameters:
-    - 200
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 101
-    parameters:
-    - ''
-    - 0
-    - 1
-    - 1
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Etrangement,\! cette nuit,\!
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - Light n'a pas fait de cauchemar.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 314
@@ -5630,1313 +5550,6 @@ root:
     - 14
     - 4
     - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 111
-    parameters:
-    - 1
-    - 16
-    - 0
-    - 3
-    - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 301
-    parameters:
-    - 0
-    - 5
-    - false
-    - false
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 42
-    - 42
-    - 1
-    - 0
-    - 4
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 117
-    parameters:
-    - 12
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 111
-    parameters:
-    - 8
-    - 307
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 1
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - La terre est gigantesque pour l'être
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Humain,\! mais l'est-elle autant en
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - considérant l'ensemble des espèces ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 1
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Notre maison est notre "chez nous",\!
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'mais quelle est le "chez eux" des '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - autres espèces ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 205
-    parameters:
-    - -1
-    - !ruby/object:RPG::MoveRoute
-      repeat: false
-      skippable: false
-      wait: true
-      list:
-      - &8 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 100
-      - !ruby/object:RPG::MoveCommand
-        code: 0
-        parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 505
-    parameters:
-    - *8
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 1
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'A t-on vraiment le droit moral de '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - s'approprier la Terre ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 411
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Hum...
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Un problème ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Il y a pas beaucoup d'animaux...\!
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Il se sont tous cachés ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Je ne sais pas.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 100
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - On doit quand même les réguler ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Eh bien...
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Le problème n''est pas la quantité '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Lockfried,\! mais ce qu'ils font.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Réguler une population,\! c'est faire en
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - sorte que la population restante
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - est assez de ressources pour survivre.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Cependant, ce n'est pas tout.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Les hommes régulent les autres '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - animaux afin qu'ils n'envahissent pas
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'leur territoire,\! et ne mettent en '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - danger la population.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 100
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Les loups savent que si ils se '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - rapprochent des routes, ils seront
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - tués...\!alors pourquoi ils y vont
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - quand même ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Il y a 2 raisons possibles :'
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'soit c''est à cause d''une surpopulation, '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - soit d'un prédateur.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - '"La surpopulation" ?\!'
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - C'est quoi ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Trop d'animaux.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "?"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Tellement d'animaux qu'il n'y a pas
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'assez de nourriture pour chacun '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - d'entre-eux.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "...\\!"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Pourquoi ils font ça ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - De ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - De faire des bébés.\!
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Pourquoi faire des bébés si ils peuvent
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - plus se nourrir après ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'C''est un instint primaire.\! '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Peut être simplement qu''il ne '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - réfléchissent pas aux conséquences...
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 200
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "...\\!et les humains ?"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Les humains ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Nous aussi on fait des bébés.\!
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - C'est mal ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Je crois pas, non.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Lockfried...\!La vie est un cadeau.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - N'es-tu pas heureux d'être en vie ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Si,\! mais quand j'ai faim,\! j'ai mal
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - au ventre.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Actor2
-    - 5
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Pas faux.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 16
-    - 16
-    - 0
-    - 0
-    - 4
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 111
-    parameters:
-    - 1
-    - 16
-    - 0
-    - 2
-    - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 301
-    parameters:
-    - 0
-    - 31
-    - false
-    - false
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 44
-    - 44
-    - 1
-    - 0
-    - 12
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 117
-    parameters:
-    - 13
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 16
-    - 16
-    - 0
-    - 0
-    - 3
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 111
-    parameters:
-    - 1
-    - 16
-    - 0
-    - 1
-    - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 301
-    parameters:
-    - 0
-    - 14
-    - false
-    - false
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 44
-    - 44
-    - 1
-    - 0
-    - 5
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 117
-    parameters:
-    - 13
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 16
-    - 16
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 412
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 111
-    parameters:
-    - 1
-    - 16
-    - 0
-    - 0
-    - 0
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 301
-    parameters:
-    - 0
-    - 30
-    - false
-    - false
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 42
-    - 42
-    - 1
-    - 0
-    - 10
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 117
-    parameters:
-    - 12
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 122
-    parameters:
-    - 16
-    - 16
-    - 0
-    - 0
-    - 1
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 111
-    parameters:
-    - 8
-    - 307
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 1
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'La technique peut améliorer le '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'rendement d''un champs,\! mais la terre '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - dispose nécessairement d'une capacité
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - maximum de part sa taille.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 1
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "...mais la terre est gigantesque.\\!"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Est-il envisageable de penser qu''un jour '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'chaque parcelle de se monde serait '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - utilisée par l'Homme ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 411
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 100
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - En fait, grand frère...\!
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'On a vraiment le droit de chasser ces '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - animaux ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Je veux dire, c''est pas pour manger, '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - non ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Oui, c'est vrai.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Le fait est que les animaux sont
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - devenus très fort c'est derniers temps.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'De plus, ils se sont rapprochés des '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - routes.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Si bien qu''ils deviennent une menace '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - pour les passants.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "..."
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 60
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Nous régulons leur population afin qu''ils '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'n''ont pas à sortir de la forêt pour se '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - nourrir.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 60
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Lockfried1
-    - 1
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Comme pour "les loups de Trécal" ?
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - C'est ça.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - '"Trécal" ? Comme la ville ?'
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Oui.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Un jour, la population de loups autour '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'de Trécal était telle que la forêt ne '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - permettait plus de tous les habriter.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Les loups se sont mis alors à
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - attaquer régulièrement la ville à la
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - recherche de nourriture.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Nos parents ont été alors appelés pour
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - réduire leur population et ainsi garantir
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - la sécurité des habitants.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Je vois.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 230
-    parameters:
-    - 60
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - 'Notre père croyait beacoup en '
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - l'équilibre de la forêt. Il pensait
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - que nous, les Hommes, étions là pour
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - garantir cet équilibre.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - CopainLight 1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Les "Humains", régulateur de la forêt.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - Ca sonne bien.
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 101
-    parameters:
-    - Light1
-    - 0
-    - 0
-    - 2
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 401
-    parameters:
-    - "*sourit*"
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 0
-    parameters: []
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 412
-    parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -7079,7 +5692,7 @@ root:
       skippable: false
       wait: true
       list:
-      - &9 !ruby/object:RPG::MoveCommand
+      - &8 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 10
@@ -7090,7 +5703,7 @@ root:
     indent: 2
     code: 505
     parameters:
-    - *9
+    - *8
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -8469,7 +7082,7 @@ root:
   id: 22
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Champignon
+  name: Champignon Foret
   switch_id: 1
   list:
   - !ruby/object:RPG::EventCommand
@@ -8532,7 +7145,15 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Pomme rouge obtenue !
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 126
+    parameters:
+    - 62
+    - 0
+    - 0
+    - 1
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -8708,7 +7329,7 @@ root:
   id: 23
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Fleur jaune
+  name: Fleur jaune Foret
   switch_id: 1
   list:
   - !ruby/object:RPG::EventCommand
@@ -8771,7 +7392,15 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Pomme rouge obtenue !
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 126
+    parameters:
+    - 62
+    - 0
+    - 0
+    - 1
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -8947,7 +7576,7 @@ root:
   id: 24
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Herbe
+  name: Herbe Foret
   switch_id: 1
   list:
   - !ruby/object:RPG::EventCommand
@@ -9010,7 +7639,15 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Pomme rouge obtenue !
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 126
+    parameters:
+    - 62
+    - 0
+    - 0
+    - 1
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -9146,7 +7783,7 @@ root:
     indent: 2
     code: 126
     parameters:
-    - 53
+    - 63
     - 0
     - 0
     - 1
@@ -9162,7 +7799,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Herbe médicinale trouvée!
+    - Ail trouvé!
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -9353,6 +7990,14 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
+    code: 126
+    parameters:
+    - 175
+    - 0
+    - 0
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 1
     code: 101
     parameters:
     - ''
@@ -9363,7 +8008,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Racine trouvée!
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -9539,7 +8184,7 @@ root:
   id: 26
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Minerai
+  name: Minerai Foret
   switch_id: 1
   list:
   - !ruby/object:RPG::EventCommand
@@ -9592,6 +8237,14 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
+    code: 126
+    parameters:
+    - 83
+    - 0
+    - 0
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 1
     code: 101
     parameters:
     - ''
@@ -9602,7 +8255,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Pierre trouvée!
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -9665,7 +8318,7 @@ root:
     - 83
     - 0
     - 0
-    - 1
+    - 2
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 101
@@ -9678,7 +8331,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Pierre trouvée!
+    - 2 pierres trouvées!
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -9700,10 +8353,10 @@ root:
     indent: 2
     code: 126
     parameters:
-    - 83
+    - 84
     - 0
     - 0
-    - 2
+    - 1
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 101
@@ -9716,7 +8369,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - 2 pierres trouvées!
+    - Minerai de fer trouvé!
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -9831,6 +8484,14 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
+    code: 126
+    parameters:
+    - 53
+    - 0
+    - 0
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 1
     code: 101
     parameters:
     - ''
@@ -9841,7 +8502,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Herbe médicinale trouvée!
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -10070,6 +8731,14 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
+    code: 126
+    parameters:
+    - 83
+    - 0
+    - 0
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 1
     code: 101
     parameters:
     - ''
@@ -10080,7 +8749,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Pierre trouvée!
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -10294,7 +8963,7 @@ root:
   id: 29
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Bout de bois
+  name: Bout de bois Foret
   switch_id: 1
   list:
   - !ruby/object:RPG::EventCommand
@@ -10357,7 +9026,15 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Rien n'a été trouvé.
+    - Pomme rouge obtenue !
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 126
+    parameters:
+    - 62
+    - 0
+    - 0
+    - 1
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0

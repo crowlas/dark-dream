@@ -1396,7 +1396,7 @@ root:
   consumable: false
   occasion: 3
   icon_index: 541
-  price: 5
+  price: 3
   scope: 0
   animation_id: 0
   note: "<inv size: 1>"
@@ -1446,7 +1446,7 @@ root:
   consumable: true
   occasion: 2
   icon_index: 509
-  price: 3
+  price: 2
   scope: 7
   animation_id: 0
   note: "<inv size: 1>"
@@ -1556,12 +1556,12 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Juteuse. Redonne 50 PV.\r\nPoids : 1 ; Inutilisable en combat."
+  description: "Juteuse. Redonne 40 PV.\r\nPoids : 1 ; Inutilisable en combat."
   name: Pomme rouge
   consumable: true
   occasion: 2
   icon_index: 519
-  price: 3
+  price: 2
   scope: 7
   animation_id: 0
   note: "<inv size: 1>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:207\r\n=Jus
@@ -1574,7 +1574,7 @@ root:
     code: 11
     data_id: 0
     value1: 0.0
-    value2: 50.0
+    value2: 40.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5215,7 +5215,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 15 PM et 75 PV\r\nPoids : 1; Inutilisable en combat."
+  description: "Redonne 15 PM et 80 PV\r\nPoids : 1; Inutilisable en combat."
   name: Jus de pomme
   consumable: true
   occasion: 2
@@ -5238,7 +5238,7 @@ root:
     code: 11
     data_id: 0
     value1: 0.0
-    value2: 75.0
+    value2: 80.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -7764,7 +7764,7 @@ root:
   animation_id: 0
   note: "<inv size: 0>\r\n<ingredients>\r\nitem:053x3\r\n=Herbe médicinale\r\nitem:063x1\r\n=ail\r\nitem:062x1\r\n=pomme
     rouge\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
-    2\r\n</craft result>"
+    2\r\ncommon_event: 8\r\n</craft result>"
   speed: 0
   id: 305
   features: []

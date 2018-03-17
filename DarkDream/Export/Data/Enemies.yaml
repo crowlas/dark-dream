@@ -131,11 +131,11 @@ root:
   - 410
   - 19
   - 19
+  - 20
   - 19
+  - 20
   - 19
-  - 19
-  - 19
-  - 19
+  - 20
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -329,11 +329,11 @@ root:
   - 500
   - 20
   - 19
-  - 20
+  - 21
   - 19
-  - 20
+  - 21
   - 19
-  - 20
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 2
@@ -425,11 +425,11 @@ root:
   - 560
   - 20
   - 20
+  - 21
   - 20
+  - 21
   - 20
-  - 20
-  - 20
-  - 20
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -472,11 +472,11 @@ root:
   params:
   - 350
   - 21
+  - 22
   - 21
+  - 22
   - 21
-  - 21
-  - 21
-  - 21
+  - 22
   - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
