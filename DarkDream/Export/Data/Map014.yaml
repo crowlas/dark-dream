@@ -266,6 +266,49 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 0
           parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
     4: !ruby/object:RPG::Event
       id: 4
       name: loup
@@ -525,6 +568,49 @@ root: !ruby/object:RPG::Map
           parameters:
           - B
           - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -1066,7 +1152,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
@@ -1372,7 +1458,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
@@ -1663,6 +1749,49 @@ root: !ruby/object:RPG::Map
           parameters:
           - B
           - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -2204,7 +2333,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
@@ -2762,6 +2891,49 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 0
           parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
     20: !ruby/object:RPG::Event
       id: 20
       name: loup
@@ -3021,6 +3193,49 @@ root: !ruby/object:RPG::Map
           parameters:
           - B
           - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0

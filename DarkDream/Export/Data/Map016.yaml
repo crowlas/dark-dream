@@ -9240,12 +9240,17 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'D''après mon analyse, les animaux sont '
+          - 'D''après mon analyse,\! les animaux '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - plus forts qu'ils ne l'étaient.
+          - ont été victime d'un conflit.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Seul les plus forts ont survécu.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -9258,7 +9263,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Plus forts ?
+          - Un conflit ? Pourquoi ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -9271,17 +9276,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Oui.\!
+          - 'Il est probable que quelque chose '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - 'Il semble que des dominants ont été '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - forcés à se rapprocher de la route.
+          - de gros est arrivé dans la forêt.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -9294,12 +9294,22 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'Vraisemblablement, par quelque chose '
+          - 'Ca a du chercher à se construire un '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - de plus gros...
+          - territoire en repoussant les animaux
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - déjà en place.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - D'où le conflit.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205

@@ -866,6 +866,49 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 0
           parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
     10: !ruby/object:RPG::Event
       id: 10
       name: loup
@@ -1140,7 +1183,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
@@ -1430,6 +1473,49 @@ root: !ruby/object:RPG::Map
           parameters:
           - B
           - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 6
+          variable_value: 2
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 0
+        list:
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -1971,7 +2057,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
@@ -6252,7 +6338,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
@@ -7622,19 +7708,6 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 101
           parameters:
-          - CopainLight 1
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Les animaux sont costauds...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
           - Light1
           - 0
           - 0
@@ -7656,22 +7729,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Quand tu chassais avec ton père,
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - y avait quelqu'un d'autre ? \!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - 'Ca me parait un peu dangereux de '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - faire ça qu'à 2...
+          - Quelque chose ne va pas ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -7684,23 +7742,49 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Non, on n'était que nous 2.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Il chassait les groupes et me laissait
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - généralement une cible isolée.
+          - Les animaux...\!quelque chose ne colle pas.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
-          - Actor2
-          - 5
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Comment ça ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Je ne sais pas...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Dans mes souvenirs,\! il y en avait plus...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Puis, ils étaient moins fort...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
@@ -7720,7 +7804,17 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Cependant, c'est étrange...
+          - C'est comme-ci...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Comme-ci les animaux s'étaient livré
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - à une guerre de territoire.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -7733,31 +7827,18 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - De quoi ?
+          - Une guerre de territoire ? \!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Tu vas pas chercher un peu loin, là ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
           - Light1
           - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - La force de ses animaux...\! c'est celle
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - de dominants...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor2
-          - 5
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
@@ -7777,35 +7858,17 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'Les dominants ont généralement '
+          - Chez les animaux,\! il y a toujours des
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - tendance à s'enfoncer dans la forêt
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - pour établir leur territoire.
+          - dominants et des dominés.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
-          - Actor2
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Tu veux dire que...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - CopainLight 1
+          - Light1
           - 0
           - 0
           - 2
@@ -7813,12 +7876,17 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Ce sont des dominés ?
+          - De manière général,\! les dominants
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - attaquent et les dominés fuient.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
           parameters:
-          - 60
+          - 100
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -7831,12 +7899,90 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "...\\!"
+          - Est-ce que vous avez compté ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - CopainLight 1
+          - 0
+          - 0
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - Restons prudent.
+          - Tu...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ce sont tous des dominants ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "*acquiesce*"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor2
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "...mais alors,\\! où sont les dominés ?"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 200
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Finissons notre travail et rentrons.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123

@@ -33,13 +33,13 @@ root:
     value: 1.1
   params:
   - 120
+  - 19
   - 17
-  - 16
+  - 19
   - 17
-  - 16
+  - 19
   - 17
-  - 16
-  - 17
+  - 19
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -50,9 +50,9 @@ root:
     kind: 1
     data_id: 5
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 3
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -81,13 +81,13 @@ root:
     value: 1.1
   params:
   - 230
-  - 19
-  - 18
-  - 19
-  - 18
-  - 19
-  - 18
-  - 19
+  - 22
+  - 20
+  - 24
+  - 20
+  - 24
+  - 20
+  - 24
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -98,9 +98,9 @@ root:
     kind: 1
     data_id: 5
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 3
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -129,13 +129,13 @@ root:
     value: 1.1
   params:
   - 410
-  - 19
-  - 19
-  - 20
-  - 19
-  - 20
-  - 19
-  - 20
+  - 23
+  - 21
+  - 25
+  - 21
+  - 25
+  - 21
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -146,9 +146,9 @@ root:
     kind: 1
     data_id: 5
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 3
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -183,13 +183,13 @@ root:
     value: 1.1
   params:
   - 90
-  - 16
-  - 18
-  - 16
-  - 18
-  - 16
-  - 18
-  - 16
+  - 17
+  - 19
+  - 17
+  - 19
+  - 17
+  - 19
+  - 17
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -200,9 +200,9 @@ root:
     kind: 1
     data_id: 6
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 4
+    kind: 1
+    data_id: 4
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -231,13 +231,13 @@ root:
     value: 1.1
   params:
   - 160
-  - 18
-  - 19
-  - 18
-  - 19
-  - 18
-  - 19
-  - 18
+  - 20
+  - 24
+  - 20
+  - 24
+  - 20
+  - 24
+  - 20
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -248,9 +248,9 @@ root:
     kind: 1
     data_id: 6
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 4
+    kind: 1
+    data_id: 4
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -279,13 +279,13 @@ root:
     value: 1.1
   params:
   - 220
-  - 19
-  - 20
-  - 19
-  - 20
-  - 19
-  - 20
-  - 19
+  - 21
+  - 25
+  - 21
+  - 25
+  - 21
+  - 25
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -296,9 +296,9 @@ root:
     kind: 1
     data_id: 6
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 4
+    kind: 1
+    data_id: 4
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -327,13 +327,13 @@ root:
     value: 1.1
   params:
   - 500
-  - 20
-  - 19
-  - 21
-  - 19
-  - 21
-  - 19
-  - 21
+  - 24
+  - 22
+  - 26
+  - 22
+  - 26
+  - 22
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 2
@@ -344,9 +344,9 @@ root:
     kind: 1
     data_id: 5
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 3
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -375,13 +375,13 @@ root:
     value: 1.1
   params:
   - 290
-  - 20
-  - 21
-  - 20
-  - 21
-  - 20
-  - 21
-  - 20
+  - 22
+  - 25
+  - 22
+  - 25
+  - 22
+  - 25
+  - 22
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 2
@@ -392,9 +392,9 @@ root:
     kind: 1
     data_id: 6
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 4
+    kind: 1
+    data_id: 4
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -423,13 +423,13 @@ root:
     value: 1.1
   params:
   - 560
-  - 20
-  - 20
-  - 21
-  - 20
-  - 21
-  - 20
-  - 21
+  - 25
+  - 23
+  - 27
+  - 23
+  - 27
+  - 23
+  - 27
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -440,9 +440,9 @@ root:
     kind: 1
     data_id: 5
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 3
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -471,13 +471,13 @@ root:
     value: 1.1
   params:
   - 350
-  - 21
-  - 22
-  - 21
-  - 22
-  - 21
-  - 22
-  - 21
+  - 24
+  - 28
+  - 24
+  - 28
+  - 24
+  - 28
+  - 24
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -488,9 +488,9 @@ root:
     kind: 1
     data_id: 6
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 4
+    kind: 1
+    data_id: 4
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -525,13 +525,13 @@ root:
     value: 1.1
   params:
   - 245
-  - 19
-  - 19
-  - 19
-  - 19
-  - 19
-  - 19
-  - 19
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -542,9 +542,9 @@ root:
     kind: 1
     data_id: 10
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 7
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -579,13 +579,13 @@ root:
     value: 1.1
   params:
   - 550
-  - 22
-  - 21
-  - 22
-  - 21
-  - 22
-  - 21
-  - 21
+  - 24
+  - 25
+  - 26
+  - 25
+  - 26
+  - 25
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -596,9 +596,9 @@ root:
     kind: 1
     data_id: 10
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 7
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -633,13 +633,13 @@ root:
     value: 1.1
   params:
   - 600
-  - 23
-  - 23
-  - 23
-  - 23
-  - 23
-  - 23
-  - 23
+  - 25
+  - 26
+  - 27
+  - 26
+  - 27
+  - 26
+  - 27
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 2
@@ -650,9 +650,9 @@ root:
     kind: 1
     data_id: 10
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 7
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -687,13 +687,13 @@ root:
     value: 1.1
   params:
   - 625
-  - 24
-  - 24
-  - 24
-  - 24
-  - 24
-  - 24
-  - 24
+  - 26
+  - 27
+  - 28
+  - 27
+  - 28
+  - 27
+  - 28
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -704,9 +704,9 @@ root:
     kind: 1
     data_id: 10
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
-    kind: 0
-    data_id: 1
+    denominator: 3
+    kind: 1
+    data_id: 10
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
@@ -795,13 +795,13 @@ root:
     value: 0.95
   params:
   - 100
-  - 10
-  - 15
-  - 10
-  - 15
-  - 10
-  - 10
-  - 10
+  - 16
+  - 16
+  - 16
+  - 16
+  - 16
+  - 16
+  - 16
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 10
@@ -851,13 +851,13 @@ root:
     value: 0.95
   params:
   - 150
-  - 15
-  - 18
-  - 15
-  - 18
-  - 15
-  - 15
-  - 15
+  - 19
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 9
@@ -963,13 +963,13 @@ root:
     value: 1.1
   params:
   - 250
-  - 20
-  - 19
-  - 24
-  - 19
-  - 24
-  - 19
-  - 19
+  - 23
+  - 21
+  - 23
+  - 21
+  - 23
+  - 21
+  - 23
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 8
@@ -1023,13 +1023,13 @@ root:
     value: 1.1
   params:
   - 265
-  - 20
-  - 20
-  - 25
-  - 20
-  - 25
-  - 20
-  - 20
+  - 24
+  - 22
+  - 24
+  - 22
+  - 24
+  - 22
+  - 24
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 7
@@ -1083,13 +1083,13 @@ root:
     value: 1.1
   params:
   - 280
-  - 22
-  - 19
-  - 26
-  - 19
-  - 26
-  - 19
-  - 19
+  - 28
+  - 23
+  - 25
+  - 23
+  - 25
+  - 23
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1143,13 +1143,13 @@ root:
     value: 1.1
   params:
   - 310
-  - 25
-  - 20
-  - 27
-  - 20
-  - 27
-  - 20
-  - 20
+  - 26
+  - 24
+  - 26
+  - 24
+  - 26
+  - 24
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1197,13 +1197,13 @@ root:
     value: 1.1
   params:
   - 565
-  - 42
-  - 24
-  - 27
-  - 24
-  - 27
-  - 24
-  - 24
+  - 40
+  - 26
+  - 30
+  - 26
+  - 30
+  - 26
+  - 30
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1251,13 +1251,13 @@ root:
     value: 1.1
   params:
   - 610
-  - 50
-  - 25
-  - 28
-  - 25
-  - 28
-  - 25
-  - 25
+  - 46
+  - 27
+  - 30
+  - 27
+  - 30
+  - 27
+  - 30
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1306,12 +1306,12 @@ root:
   params:
   - 750
   - 52
-  - 25
+  - 28
   - 30
-  - 25
+  - 28
   - 30
-  - 25
-  - 25
+  - 28
+  - 30
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -1360,12 +1360,12 @@ root:
   params:
   - 800
   - 60
-  - 27
-  - 30
-  - 27
-  - 30
-  - 27
-  - 27
+  - 28
+  - 31
+  - 28
+  - 31
+  - 28
+  - 31
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -1424,12 +1424,12 @@ root:
   params:
   - 180
   - 20
-  - 18
-  - 18
-  - 18
-  - 18
-  - 22
-  - 22
+  - 20
+  - 20
+  - 20
+  - 20
+  - 25
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 8
@@ -1488,12 +1488,12 @@ root:
   params:
   - 190
   - 22
-  - 19
-  - 19
-  - 19
-  - 19
-  - 25
-  - 25
+  - 22
+  - 22
+  - 22
+  - 22
+  - 27
+  - 27
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 7
@@ -1552,12 +1552,12 @@ root:
   params:
   - 200
   - 24
-  - 20
-  - 20
-  - 20
-  - 20
-  - 26
-  - 26
+  - 23
+  - 23
+  - 23
+  - 23
+  - 28
+  - 28
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1615,13 +1615,13 @@ root:
     value: 0.25
   params:
   - 205
-  - 25
-  - 21
-  - 20
-  - 21
-  - 20
   - 26
-  - 26
+  - 24
+  - 24
+  - 24
+  - 24
+  - 30
+  - 30
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1688,12 +1688,12 @@ root:
   params:
   - 400
   - 40
-  - 22
-  - 18
-  - 22
-  - 18
-  - 30
-  - 30
+  - 27
+  - 24
+  - 27
+  - 24
+  - 32
+  - 32
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1760,12 +1760,12 @@ root:
   params:
   - 415
   - 41
-  - 22
-  - 19
-  - 22
-  - 19
-  - 31
-  - 31
+  - 28
+  - 24
+  - 28
+  - 24
+  - 34
+  - 34
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1832,12 +1832,12 @@ root:
   params:
   - 430
   - 44
-  - 22
-  - 20
-  - 22
-  - 20
-  - 33
-  - 33
+  - 29
+  - 24
+  - 29
+  - 24
+  - 36
+  - 36
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -1904,12 +1904,12 @@ root:
   params:
   - 432
   - 45
-  - 23
-  - 20
-  - 23
-  - 20
-  - 35
-  - 35
+  - 30
+  - 25
+  - 30
+  - 25
+  - 38
+  - 38
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3

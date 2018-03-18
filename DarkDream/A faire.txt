@@ -1,0 +1,3 @@
+Effectuer le changement d'horaire après les tp de manière à ce que la bgs soit prioritaire ou mettre les bgs dans les evenements pour eviter qu'il soient ignorés.
+
+Moins de mob dans la foret, plus de vie, rat plus fort

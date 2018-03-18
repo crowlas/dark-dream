@@ -9016,6 +9016,14 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
+    code: 126
+    parameters:
+    - 83
+    - 0
+    - 0
+    - 1
+  - !ruby/object:RPG::EventCommand
+    indent: 1
     code: 101
     parameters:
     - ''
@@ -9026,15 +9034,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - Pomme rouge obtenue !
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 126
-    parameters:
-    - 62
-    - 0
-    - 0
-    - 1
+    - Pierre trouvée!
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0

@@ -928,7 +928,7 @@ root: !ruby/object:RPG::Map
           switch1_id: 1
           switch2_id: 1
           variable_id: 6
-          variable_value: 2
+          variable_value: 1
           self_switch_ch: A
           item_id: 1
           actor_id: 1
