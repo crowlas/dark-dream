@@ -60,9 +60,16 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 8
-          - 8
+          - 22
+          - 22
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 121
+          parameters:
+          - 21
+          - 21
+          - 1
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 201

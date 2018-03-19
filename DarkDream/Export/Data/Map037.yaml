@@ -980,15 +980,8 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 121
           parameters:
-          - 2
-          - 2
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 121
-          parameters:
-          - 10
-          - 10
+          - 23
+          - 23
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
@@ -1141,15 +1134,8 @@ root: !ruby/object:RPG::Map
           indent: 2
           code: 121
           parameters:
-          - 2
-          - 2
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 121
-          parameters:
-          - 10
-          - 10
+          - 23
+          - 23
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 2

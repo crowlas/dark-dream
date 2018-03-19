@@ -261,15 +261,15 @@ root: !ruby/object:RPG::System
   switches:
   - 
   - Feu allumé
-  - Terrain Intérieur
+  - ''
   - Respawn A
   - Respawn B
   - Emmener Lockfried
   - Slime tué ?
   - discussion Sylvain
-  - Neige
+  - ''
   - Chasse Lockfried
-  - Terrain Sombre
+  - ''
   - Milice Grégoire mort
   - Maire Blue mort
   - apparait PNJ !
@@ -280,11 +280,11 @@ root: !ruby/object:RPG::System
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Terrain Pluie
+  - Terrain Neige
+  - Terrain Grotte
+  - Terrain Maison
+  - Ignore Son Map ?
   - ''
   - ''
   - ''

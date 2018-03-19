@@ -60,8 +60,8 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 2
-          - 2
+          - 24
+          - 24
           - 1
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -1518,7 +1518,7 @@ root: !ruby/object:RPG::Map
   parallax_loop_y: false
   autoplay_bgm: false
   encounter_list: []
-  autoplay_bgs: false
+  autoplay_bgs: true
   parallax_show: false
   scroll_type: 0
   parallax_loop_x: false
