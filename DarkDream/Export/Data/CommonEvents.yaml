@@ -3099,10 +3099,10 @@ root:
     code: 223
     parameters:
     - !ruby/object:Tone
-      red: -80.0
-      green: -80.0
-      blue: -80.0
-      gray: 0.0
+      red: -90.0
+      green: -90.0
+      blue: -90.0
+      gray: 20.0
     - 1
     - false
   - !ruby/object:RPG::EventCommand
@@ -3140,11 +3140,6 @@ root:
     - 1
     - 0
     - false
-  - !ruby/object:RPG::EventCommand
-    indent: 1
-    code: 246
-    parameters:
-    - 1
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
@@ -3186,7 +3181,7 @@ root:
     - 0
     - 2
     - 0
-    - 5
+    - 8
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 111
@@ -3204,11 +3199,6 @@ root:
     - 1
     - 0
     - false
-  - !ruby/object:RPG::EventCommand
-    indent: 3
-    code: 246
-    parameters:
-    - 1
   - !ruby/object:RPG::EventCommand
     indent: 3
     code: 0
@@ -3238,9 +3228,17 @@ root:
     code: 236
     parameters:
     - :snow
-    - 2
+    - 1
     - 0
     - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Wind
+      volume: 60
+      pitch: 50
   - !ruby/object:RPG::EventCommand
     indent: 5
     code: 0
@@ -3263,9 +3261,116 @@ root:
     code: 236
     parameters:
     - :snow
-    - 1
+    - 2
     - 0
     - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Wind
+      volume: 65
+      pitch: 50
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 5
+    - 0
+    - 6
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 236
+    parameters:
+    - :snow
+    - 3
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Wind
+      volume: 70
+      pitch: 50
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 5
+    - 0
+    - 7
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 236
+    parameters:
+    - :snow
+    - 4
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Wind
+      volume: 75
+      pitch: 50
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 5
+    - 0
+    - 8
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 236
+    parameters:
+    - :snow
+    - 5
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Wind
+      volume: 80
+      pitch: 50
   - !ruby/object:RPG::EventCommand
     indent: 5
     code: 0
@@ -3296,7 +3401,73 @@ root:
     code: 236
     parameters:
     - :rain
+    - 1
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Rain
+      volume: 60
+      pitch: 100
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 5
+    - 0
+    - 5
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 236
+    parameters:
+    - :rain
     - 2
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Rain
+      volume: 65
+      pitch: 100
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 5
+    - 0
+    - 6
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 236
+    parameters:
+    - :rain
+    - 3
     - 0
     - false
   - !ruby/object:RPG::EventCommand
@@ -3322,14 +3493,14 @@ root:
     - 1
     - 5
     - 0
-    - 5
+    - 7
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 5
     code: 236
     parameters:
     - :rain
-    - 1
+    - 4
     - 0
     - false
   - !ruby/object:RPG::EventCommand
@@ -3338,7 +3509,40 @@ root:
     parameters:
     - !ruby/object:RPG::BGS
       name: Rain
-      volume: 60
+      volume: 75
+      pitch: 100
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 4
+    code: 111
+    parameters:
+    - 1
+    - 5
+    - 0
+    - 8
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 236
+    parameters:
+    - :rain
+    - 5
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 5
+    code: 245
+    parameters:
+    - !ruby/object:RPG::BGS
+      name: Rain
+      volume: 80
       pitch: 100
   - !ruby/object:RPG::EventCommand
     indent: 5

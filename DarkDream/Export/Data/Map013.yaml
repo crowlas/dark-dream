@@ -3190,11 +3190,6 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 117
-          parameters:
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 111
           parameters:
           - 0
@@ -3229,6 +3224,11 @@ root: !ruby/object:RPG::Map
           - 7
           - 2
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -8673,11 +8673,6 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 117
-          parameters:
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 201
           parameters:
           - 0
@@ -8686,6 +8681,11 @@ root: !ruby/object:RPG::Map
           - 1
           - 8
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -8795,11 +8795,6 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 117
-          parameters:
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 201
           parameters:
           - 0
@@ -8808,6 +8803,11 @@ root: !ruby/object:RPG::Map
           - 12
           - 8
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -8917,11 +8917,6 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 117
-          parameters:
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 201
           parameters:
           - 0
@@ -8930,6 +8925,11 @@ root: !ruby/object:RPG::Map
           - 3
           - 8
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
