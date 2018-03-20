@@ -10,7 +10,7 @@ root:
   1: !ruby/object:RPG::MapInfo
     scroll_x: 2112
     name: Forêt de Sanj (0,-1)
-    expanded: false
+    expanded: true
     order: 12
     scroll_y: 1216
     parent_id: 7
@@ -19,7 +19,7 @@ root:
     name: Maison des Desmark
     expanded: false
     order: 13
-    scroll_y: 336
+    scroll_y: 357
     parent_id: 1
   4: !ruby/object:RPG::MapInfo
     scroll_x: 272

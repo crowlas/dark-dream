@@ -3089,6 +3089,80 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
+    code: 236
+    parameters:
+    - :none
+    - 1
+    - 0
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 2
+    - 0
+    - 6
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - nuit
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 223
+    parameters:
+    - !ruby/object:Tone
+      red: -20.0
+      green: -20.0
+      blue: -20.0
+      gray: 0.0
+    - 1
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 411
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 111
+    parameters:
+    - 1
+    - 2
+    - 0
+    - 20
+    - 3
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 108
+    parameters:
+    - nuit
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 223
+    parameters:
+    - !ruby/object:Tone
+      red: -20.0
+      green: -20.0
+      blue: -20.0
+      gray: 0.0
+    - 1
+    - false
+  - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 411
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 3
     code: 223
     parameters:
     - !ruby/object:Tone
@@ -3099,13 +3173,21 @@ root:
     - 1
     - false
   - !ruby/object:RPG::EventCommand
+    indent: 3
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
     indent: 1
-    code: 236
-    parameters:
-    - :none
-    - 1
-    - 0
-    - false
+    code: 412
+    parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
