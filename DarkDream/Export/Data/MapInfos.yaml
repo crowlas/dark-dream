@@ -78,14 +78,14 @@ root:
     scroll_y: 208
     parent_id: 8
   13: !ruby/object:RPG::MapInfo
-    scroll_x: 1204
+    scroll_x: 2112
     name: Forêt de Sanj (-1,0)
     expanded: true
     order: 15
-    scroll_y: 1184
+    scroll_y: 1232
     parent_id: 7
   14: !ruby/object:RPG::MapInfo
-    scroll_x: 2560
+    scroll_x: 2080
     name: Forêt de Sanj (-1,-1)
     expanded: false
     order: 19
@@ -148,11 +148,11 @@ root:
     scroll_y: 208
     parent_id: 21
   23: !ruby/object:RPG::MapInfo
-    scroll_x: 2080
+    scroll_x: 3172
     name: Forêt de Sanj (-1,-2)
     expanded: false
     order: 23
-    scroll_y: 1152
+    scroll_y: 592
     parent_id: 13
   24: !ruby/object:RPG::MapInfo
     scroll_x: 1056
