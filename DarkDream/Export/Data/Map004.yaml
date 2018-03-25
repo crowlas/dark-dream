@@ -350,23 +350,33 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 223
-          parameters:
-          - !ruby/object:Tone
-            red: 0.0
-            green: 0.0
-            blue: 0.0
-            gray: 0.0
-          - 1
-          - false
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 245
           parameters:
           - !ruby/object:RPG::BGS
             name: Darkness
             volume: 100
             pitch: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 121
+          parameters:
+          - 24
+          - 24
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 122
+          parameters:
+          - 2
+          - 2
+          - 0
+          - 0
+          - 7
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205
@@ -3321,6 +3331,25 @@ root: !ruby/object:RPG::Map
           code: 230
           parameters:
           - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 121
+          parameters:
+          - 24
+          - 24
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 121
+          parameters:
+          - 23
+          - 23
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 201

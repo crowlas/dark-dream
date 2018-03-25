@@ -3102,7 +3102,7 @@ root:
     - 1
     - 2
     - 0
-    - 6
+    - 7
     - 2
   - !ruby/object:RPG::EventCommand
     indent: 2
@@ -4982,6 +4982,11 @@ root:
     - "..."
   - !ruby/object:RPG::EventCommand
     indent: 2
+    code: 230
+    parameters:
+    - 100
+  - !ruby/object:RPG::EventCommand
+    indent: 2
     code: 101
     parameters:
     - Light1
@@ -5186,6 +5191,11 @@ root:
     - "..."
   - !ruby/object:RPG::EventCommand
     indent: 2
+    code: 230
+    parameters:
+    - 60
+  - !ruby/object:RPG::EventCommand
+    indent: 2
     code: 101
     parameters:
     - Light1
@@ -5336,7 +5346,7 @@ root:
     indent: 2
     code: 230
     parameters:
-    - 100
+    - 150
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 246

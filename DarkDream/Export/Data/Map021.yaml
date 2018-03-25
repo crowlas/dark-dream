@@ -10891,7 +10891,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - OK.\! C'est d'accord !
+          - OK.\! C'est d'accord.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -10973,6 +10973,33 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Objectif de quête mis à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 135
+          parameters:
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: false
+            list:
+            - &69 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 4
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *69
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123
