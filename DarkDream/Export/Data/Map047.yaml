@@ -426,15 +426,15 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 2
-          - 2
+          - 24
+          - 24
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 121
           parameters:
-          - 10
-          - 10
+          - 23
+          - 23
           - 1
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -1087,18 +1087,10 @@ root: !ruby/object:RPG::Map
           - false
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 132
-          parameters:
-          - !ruby/object:RPG::BGM
-            name: Battle4
-            volume: 100
-            pitch: 80
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 301
           parameters:
           - 0
-          - 33
+          - 31
           - false
           - false
         - !ruby/object:RPG::EventCommand
@@ -1119,14 +1111,6 @@ root: !ruby/object:RPG::Map
           code: 216
           parameters:
           - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 132
-          parameters:
-          - !ruby/object:RPG::BGM
-            name: Battle5
-            volume: 100
-            pitch: 90
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123

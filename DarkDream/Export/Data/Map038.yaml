@@ -557,7 +557,7 @@ root: !ruby/object:RPG::Map
           code: 301
           parameters:
           - 0
-          - 34
+          - 30
           - true
           - false
         - !ruby/object:RPG::EventCommand

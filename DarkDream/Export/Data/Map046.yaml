@@ -159,12 +159,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 355
           parameters:
-          - store_add("weapon", 7, 1)
+          - store_add("weapon", 6, 1)
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 355
           parameters:
-          - store_add("armor", 33, 1)
+          - store_add("armor", 34, 1)
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 314

@@ -683,8 +683,8 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 2
-          - 2
+          - 24
+          - 24
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -891,17 +891,6 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 223
-          parameters:
-          - !ruby/object:Tone
-            red: -68.0
-            green: -68.0
-            blue: -68.0
-            gray: 0.0
-          - 1
-          - false
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
@@ -1055,8 +1044,8 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 2
-          - 2
+          - 24
+          - 24
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -1187,6 +1176,14 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - "...mais c'était quoi ce bruit ?"
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 132
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Battle4
+            volume: 100
+            pitch: 90
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 121
@@ -1693,8 +1690,8 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 2
-          - 2
+          - 24
+          - 24
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
