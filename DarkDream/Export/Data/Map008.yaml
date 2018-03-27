@@ -3823,11 +3823,6 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 117
-          parameters:
-          - 10
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 224
           parameters:
           - !ruby/object:Color

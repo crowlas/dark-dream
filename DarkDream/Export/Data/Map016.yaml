@@ -1592,11 +1592,6 @@ root: !ruby/object:RPG::Map
           - A toi aussi grand frère.
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 117
-          parameters:
-          - 10
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 101
           parameters:
           - ''

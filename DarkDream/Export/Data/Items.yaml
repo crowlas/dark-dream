@@ -52,7 +52,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Elevé en pleine air.\r\nPoids : 3 ; Utile en cuisine."
+  description: "Elevé en pleine air.\r\nUtile en cuisine."
   name: Steak de sanglier
   consumable: false
   occasion: 3
@@ -60,8 +60,7 @@ root:
   price: 9
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:208\r\n=sanglier
-    braisé\r\n</recipebook>\r\n"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:208\r\n=sanglier braisé\r\n</recipebook>\r\n"
   speed: 0
   id: 3
   features: []
@@ -78,7 +77,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Elevé en pleine air.\r\nPoids : 3 ; Utile en cuisine."
+  description: "Elevé en pleine air.\r\nUtile en cuisine."
   name: Steak de loup
   consumable: false
   occasion: 3
@@ -86,8 +85,7 @@ root:
   price: 8
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:209\r\n=loup
-    braisé\r\n</recipebook>\r\n"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:209\r\n=loup braisé\r\n</recipebook>\r\n"
   speed: 0
   id: 4
   features: []
@@ -104,7 +102,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Le meilleur morceau !\r\nPoids : 3 ; Utile en cuisine."
+  description: "Le meilleur morceau !\r\nUtile en cuisine."
   name: Sanglier tendre
   consumable: false
   occasion: 3
@@ -112,8 +110,7 @@ root:
   price: 22
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:211\r\n=sanglier
-    braisé (lv2)\r\n</recipebook>\r\n"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:211\r\n=sanglier braisé (lv2)\r\n</recipebook>\r\n"
   speed: 0
   id: 5
   features: []
@@ -130,7 +127,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Le meilleur morceau !\r\nPoids : 3 ; Utile en cuisine."
+  description: "Le meilleur morceau !\r\nUtile en cuisine."
   name: Loup tendre
   consumable: false
   occasion: 3
@@ -138,8 +135,7 @@ root:
   price: 19
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:212\r\n=loup
-    braisé (lv2)\r\n</recipebook>\r\n"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:212\r\n=loup braisé (lv2)\r\n</recipebook>\r\n"
   speed: 0
   id: 6
   features: []
@@ -156,7 +152,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Elevé en pleine air.\r\nPoids : 3 ; Utile en cuisine."
+  description: "Elevé en pleine air.\r\nUtile en cuisine."
   name: Steak d'ours
   consumable: false
   occasion: 3
@@ -164,8 +160,7 @@ root:
   price: 11
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:210\r\n=ours
-    braisé\r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:210\r\n=ours braisé\r\n</recipebook>"
   speed: 0
   id: 7
   features: []
@@ -182,7 +177,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un étrange fluide.\r\nPoids : 2 ; "
+  description: "Un étrange fluide.\r\n"
   name: Liquide amorphe
   consumable: false
   occasion: 3
@@ -190,8 +185,7 @@ root:
   price: 19
   scope: 0
   animation_id: 0
-  note: "<inv size: 2>\r\n<recipebook>\r\ncategory:alchimie\r\nitem:214\r\n=Liqueur
-    gluante\r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:alchimie\r\nitem:214\r\n=Liqueur gluante\r\n</recipebook>"
   speed: 0
   id: 8
   features: []
@@ -208,7 +202,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une peau très résistante.\r\nPoids : 2 ; "
+  description: "Une peau très résistante.\r\n"
   name: Peau de rat
   consumable: false
   occasion: 3
@@ -216,7 +210,7 @@ root:
   price: 28
   scope: 0
   animation_id: 0
-  note: "<inv size: 2>"
+  note: ''
   speed: 0
   id: 9
   features: []
@@ -233,7 +227,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nPoids : 3 ; Utile en cuisine."
+  description: "\r\nUtile en cuisine."
   name: Ours tendre
   consumable: false
   occasion: 3
@@ -241,8 +235,7 @@ root:
   price: 23
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:213\r\n=ours
-    braisé (lv2)\r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:213\r\n=ours braisé (lv2)\r\n</recipebook>"
   speed: 0
   id: 10
   features: []
@@ -259,7 +252,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nPoids : 2 ; "
+  description: ''
   name: Aile de C-souris
   consumable: false
   occasion: 3
@@ -267,7 +260,7 @@ root:
   price: 28
   scope: 0
   animation_id: 0
-  note: "<inv size: 2>"
+  note: ''
   speed: 0
   id: 11
   features: []
@@ -1309,8 +1302,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Pour désinfecter de petites plaies. \r\nPoids : 1 ; Redonne 60 PV.
-    \                             "
+  description: "Pour désinfecter de petites plaies. \r\nRedonne 60 PV.                              "
   name: Herbe médicinale
   consumable: true
   occasion: 0
@@ -1318,8 +1310,8 @@ root:
   price: 11
   scope: 7
   animation_id: 0
-  note: "<inv size: 1>\r\n<recipebook>\r\ncategory:alchimie\r\nitem:277x0\r\n=Potion
-    de soin inférieur      \r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:alchimie\r\nitem:277x0\r\n=Potion de soin inférieur
+    \     \r\n</recipebook>"
   speed: 0
   id: 53
   features: []
@@ -1366,7 +1358,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un champignon marron.\r\nPoids : 1 ; Utile en cuisine.                                                   "
+  description: "Un champignon marron.\r\nUtile en cuisine.                                                   "
   name: Champi-marron
   consumable: false
   occasion: 3
@@ -1374,7 +1366,7 @@ root:
   price: 10
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 55
   features: []
@@ -1391,7 +1383,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Sans mauvaises attentions, j'espère...\r\nPoids : 1"
+  description: Sans mauvaises attentions, j'espère...
   name: Champi-veneneux
   consumable: false
   occasion: 3
@@ -1399,7 +1391,7 @@ root:
   price: 3
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 56
   features: []
@@ -1416,7 +1408,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Ingrediant de base de cuisine.\r\nPoids : 1"
+  description: Ingrediant de base de cuisine.
   name: Pomme de terre
   consumable: false
   occasion: 3
@@ -1424,7 +1416,7 @@ root:
   price: 8
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>\r\n"
+  note: ''
   speed: 0
   id: 57
   features: []
@@ -1441,7 +1433,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 30 PV et 5 PM.\r\nPoids : 1 ; Inutilisable en combat."
+  description: "Redonne 30 PV et 5 PM.\r\nInutilisable en combat."
   name: Pomme verte
   consumable: true
   occasion: 2
@@ -1449,7 +1441,7 @@ root:
   price: 2
   scope: 7
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 58
   features: []
@@ -1476,7 +1468,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une fleur de moutarde ou d'autre chose.\r\nPoids : 1"
+  description: Une fleur de moutarde ou d'autre chose.
   name: Fleur jaune
   consumable: false
   occasion: 3
@@ -1484,7 +1476,7 @@ root:
   price: 4
   scope: 7
   animation_id: 0
-  note: "<inv size: 1>\r\n"
+  note: ''
   speed: 0
   id: 59
   features: []
@@ -1501,7 +1493,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Ingrédient de cuisine.\r\nPoids : 1"
+  description: Ingrédient de cuisine.
   name: Carotte
   consumable: false
   occasion: 3
@@ -1509,7 +1501,7 @@ root:
   price: 7
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 60
   features: []
@@ -1526,7 +1518,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une herbe au vertues apaisantes. \r\nPoids : 1 ; Redonne 12 PM.                                       "
+  description: "Une herbe au vertues apaisantes. \r\nRedonne 12 PM.                                       "
   name: Déstressant
   consumable: true
   occasion: 0
@@ -1534,7 +1526,7 @@ root:
   price: 9
   scope: 7
   animation_id: 0
-  note: "<inv size: 1>\r\n"
+  note: ''
   speed: 0
   id: 61
   features: []
@@ -1556,7 +1548,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Juteuse. Redonne 40 PV.\r\nPoids : 1 ; Inutilisable en combat."
+  description: "Juteuse. Redonne 40 PV.\r\nInutilisable en combat."
   name: Pomme rouge
   consumable: true
   occasion: 2
@@ -1564,8 +1556,7 @@ root:
   price: 2
   scope: 7
   animation_id: 0
-  note: "<inv size: 1>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:207\r\n=Jus
-    de pomme\r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:207\r\n=Jus de pomme\r\n</recipebook>"
   speed: 0
   id: 62
   features: []
@@ -1587,7 +1578,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Idéal pour l'assaisonnement, moins pour l'haleine.\r\nPoids : 1"
+  description: Idéal pour l'assaisonnement, moins pour l'haleine.
   name: Ail
   consumable: false
   occasion: 3
@@ -1595,7 +1586,7 @@ root:
   price: 13
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 63
   features: []
@@ -1612,7 +1603,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nPoids : 3"
+  description: ''
   name: Bout de bois
   consumable: false
   occasion: 3
@@ -1620,7 +1611,7 @@ root:
   price: 4
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>"
+  note: ''
   speed: 0
   id: 64
   features: []
@@ -2087,7 +2078,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Autrement appelé \"un caillou\". \r\nPoids : 3"
+  description: 'Autrement appelé "un caillou". '
   name: Pierre
   consumable: false
   occasion: 3
@@ -2095,7 +2086,7 @@ root:
   price: 3
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>"
+  note: ''
   speed: 0
   id: 83
   features: []
@@ -2112,7 +2103,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Du minerai de fer. Toujours utile en forge.\r\nPoids : 3"
+  description: "Du minerai de fer. Toujours utile en forge.\r\n"
   name: Minerai de fer
   consumable: false
   occasion: 3
@@ -2120,7 +2111,7 @@ root:
   price: 12
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>"
+  note: ''
   speed: 0
   id: 84
   features: []
@@ -2137,7 +2128,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Minerai rare.\r\nPoids : 3"
+  description: "Minerai rare.\r\n"
   name: Minerai froid
   consumable: false
   occasion: 3
@@ -2145,7 +2136,7 @@ root:
   price: 17
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>"
+  note: ''
   speed: 0
   id: 85
   features: []
@@ -2837,7 +2828,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "La carapace d'un truc.\r\nPoids : 4"
+  description: "La carapace d'un truc.\r\n"
   name: Carapace cassée
   consumable: false
   occasion: 3
@@ -2845,7 +2836,7 @@ root:
   price: 2
   scope: 0
   animation_id: 0
-  note: "<inv size: 4>"
+  note: ''
   speed: 0
   id: 113
   features: []
@@ -2862,7 +2853,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Vous voullez vendre ça ?\r\nPoids : 1"
+  description: Vous voullez vendre ça ?
   name: Coquillage
   consumable: false
   occasion: 3
@@ -2870,7 +2861,7 @@ root:
   price: 2
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 114
   features: []
@@ -2887,7 +2878,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Coquillage en plus cher.\r\nPoids : 1"
+  description: "Coquillage en plus cher.\r\n"
   name: Pierre dorée
   consumable: false
   occasion: 3
@@ -2895,7 +2886,7 @@ root:
   price: 20
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 115
   features: []
@@ -2912,7 +2903,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Cette plante à visiblement brulée au soleil.\r\nPoids : 1"
+  description: Cette plante à visiblement brulée au soleil.
   name: Herbe déssèchée
   consumable: false
   occasion: 3
@@ -2920,7 +2911,7 @@ root:
   price: 1
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 116
   features: []
@@ -4337,7 +4328,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un petit coup de mou ?\r\nPoids : 1 ; Redonne 4 TP.                              "
+  description: "Un petit coup de mou ?\r\nRedonne 4 TP.                              "
   name: Herbe tonique
   consumable: true
   occasion: 0
@@ -4345,7 +4336,7 @@ root:
   price: 10
   scope: 7
   animation_id: 0
-  note: "<inv size: 1>\r\n"
+  note: ''
   speed: 0
   id: 173
   features: []
@@ -4392,7 +4383,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Ingrédiant de base des antidotes.\r\nPoids : 1 ; Utile en alchimie."
+  description: "Ingrédiant de base des antidotes.\r\nUtile en alchimie."
   name: Racine
   consumable: false
   occasion: 3
@@ -4400,8 +4391,7 @@ root:
   price: 16
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>\r\n<recipebook>\r\ncategory:alchimie\r\nitem:038x0\r\n=Antidote
-    \  \r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:alchimie\r\nitem:038x0\r\n=Antidote   \r\n</recipebook>"
   speed: 0
   id: 175
   features: []
@@ -4418,7 +4408,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nPoids : 1 ; Utile en alchimie."
+  description: Utile en alchimie.
   name: Reinette des neiges
   consumable: true
   occasion: 0
@@ -5093,7 +5083,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 130 PV.\r\nPoids : 1; Inutilisable en combat."
+  description: "Redonne 130 PV.\r\nInutilisable en combat."
   name: Pain
   consumable: true
   occasion: 2
@@ -5101,7 +5091,7 @@ root:
   price: 7
   scope: 7
   animation_id: 0
-  note: "  <inv size: 1>"
+  note: ''
   speed: 0
   id: 203
   features: []
@@ -5123,7 +5113,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 190 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 190 PV.\r\nInutilisable en combat."
   name: Sanglier/champi
   consumable: true
   occasion: 2
@@ -5131,8 +5121,7 @@ root:
   price: 16
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:003x1\r\n=steack
-    de sanglier\r\nitem:055x2\r\n=Champi-marron\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:003x1\r\n=steack de sanglier\r\nitem:055x2\r\n=Champi-marron\r\n<ingredients>"
   speed: 0
   id: 204
   features: []
@@ -5154,7 +5143,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 140 PV et 30 PM.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 140 PV et 30 PM.\r\nInutilisable en combat."
   name: Loup des herbes
   consumable: true
   occasion: 2
@@ -5162,8 +5151,8 @@ root:
   price: 15
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:004x1\r\n=steack
-    de loup\r\nitem:061x2\r\n= Déstressant\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:004x1\r\n=steack de loup\r\nitem:061x2\r\n=
+    Déstressant\r\n<ingredients>"
   speed: 0
   id: 205
   features: []
@@ -5190,7 +5179,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un tas de blé.\r\nPoids : 2"
+  description: "Un tas de blé.\r\n"
   name: Céréales
   consumable: false
   occasion: 3
@@ -5198,7 +5187,7 @@ root:
   price: 4
   scope: 0
   animation_id: 0
-  note: "<inv size: 2>"
+  note: ''
   speed: 0
   id: 206
   features: []
@@ -5215,7 +5204,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 15 PM et 80 PV\r\nPoids : 1; Inutilisable en combat."
+  description: "Redonne 15 PM et 80 PV\r\nInutilisable en combat."
   name: Jus de pomme
   consumable: true
   occasion: 2
@@ -5251,7 +5240,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 85 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 85 PV.\r\nInutilisable en combat."
   name: Sanglier braisé
   consumable: true
   occasion: 2
@@ -5259,8 +5248,7 @@ root:
   price: 10
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:003x1\r\n=steack
-    de sanglier\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:003x1\r\n=steack de sanglier\r\n<ingredients>"
   speed: 0
   id: 208
   features: []
@@ -5282,7 +5270,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 70 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 70 PV.\r\nInutilisable en combat."
   name: Loup braisé
   consumable: true
   occasion: 2
@@ -5290,8 +5278,7 @@ root:
   price: 9
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:004x1\r\n=steack
-    de loup\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:004x1\r\n=steack de loup\r\n<ingredients>"
   speed: 0
   id: 209
   features: []
@@ -5313,7 +5300,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 90 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 90 PV.\r\nInutilisable en combat."
   name: Ours braisé
   consumable: true
   occasion: 2
@@ -5321,8 +5308,7 @@ root:
   price: 10
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:007x1\r\n=steack
-    d'ours\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:007x1\r\n=steack d'ours\r\n<ingredients>"
   speed: 0
   id: 210
   features: []
@@ -5344,7 +5330,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 165 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 165 PV.\r\nInutilisable en combat."
   name: Sanglier braisé (lv2)
   consumable: true
   occasion: 2
@@ -5352,8 +5338,7 @@ root:
   price: 18
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:005x1\r\n= sanglier
-    tendre\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:005x1\r\n= sanglier tendre\r\n<ingredients>"
   speed: 0
   id: 211
   features: []
@@ -5375,7 +5360,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 150 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 150 PV.\r\nInutilisable en combat."
   name: Loup braisé (lv2)
   consumable: true
   occasion: 2
@@ -5383,8 +5368,7 @@ root:
   price: 16
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:006x1\r\n= loup
-    tendre\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:006x1\r\n= loup tendre\r\n<ingredients>"
   speed: 0
   id: 212
   features: []
@@ -5406,7 +5390,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 175 PV.\r\nPoids : 3; Inutilisable en combat."
+  description: "Redonne 175 PV.\r\nInutilisable en combat."
   name: Ours braisé (lv2)
   consumable: true
   occasion: 2
@@ -5414,8 +5398,7 @@ root:
   price: 19
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:010x1\r\n= ours
-    tendre\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:010x1\r\n= ours tendre\r\n<ingredients>"
   speed: 0
   id: 213
   features: []
@@ -5437,7 +5420,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 38 PM. PM max +1\r\nPoids : 3; Utilisable en combat."
+  description: "Redonne 38 PM. PM max +1\r\nUtilisable en combat."
   name: Liqueur gluante
   consumable: true
   occasion: 0
@@ -5445,8 +5428,7 @@ root:
   price: 22
   scope: 7
   animation_id: 0
-  note: "<inv size: 3>\r\n<ingredients>\r\nse: Fire1, 80, 130\r\nitem:008x1\r\n= Liquide
-    amorphe\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:008x1\r\n= Liquide amorphe\r\n<ingredients>"
   speed: 0
   id: 214
   features: []
@@ -5473,7 +5455,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Utiliser pour cuisiner.\r\nPoids : 3"
+  description: "Utiliser pour cuisiner.\r\n"
   name: Set de cuisine (lv1)
   consumable: false
   occasion: 2
@@ -5481,8 +5463,8 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:204\r\n=sanglier
-    & champi\r\nitem:205\r\n=loup des herbes\r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:204\r\n=sanglier & champi\r\nitem:205\r\n=loup
+    des herbes\r\n</recipebook>"
   speed: 0
   id: 215
   features: []
@@ -6429,7 +6411,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Utile pour ne pas se salir les doigts.\r\nPoids : 3"
+  description: Utile pour ne pas se salir les doigts.
   name: Boîte à charbon
   consumable: false
   occasion: 3
@@ -6437,7 +6419,7 @@ root:
   price: 8
   scope: 0
   animation_id: 0
-  note: "<inv size: 3>"
+  note: ''
   speed: 0
   id: 253
   features: []
@@ -6454,7 +6436,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Manche en bois utile en forge.\r\nPoids : 2"
+  description: "Manche en bois utile en forge.\r\n"
   name: Manche pour épée
   consumable: false
   occasion: 3
@@ -6462,7 +6444,7 @@ root:
   price: 12
   scope: 7
   animation_id: 0
-  note: "<inv size: 2>"
+  note: ''
   speed: 0
   id: 254
   features: []
@@ -6479,7 +6461,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Recettes de forge en pierre.\r\nPoids : 0"
+  description: "Recettes de forge en pierre.\r\n"
   name: 'forge: pierre'
   consumable: false
   occasion: 3
@@ -6487,10 +6469,9 @@ root:
   price: 1
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>\r\n<recipebook>\r\ncategory:forge\r\nweapon:006\r\n=Epée en
-    pierre (lv1)\r\nweapon:007\r\n=Epée en pierre (lv2)\r\nweapon:008\r\n=Epée en
-    pierre (lv3)\r\narmor:065\r\n=Bouclier en pierre (lv1)\r\narmor:066\r\n=Bouclier
-    en pierre (lv2)\r\n\r\n\r\n</recipebook>"
+  note: "<recipebook>\r\ncategory:forge\r\nweapon:006\r\n=Epée en pierre (lv1)\r\nweapon:007\r\n=Epée
+    en pierre (lv2)\r\nweapon:008\r\n=Epée en pierre (lv3)\r\narmor:065\r\n=Bouclier
+    en pierre (lv1)\r\narmor:066\r\n=Bouclier en pierre (lv2)\r\n\r\n\r\n</recipebook>"
   speed: 0
   id: 255
   features: []
@@ -6507,7 +6488,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Recettes de forge en fer.\r\nPoids : 0"
+  description: "Recettes de forge en fer.\r\n"
   name: 'forge: fer'
   consumable: false
   occasion: 3
@@ -6515,11 +6496,11 @@ root:
   price: 2
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>\r\n<recipebook>\r\ncategory:forge\r\nweapon:09\r\n= Epée en
-    fer (lv1)   \r\nweapon:010\r\n= Epée en fer (lv2)   \r\narmor:007\r\n=Armure en
-    fer (lv1)\r\narmor:008\r\n=Armure en fer (lv2)\r\narmor:036\r\n=Casque en fer
-    (lv1)\r\narmor:037\r\n=Casque en fer (lv2)\r\narmor:067\r\n=Bouclier en fer (lv1)\r\narmor:068\r\n=Bouclier
-    en fer (lv2)\r\n</recipebook>"
+  note: "\r\n<recipebook>\r\ncategory:forge\r\nweapon:09\r\n= Epée en fer (lv1)   \r\nweapon:010\r\n=
+    Epée en fer (lv2)   \r\narmor:007\r\n=Armure en fer (lv1)\r\narmor:008\r\n=Armure
+    en fer (lv2)\r\narmor:036\r\n=Casque en fer (lv1)\r\narmor:037\r\n=Casque en fer
+    (lv2)\r\narmor:067\r\n=Bouclier en fer (lv1)\r\narmor:068\r\n=Bouclier en fer
+    (lv2)\r\n</recipebook>"
   speed: 0
   id: 256
   features: []
@@ -7686,7 +7667,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Soigne d'empoisonnements faibles.\r\nPoids : 0 ; Utilisable en combat."
+  description: "Soigne d'empoisonnements faibles.\r\nUtilisable en combat."
   name: Antidote(lv1)
   consumable: true
   occasion: 0
@@ -7694,7 +7675,7 @@ root:
   price: 24
   scope: 7
   animation_id: 0
-  note: "<inv size: 0>\r\n<ingredients>\r\nitem:175x1\r\n=Racine\r\nitem:056x1\r\n=champi-veneneux\r\nitem:306x1\r\n=Fiole
+  note: "<ingredients>\r\nitem:175x1\r\n=Racine\r\nitem:056x1\r\n=champi-veneneux\r\nitem:306x1\r\n=Fiole
     vide\r\n<ingredients>"
   speed: 0
   id: 303
@@ -7722,7 +7703,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Génère 15 points de TP. Utilisable en combat.\r\nPoids : 0 ;  "
+  description: Génère 15 points de TP. Utilisable en combat.
   name: Potion de TP(lv1)
   consumable: true
   occasion: 0
@@ -7730,7 +7711,7 @@ root:
   price: 30
   scope: 7
   animation_id: 0
-  note: "<inv size: 0>\r\n<ingredients>\r\nitem:173x2\r\n=Herbe Tonique\r\nitem:060x1\r\n=Carotte\r\nitem:058x1\r\n=Pomme
+  note: "<ingredients>\r\nitem:173x2\r\n=Herbe Tonique\r\nitem:060x1\r\n=Carotte\r\nitem:058x1\r\n=Pomme
     verte\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
     2\r\n</craft result>"
   speed: 0
@@ -7754,7 +7735,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 120 PV. Utilisable en combat.\r\nPoids : 0"
+  description: Redonne 120 PV. Utilisable en combat.
   name: Potion de soin(lv1)
   consumable: true
   occasion: 0
@@ -7762,7 +7743,7 @@ root:
   price: 29
   scope: 7
   animation_id: 0
-  note: "<inv size: 0>\r\n<ingredients>\r\nitem:053x3\r\n=Herbe médicinale\r\nitem:063x1\r\n=ail\r\nitem:062x1\r\n=pomme
+  note: "<ingredients>\r\nitem:053x3\r\n=Herbe médicinale\r\nitem:063x1\r\n=ail\r\nitem:062x1\r\n=pomme
     rouge\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
     2\r\ncommon_event: 8\r\n</craft result>"
   speed: 0
@@ -7786,15 +7767,15 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une fiole vide. Utile pour l'alchimie.\r\nPoids : 0 "
+  description: "Une fiole vide. Utile pour l'alchimie.\r\n"
   name: Fiole vide
-  consumable: true
-  occasion: 0
+  consumable: false
+  occasion: 3
   icon_index: 483
   price: 3
-  scope: 7
+  scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 306
   features: []
@@ -7811,7 +7792,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Recettes pour le set de cuisine.\r\nPoids : 0"
+  description: "Recettes pour le set de cuisine.\r\n"
   name: Recettes potions(lv1)
   consumable: false
   occasion: 3
@@ -7819,7 +7800,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>\r\n<recipebook>\r\ncategory:cuisineSimple\r\nitem:303\r\n=Antidote\r\nitem:304\r\n=Potion
+  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:303\r\n=Antidote\r\nitem:304\r\n=Potion
     de TP(lv1)\r\nitem:305\r\n=Potion de soin(lv1)\r\n</recipebook>"
   speed: 0
   id: 307
@@ -7837,7 +7818,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Soigne d'empoisonnements modérés.\r\nPoids : 0 ; Utilisable en combat."
+  description: "Soigne d'empoisonnements modérés.\r\nUtilisable en combat."
   name: Antidote(lv2)
   consumable: true
   occasion: 0
@@ -7845,7 +7826,7 @@ root:
   price: 50
   scope: 7
   animation_id: 0
-  note: "<inv size: 0>\r\n"
+  note: "\r\n"
   speed: 0
   id: 308
   features: []
@@ -8977,7 +8958,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Inflige 250 points de dégâts.\r\nPoids : 1"
+  description: "Inflige 250 points de dégâts.\r\n"
   name: Explosif (lv1)
   consumable: true
   occasion: 1
@@ -8985,7 +8966,7 @@ root:
   price: 42
   scope: 1
   animation_id: 2
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 353
   features: []
@@ -9007,7 +8988,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une poudre autement explosive.\r\nPoids : 1"
+  description: "Une poudre autement explosive.\r\n"
   name: Poudre
   consumable: false
   occasion: 3
@@ -9015,7 +8996,7 @@ root:
   price: 9
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 354
   features: []
@@ -9032,7 +9013,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une pierre taillée en pique.\r\nPoids : 1 "
+  description: "Une pierre taillée en pique.\r\n"
   name: Pointe en pierre
   consumable: false
   occasion: 3
@@ -9040,7 +9021,7 @@ root:
   price: 3
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 355
   features: []
@@ -10232,7 +10213,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un contrat avec l'emblème de la ville\r\nde Baséloire. Poids : 0"
+  description: "Un contrat avec l'emblème de la ville\r\nde Baséloire."
   name: Contrat de Baséloire
   consumable: false
   occasion: 2
@@ -10240,7 +10221,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 403
   features: []
@@ -10262,7 +10243,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Ne rien oublier !\r\nPoids : 0"
+  description: "Ne rien oublier !\r\n"
   name: Liste de course
   consumable: false
   occasion: 2
@@ -10270,7 +10251,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 404
   features: []
@@ -10292,7 +10273,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Oh! Qu'est ce qu'il y a dans la boîte ?\r\nPoids : 1"
+  description: "Oh! Qu'est ce qu'il y a dans la boîte ?\r\n"
   name: Colis
   consumable: false
   occasion: 3
@@ -10300,7 +10281,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 405
   features: []
@@ -10317,7 +10298,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un étrage fluide.\r\nPoids : 2 ; "
+  description: "Un étrage fluide.\r\n"
   name: Liquide amorphe
   consumable: false
   occasion: 3
@@ -10325,7 +10306,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 1>"
+  note: ''
   speed: 0
   id: 406
   features: []
@@ -10342,7 +10323,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "A chaque clé sa porte...\r\nPoids : 0"
+  description: "A chaque clé sa porte...\r\n"
   name: Fragment de clé
   consumable: false
   occasion: 3
@@ -10350,7 +10331,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 407
   features: []
@@ -10367,7 +10348,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "A chaque serrure sa clé.\r\nPoids : 8"
+  description: "A chaque serrure sa clé.\r\n"
   name: Coffre scellé
   consumable: true
   occasion: 2
@@ -10375,7 +10356,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 8>"
+  note: ''
   speed: 0
   id: 408
   features: []
@@ -10397,7 +10378,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nPoids : 0"
+  description: ''
   name: Clé
   consumable: true
   occasion: 3
@@ -10405,7 +10386,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 409
   features: []
@@ -10422,7 +10403,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nPoids : 2"
+  description: ''
   name: Banière
   consumable: false
   occasion: 3
@@ -10430,7 +10411,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 2>"
+  note: ''
   speed: 0
   id: 410
   features: []
@@ -10447,7 +10428,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Une peau très résistante.\r\nPoids : 2 ; "
+  description: "Une peau très résistante.\r\n"
   name: Peau de rat
   consumable: false
   occasion: 3
@@ -10455,7 +10436,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 2>"
+  note: ''
   speed: 0
   id: 411
   features: []
@@ -10472,7 +10453,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Un contrat avec l'emblème de la ville\r\nde Sanj. Poids : 0"
+  description: "Un contrat avec l'emblème de la ville\r\nde Sanj. "
   name: Contrat de Sanj
   consumable: false
   occasion: 2
@@ -10480,7 +10461,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 412
   features: []
@@ -10502,7 +10483,7 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Preuve de vos faits accomplits.\r\nPoids : 0 ;"
+  description: "Preuve de vos faits accomplits.\r\n"
   name: Insigne de soldat
   consumable: false
   occasion: 2
@@ -10510,7 +10491,7 @@ root:
   price: 0
   scope: 0
   animation_id: 0
-  note: "<inv size: 0>"
+  note: ''
   speed: 0
   id: 413
   features: []

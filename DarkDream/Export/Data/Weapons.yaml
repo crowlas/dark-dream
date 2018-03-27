@@ -58,12 +58,12 @@ root:
   etype_id: 0
   wtype_id: 0
 - !ruby/object:RPG::Weapon
-  description: "Une épée en bois destinée à l'entraînement.\r\nPoids : 10                                                  "
+  description: "Une épée en bois destinée à l'entraînement.\r\n                                            "
   name: Epée en bois (lv1)
   icon_index: 378
   price: 16
   animation_id: 7
-  note: "<inv size: 10>\r\n"
+  note: ''
   id: 3
   features: []
   params:
@@ -78,12 +78,12 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Une épée en bois destinée à l'entraînement.\r\nPoids : 10                                                  "
+  description: "Une épée en bois destinée à l'entraînement.\r\n"
   name: Epée en bois (lv2)
   icon_index: 378
   price: 30
   animation_id: 7
-  note: "<inv size: 10>\r\n\r\n"
+  note: ''
   id: 4
   features: []
   params:
@@ -98,12 +98,12 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Une épée en bois destinée à l'entraînement.\r\nPoids : 9                                                  "
+  description: "Une épée en bois destinée à l'entraînement.\r\n"
   name: Epée en bois (lv3)
   icon_index: 378
   price: 48
   animation_id: 7
-  note: "<inv size: 19>\r\n"
+  note: ''
   id: 5
   features: []
   params:
@@ -118,14 +118,12 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Une épée lourde idéal pour le renforcement physique.\r\nPoids : 17
-    \                                                 "
+  description: "Une épée lourde idéal pour le renforcement physique.\r\n                                             "
   name: Epée en pierre (lv1)
   icon_index: 380
   price: 84
   animation_id: 7
-  note: "<inv size: 17>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:083x11\r\n=
-    Pierre\r\ngold:9\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Hammer, 80, 85\r\nitem:083x11\r\n= Pierre\r\ngold:9\r\n<ingredients>"
   id: 6
   features: []
   params:
@@ -140,14 +138,13 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Une épée lourde idéal pour le renforcement physique.\r\nPoids : 17
-    \                                                 "
+  description: "Une épée lourde idéal pour le renforcement physique.\r\n                                           "
   name: Epée en pierre (lv2)
   icon_index: 380
   price: 103
   animation_id: 7
-  note: "<inv size: 17>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:006x1\r\n=
-    Epée en pierre (lv1)\r\nitem:083x4\r\n= Pierre\r\ngold:10\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:006x1\r\n= Epée en pierre (lv1)\r\nitem:083x4\r\n=
+    Pierre\r\ngold:10\r\n<ingredients>"
   id: 7
   features: []
   params:
@@ -162,14 +159,13 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Une épée lourde idéal pour le renforcement physique.\r\nPoids : 16
-    \                                                 "
+  description: 'Une épée lourde idéal pour le renforcement physique.                                            '
   name: Epée en pierre (lv3)
   icon_index: 380
   price: 139
   animation_id: 7
-  note: "<inv size: 16>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:007x1\r\n=
-    Epée en pierre (lv2)\r\nitem:083x5\r\n= Pierre\r\ngold:11\r\n<ingredients>\r\n"
+  note: "<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:007x1\r\n= Epée en pierre (lv2)\r\nitem:083x5\r\n=
+    Pierre\r\ngold:11\r\n<ingredients>\r\n"
   id: 8
   features: []
   params:
@@ -184,13 +180,12 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Un classique.\r\nPoids : 13                                                  "
+  description: "Un classique.\r\n                                               "
   name: Epée en fer (lv1)
   icon_index: 387
   price: 176
   animation_id: 7
-  note: "<inv size: 13>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nitem:084x5\r\n=
-    Minerai de fer\r\ngold:13\r\n<ingredients>"
+  note: "<ingredients>\r\nse: Hammer, 80, 85\r\nitem:084x5\r\n= Minerai de fer\r\ngold:13\r\n<ingredients>"
   id: 9
   features: []
   params:
@@ -205,13 +200,13 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Un classique.\r\nPoids : 13                                                  "
+  description: "Un classique.\r\n                                            "
   name: Epée en fer (lv2)
   icon_index: 387
   price: 214
   animation_id: 7
-  note: "<inv size: 13>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:009x1\r\n=
-    Epée en fer (lv1)\r\nitem:084x2\r\n= Minerai de fer\r\ngold:15\r\n<ingredients>\r\n\r\n"
+  note: "<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:009x1\r\n= Epée en fer (lv1)\r\nitem:084x2\r\n=
+    Minerai de fer\r\ngold:15\r\n<ingredients>\r\n\r\n"
   id: 10
   features: []
   params:
@@ -226,13 +221,13 @@ root:
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Un classique.\r\nPoids : 12                                                  "
+  description: "Un classique.\r\n"
   name: Epée en fer (lv3)
   icon_index: 387
   price: 281
   animation_id: 7
-  note: "<inv size: 12>\r\n<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:010x1\r\n=
-    Epée en fer (lv2)\r\nitem:084x4\r\n= Minerai de fer\r\ngold:17\r\n<ingredients>\r\n"
+  note: "<ingredients>\r\nse: Hammer, 80, 85\r\nweapon:010x1\r\n= Epée en fer (lv2)\r\nitem:084x4\r\n=
+    Minerai de fer\r\ngold:17\r\n<ingredients>\r\n"
   id: 11
   features: []
   params:

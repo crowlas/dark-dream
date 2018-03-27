@@ -122,7 +122,6 @@
 60268457    Yanfly Menu Engine                           Yanfly_Menu_Engine.rb
 26736045    Yanfly Skill Cost Manager                    Yanfly_Skill_Cost_Manager.rb
 75057422    Yanfly Shop Options                          Yanfly_Shop_Options.rb
-10091646    TheoAllen - Limited Inventory                TheoAllen_Limited_Inventory.rb
 2337432     Galv's Item/Bank Storage                     Galv's_Item_Bank_Storage.rb
 32073934    Info Pages Window                            Info_Pages_Window.rb
 83874013    Tactics Ogre PSP Crafting System             Tactics_Ogre_PSP_Crafting_System.rb

@@ -83,8 +83,7 @@ root:
     code: 61
     data_id: 0
     value: 0.05
-  note: "<death event: 11>\r\n<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n</inv
-    formula>\r\n<win quotes>\r\nIls se sont bien battus.\r\n[New Quote]\r\nPuissiez-vous
+  note: "<death event: 11>\r\n<win quotes>\r\nIls se sont bien battus.\r\n[New Quote]\r\nPuissiez-vous
     trouver la paix.\r\n</win quotes>\r\n<level quotes>\r\nJe me sens...plutôt bien.\r\n[New
     Quote]\r\nA chaque combat, son enseignement.\r\n</level quotes>\r\n<drops quotes>\r\n...\r\n[New
     Quote]\r\nAucune mort ne doit être vaine.\r\n[New Quote]\r\nJ'honorerais votre
@@ -145,9 +144,8 @@ root:
     code: 23
     data_id: 9
     value: 1.05
-  note: "<death event: 11>\r\n<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n </inv
-    formula>\r\n<win quotes>\r\nMerci pour le combat !\r\n[New Quote]\r\nBon combat
-    !\r\n[New Quote]\r\nJe deviendrais encore plus fort!\r\n</win quotes>\r\n<level
+  note: "<death event: 11>\r\n<win quotes>\r\nMerci pour le combat !\r\n[New Quote]\r\nBon
+    combat !\r\n[New Quote]\r\nJe deviendrais encore plus fort!\r\n</win quotes>\r\n<level
     quotes>\r\nJe ne fais que commencer !\r\n[New Quote]\r\nRegarde moi, grand frère
     !\r\n</level quotes>\r\n<drops quotes>\r\nGrand frère, ça se mange ça ?\r\n[New
     Quote]\r\nJ'honorerais votre mort.\r\n</drops quotes>"
@@ -248,8 +246,7 @@ root:
     code: 21
     data_id: 6
     value: 1.2
-  note: "<death event: 11>\r\n<inv formula>\r\n  level * 2\r\n  </inv formula>\r\n<inv
-    plus: 50>"
+  note: "<death event: 11>\r\n"
   equips:
   - 5
   - 4
@@ -294,8 +291,7 @@ root:
     code: 21
     data_id: 6
     value: 1.18
-  note: "<death event: 11>\r\n<inv formula>\r\n  level * 2\r\n  </inv formula>\r\n<inv
-    plus: 60>"
+  note: "<death event: 11>"
   equips:
   - 11
   - 0
@@ -791,11 +787,10 @@ root:
     code: 53
     data_id: 4
     value: 0.0
-  note: "<inv plus: 50>\r\n<inv formula>\r\n  level * 2\r\n</inv formula>\r\n<win
-    quotes>\r\nTout le monde va bien ?\r\n[New Quote]\r\nC'était...fun. Je crois.\r\n</win
-    quotes>\r\n<level quotes>\r\nMon style gagne en stabilité.\r\n[New Quote]\r\nJe
-    peux encore progresser.\r\n</level quotes>\r\n<drops quotes>\r\nY-a des trucs
-    à récupérer ?\r\n[New Quote]\r\nJ'en ferais bonne usage.\r\n[New Quote]\r\nParfois,
+  note: "<win quotes>\r\nTout le monde va bien ?\r\n[New Quote]\r\nC'était...fun.
+    Je crois.\r\n</win quotes>\r\n<level quotes>\r\nMon style gagne en stabilité.\r\n[New
+    Quote]\r\nJe peux encore progresser.\r\n</level quotes>\r\n<drops quotes>\r\nY-a
+    des trucs à récupérer ?\r\n[New Quote]\r\nJ'en ferais bonne usage.\r\n[New Quote]\r\nParfois,
     il faut se salir les mains...\r\n</drops quotes>"
   equips:
   - 4
@@ -1004,12 +999,11 @@ root:
     code: 53
     data_id: 4
     value: 0.0
-  note: "<inv plus: 60>\r\n<inv formula>\r\n  level * 2\r\n</inv formula>\r\n<win
-    quotes>\r\nBOUILLA !\r\n[New Quote]\r\nFWAHH ! J'ai eu chaud !\r\n</win quotes>\r\n<level
-    quotes>\r\nIl faut que je teste des nouveaux trucs.\r\n[New Quote]\r\nJe suis
-    chaud bouillant !\r\n</level quotes>\r\n<drops quotes>\r\nIls nous ont laissé
-    des cadeaux ?\r\n[New Quote]\r\nMerci les gars !\r\n[New Quote]\r\nMince! Ce bout
-    de viande est en charpie !\r\n</drops quotes>"
+  note: "<win quotes>\r\nBOUILLA !\r\n[New Quote]\r\nFWAHH ! J'ai eu chaud !\r\n</win
+    quotes>\r\n<level quotes>\r\nIl faut que je teste des nouveaux trucs.\r\n[New
+    Quote]\r\nJe suis chaud bouillant !\r\n</level quotes>\r\n<drops quotes>\r\nIls
+    nous ont laissé des cadeaux ?\r\n[New Quote]\r\nMerci les gars !\r\n[New Quote]\r\nMince!
+    Ce bout de viande est en charpie !\r\n</drops quotes>"
   equips:
   - 3
   - 63
