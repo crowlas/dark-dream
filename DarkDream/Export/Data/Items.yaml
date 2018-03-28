@@ -7711,8 +7711,8 @@ root:
   price: 30
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nitem:173x2\r\n=Herbe Tonique\r\nitem:060x1\r\n=Carotte\r\nitem:058x1\r\n=Pomme
-    verte\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
+  note: "<ingredients>\r\nitem:173x3\r\n=Herbe Tonique\r\nitem:060x1\r\n=Carotte\r\nitem:058x1\r\n=Pomme
+    verte\r\nitem:306x2\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
     2\r\n</craft result>"
   speed: 0
   id: 304
@@ -7740,11 +7740,11 @@ root:
   consumable: true
   occasion: 0
   icon_index: 492
-  price: 29
+  price: 40
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nitem:053x3\r\n=Herbe médicinale\r\nitem:063x1\r\n=ail\r\nitem:062x1\r\n=pomme
-    rouge\r\nitem:306x1\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
+  note: "<ingredients>\r\nitem:053x5\r\n=Herbe médicinale\r\nitem:063x1\r\n=ail\r\nitem:062x1\r\n=pomme
+    rouge\r\nitem:306x2\r\n=Fiole vide\r\n<ingredients>\r\n<craft result>\n\r\namount:
     2\r\ncommon_event: 8\r\n</craft result>"
   speed: 0
   id: 305

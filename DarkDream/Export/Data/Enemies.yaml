@@ -5,7 +5,7 @@ root:
   name: Sanglier(lv1)
   gold: 0
   battler_hue: 0
-  exp: 2
+  exp: 4
   battler_name: boar(5)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -59,7 +59,7 @@ root:
   name: Sanglier(lv2)
   gold: 0
   battler_hue: 0
-  exp: 3
+  exp: 6
   battler_name: boar(4)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -107,7 +107,7 @@ root:
   name: Sanglier(lv3)
   gold: 0
   battler_hue: 0
-  exp: 4
+  exp: 8
   battler_name: boar(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -155,7 +155,7 @@ root:
   name: Loup(lv1)
   gold: 0
   battler_hue: 0
-  exp: 3
+  exp: 6
   battler_name: wolf(5)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -209,7 +209,7 @@ root:
   name: Loup(lv2)
   gold: 0
   battler_hue: 0
-  exp: 4
+  exp: 8
   battler_name: wolf(4)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -257,7 +257,7 @@ root:
   name: Loup(lv3)
   gold: 0
   battler_hue: 0
-  exp: 5
+  exp: 10
   battler_name: wolf(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -305,7 +305,7 @@ root:
   name: Sanglier(lv4)
   gold: 0
   battler_hue: 0
-  exp: 7
+  exp: 14
   battler_name: boar(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -353,7 +353,7 @@ root:
   name: Loup(lv4)
   gold: 0
   battler_hue: 0
-  exp: 7
+  exp: 14
   battler_name: wolf(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -401,7 +401,7 @@ root:
   name: Sanglier(lv5)
   gold: 0
   battler_hue: 0
-  exp: 8
+  exp: 16
   battler_name: boar(2)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -449,7 +449,7 @@ root:
   name: Loup(lv5)
   gold: 0
   battler_hue: 0
-  exp: 8
+  exp: 16
   battler_name: wolf(2)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -497,7 +497,7 @@ root:
   name: Ours(lv1)
   gold: 0
   battler_hue: 0
-  exp: 4
+  exp: 10
   battler_name: bear(5)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -551,7 +551,7 @@ root:
   name: Ours(lv2)
   gold: 0
   battler_hue: 0
-  exp: 9
+  exp: 18
   battler_name: bear(4)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -605,7 +605,7 @@ root:
   name: Ours(lv3)
   gold: 0
   battler_hue: 0
-  exp: 10
+  exp: 20
   battler_name: bear(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -659,7 +659,7 @@ root:
   name: Ours(lv4)
   gold: 0
   battler_hue: 0
-  exp: 11
+  exp: 22
   battler_name: bear(2)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -765,7 +765,7 @@ root:
   name: Slime(lv1)
   gold: 0
   battler_hue: 0
-  exp: 2
+  exp: 5
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -821,7 +821,7 @@ root:
   name: Slime(lv2)
   gold: 0
   battler_hue: 0
-  exp: 3
+  exp: 9
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -929,7 +929,7 @@ root:
   name: Slime marron(lv1)
   gold: 0
   battler_hue: 220
-  exp: 6
+  exp: 11
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -989,7 +989,7 @@ root:
   name: Slime marron(lv2)
   gold: 0
   battler_hue: 220
-  exp: 7
+  exp: 13
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1049,7 +1049,7 @@ root:
   name: Slime marron(lv3)
   gold: 0
   battler_hue: 220
-  exp: 8
+  exp: 15
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1109,7 +1109,7 @@ root:
   name: Slime marron(lv4)
   gold: 0
   battler_hue: 220
-  exp: 9
+  exp: 17
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1169,7 +1169,7 @@ root:
   name: Rat(lv1)
   gold: 0
   battler_hue: 40
-  exp: 12
+  exp: 21
   battler_name: Rat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1223,7 +1223,7 @@ root:
   name: Rat(lv2)
   gold: 0
   battler_hue: 40
-  exp: 13
+  exp: 23
   battler_name: Rat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1277,7 +1277,7 @@ root:
   name: Rat(lv3)
   gold: 0
   battler_hue: 40
-  exp: 14
+  exp: 25
   battler_name: Rat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1331,7 +1331,7 @@ root:
   name: Rat(lv4)
   gold: 0
   battler_hue: 40
-  exp: 15
+  exp: 27
   battler_name: Rat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1385,7 +1385,7 @@ root:
   name: Slime vert(lv1)
   gold: 0
   battler_hue: 270
-  exp: 6
+  exp: 11
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1449,7 +1449,7 @@ root:
   name: Slime vert(lv2)
   gold: 0
   battler_hue: 270
-  exp: 7
+  exp: 13
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1513,7 +1513,7 @@ root:
   name: Slime vert(lv3)
   gold: 0
   battler_hue: 270
-  exp: 8
+  exp: 15
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1577,7 +1577,7 @@ root:
   name: Slime vert(lv4)
   gold: 0
   battler_hue: 270
-  exp: 9
+  exp: 17
   battler_name: Slime
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1641,7 +1641,7 @@ root:
   name: C-Souris(lv1)
   gold: 0
   battler_hue: 170
-  exp: 12
+  exp: 21
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1713,7 +1713,7 @@ root:
   name: C-Souris(lv2)
   gold: 0
   battler_hue: 170
-  exp: 13
+  exp: 23
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1785,7 +1785,7 @@ root:
   name: C-Souris(lv3)
   gold: 0
   battler_hue: 170
-  exp: 14
+  exp: 25
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -1857,7 +1857,7 @@ root:
   name: C-Souris(lv4)
   gold: 0
   battler_hue: 170
-  exp: 15
+  exp: 27
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action

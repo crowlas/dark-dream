@@ -159,7 +159,7 @@ root: !ruby/object:RPG::System
   - Grade
   - Rang
   - aléa
-  - ''
+  - Ville visitée
   - ''
   - ''
   - tmp2*
