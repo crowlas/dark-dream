@@ -9017,7 +9017,7 @@ root:
     - 64
     - 0
     - 0
-    - 2
+    - 3
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0

@@ -84,6 +84,13 @@ root: !ruby/object:RPG::Map
           - false
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 121
+          parameters:
+          - 24
+          - 24
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 216
           parameters:
           - 0
@@ -3183,6 +3190,28 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 121
+          parameters:
+          - 24
+          - 24
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 201
+          parameters:
+          - 0
+          - 17
+          - 3
+          - 7
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 111
           parameters:
           - 0
@@ -3205,23 +3234,16 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 412
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 201
-          parameters:
-          - 0
-          - 17
-          - 3
-          - 7
-          - 2
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 117
-          parameters:
-          - 2
+          code: 412
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -13626,8 +13648,8 @@ root: !ruby/object:RPG::Map
     - 5984
     - 6008
     - 3627
-    - 3593
-    - 3584
+    - 3613
+    - 3592
     - 3586
     - 3620
     - 3242
@@ -13757,9 +13779,9 @@ root: !ruby/object:RPG::Map
     - 5984
     - 5984
     - 5986
-    - 6020
-    - 3624
-    - 3592
+    - 6005
+    - 6029
+    - 3600
     - 3584
     - 3608
     - 3244
@@ -34205,7 +34227,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 238
+    - 0
     - 231
     - 231
     - 0
@@ -44383,7 +44405,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 0
+    - 5
     - 0
     - 0
     - 0

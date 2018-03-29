@@ -182,7 +182,7 @@ root:
     data_id: 8
     value: 1.1
   params:
-  - 90
+  - 100
   - 17
   - 19
   - 17
@@ -230,7 +230,7 @@ root:
     data_id: 8
     value: 1.1
   params:
-  - 160
+  - 200
   - 20
   - 24
   - 20
@@ -278,7 +278,7 @@ root:
     data_id: 8
     value: 1.1
   params:
-  - 220
+  - 250
   - 21
   - 25
   - 21
@@ -374,7 +374,7 @@ root:
     data_id: 8
     value: 1.1
   params:
-  - 290
+  - 320
   - 22
   - 25
   - 22
@@ -470,7 +470,7 @@ root:
     data_id: 8
     value: 1.1
   params:
-  - 350
+  - 400
   - 24
   - 28
   - 24
@@ -686,7 +686,7 @@ root:
     data_id: 6
     value: 1.1
   params:
-  - 625
+  - 650
   - 26
   - 27
   - 28
