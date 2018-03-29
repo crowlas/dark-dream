@@ -153,7 +153,7 @@ root: !ruby/object:RPG::Map
           - 1
           - 0
           - 0
-          - 2000
+          - 4000
           - false
         - !ruby/object:RPG::EventCommand
           indent: 0
