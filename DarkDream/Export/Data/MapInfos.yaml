@@ -10,7 +10,7 @@ root:
   1: !ruby/object:RPG::MapInfo
     scroll_x: 2576
     name: Forêt de Sanj (0,-1)
-    expanded: true
+    expanded: false
     order: 12
     scroll_y: 1236
     parent_id: 7
@@ -241,9 +241,9 @@ root:
   29: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: Baséloire
-    expanded: true
+    expanded: false
     order: 35
-    scroll_y: 736
+    scroll_y: 842
     parent_id: 6
   30: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -255,14 +255,14 @@ root:
   31: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(OUEST)
-    expanded: true
+    expanded: false
     order: 55
     scroll_y: 736
     parent_id: 6
   32: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(NORD)
-    expanded: true
+    expanded: false
     order: 41
     scroll_y: 1056
     parent_id: 6
@@ -304,7 +304,7 @@ root:
   45: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Auberge
-    expanded: true
+    expanded: false
     order: 36
     scroll_y: 208
     parent_id: 29
@@ -374,7 +374,7 @@ root:
   54: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(NORD)
-    expanded: false
+    expanded: true
     order: 69
     scroll_y: 608
     parent_id: 55
@@ -388,7 +388,7 @@ root:
   56: !ruby/object:RPG::MapInfo
     scroll_x: 1056
     name: Chazay
-    expanded: true
+    expanded: false
     order: 60
     scroll_y: 608
     parent_id: 6

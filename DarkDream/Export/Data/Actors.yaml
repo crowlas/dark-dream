@@ -411,7 +411,7 @@ root:
   name: Blue
   face_index: 4
   character_index: 4
-  initial_level: 7
+  initial_level: 8
   face_name: Tristion
   class_id: 1
   character_name: Tristion
@@ -479,7 +479,7 @@ root:
   name: Grégoire
   face_index: 2
   character_index: 2
-  initial_level: 6
+  initial_level: 7
   face_name: Actor2
   class_id: 1
   character_name: Actor2
@@ -511,8 +511,7 @@ root:
     value: 0.0
   note: "<death event: 11>\r\n<win quotes>\r\nEnfin terminé !\r\n[New Quote]\r\nIls
     étaient coriace.\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nLaissez-moi
-    vous aider.\r\n[New Quote]\r\nTuer et récolter pour survivre\\n un jour \r\nde
-    plus.\r\n</drops quotes>"
+    vous aider.\r\n[New Quote]\r\nSurvivre un jour de plus...\r\n</drops quotes>"
   equips:
   - 9
   - 63

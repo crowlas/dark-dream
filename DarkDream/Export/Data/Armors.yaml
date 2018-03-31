@@ -51,7 +51,7 @@ root:
   description: "Des habits tout à fait normaux. \r\n                             "
   name: Vêtement en tissu (lv1)
   icon_index: 632
-  price: 11
+  price: 12
   note: ''
   id: 3
   features:
@@ -74,7 +74,7 @@ root:
   description: "Des habits tout à fait normaux. \r\n                            "
   name: Vêtement en tissu (lv2)
   icon_index: 632
-  price: 22
+  price: 25
   note: ''
   id: 4
   features:
@@ -97,7 +97,7 @@ root:
   description: "En cuir simple.\r\n"
   name: Armure en cuir (lv1)
   icon_index: 647
-  price: 48
+  price: 52
   note: ''
   id: 5
   features:
@@ -120,7 +120,7 @@ root:
   description: "En cuir simple.\r\n"
   name: Armure en cuir (lv2)
   icon_index: 647
-  price: 92
+  price: 95
   note: ''
   id: 6
   features:
@@ -743,7 +743,7 @@ root:
   description: "Jolie !\r\n"
   name: Bonnet (lv1)
   icon_index: 627
-  price: 9
+  price: 10
   note: ''
   id: 33
   features:
@@ -766,7 +766,7 @@ root:
   description: "Un casque fait de cuir.\r\n"
   name: Casque en cuir (lv1)
   icon_index: 627
-  price: 17
+  price: 20
   note: ''
   id: 34
   features:
@@ -789,7 +789,7 @@ root:
   description: "Un casque fait de cuir.\r\n"
   name: Casque en cuir (lv2)
   icon_index: 627
-  price: 35
+  price: 38
   note: ''
   id: 35
   features:
@@ -2208,7 +2208,7 @@ root:
   description: ''
   name: Sacoche
   icon_index: 711
-  price: 18
+  price: 23
   note: ''
   id: 97
   features: []
@@ -2227,7 +2227,7 @@ root:
   description: ''
   name: Petit Sac
   icon_index: 711
-  price: 32
+  price: 36
   note: ''
   id: 98
   features: []

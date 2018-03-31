@@ -7797,7 +7797,7 @@ root:
   consumable: false
   occasion: 3
   icon_index: 479
-  price: 0
+  price: 38
   scope: 0
   animation_id: 0
   note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:303\r\n=Antidote\r\nitem:304\r\n=Potion

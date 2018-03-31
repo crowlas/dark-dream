@@ -73,7 +73,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 4
           - 1
-          - 19
+          - 21
           - false
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -82,7 +82,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 5
           - 1
-          - 41
+          - 47
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 605
@@ -90,7 +90,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 6
           - 1
-          - 77
+          - 85
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 605
@@ -98,7 +98,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 33
           - 1
-          - 6
+          - 8
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 605
@@ -106,7 +106,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 35
           - 1
-          - 28
+          - 32
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 605
@@ -114,7 +114,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 97
           - 1
-          - 16
+          - 20
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 605
@@ -122,7 +122,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 98
           - 1
-          - 29
+          - 30
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0

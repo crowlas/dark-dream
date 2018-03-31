@@ -3380,14 +3380,9 @@ root:
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 175
+    x: 272
     enemy_id: 12
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 369
-    enemy_id: 12
-  name: Ours(lv2)*2
+  name: Ours(lv2)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

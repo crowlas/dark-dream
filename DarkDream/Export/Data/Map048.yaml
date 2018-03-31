@@ -73,6 +73,11 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 0
           parameters: []
     2: !ruby/object:RPG::Event
@@ -143,6 +148,11 @@ root: !ruby/object:RPG::Map
           - 29
           - 6
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -299,6 +309,11 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 0
           parameters: []
     7: !ruby/object:RPG::Event
@@ -391,6 +406,11 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 0
           parameters: []
     8: !ruby/object:RPG::Event
@@ -446,11 +466,6 @@ root: !ruby/object:RPG::Map
             name: Item1
             pitch: 100
             volume: 80
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 355
-          parameters:
-          - "$game_actors[1].base_inv += 5"
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 122
@@ -11501,7 +11516,7 @@ root: !ruby/object:RPG::Map
   parallax_loop_y: false
   autoplay_bgm: false
   encounter_list: []
-  autoplay_bgs: false
+  autoplay_bgs: true
   parallax_show: false
   scroll_type: 0
   parallax_loop_x: false

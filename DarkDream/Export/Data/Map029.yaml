@@ -688,11 +688,6 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 117
-          parameters:
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 201
           parameters:
           - 0
@@ -701,6 +696,11 @@ root: !ruby/object:RPG::Map
           - 12
           - 0
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -2069,14 +2069,9 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
-          - 2
-          - 2
+          - 24
+          - 24
           - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 117
-          parameters:
-          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 201
@@ -2087,6 +2082,11 @@ root: !ruby/object:RPG::Map
           - 12
           - 0
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 117
+          parameters:
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -4921,8 +4921,8 @@ root: !ruby/object:RPG::Map
     - 3968
     - 3968
     - 3968
-    - 3968
-    - 3968
+    - 3996
+    - 3976
     - 3968
     - 3968
     - 3992
@@ -4982,7 +4982,7 @@ root: !ruby/object:RPG::Map
     - 3968
     - 3968
     - 3968
-    - 3968
+    - 3984
     - 3968
     - 3968
     - 3992
@@ -5101,8 +5101,8 @@ root: !ruby/object:RPG::Map
     - 7604
     - 4008
     - 3996
-    - 3996
-    - 3976
+    - 4001
+    - 3977
     - 3968
     - 3968
     - 3992
