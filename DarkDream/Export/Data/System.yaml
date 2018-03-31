@@ -261,7 +261,7 @@ root: !ruby/object:RPG::System
   switches:
   - 
   - Feu allumé
-  - ''
+  - Blue distust
   - Respawn A
   - Respawn B
   - Emmener Lockfried
@@ -454,11 +454,11 @@ root: !ruby/object:RPG::System
   opt_use_midi: false
   opt_transparent: false
   opt_followers: true
-  opt_slip_death: false
+  opt_slip_death: true
   opt_extra_exp: true
   opt_display_tp: true
   battleback1_name: Grassland
   battleback2_name: Grassland
   title1_name: Gates
   title2_name: Mist
-  opt_floor_death: false
+  opt_floor_death: true

@@ -1858,6 +1858,44 @@ root: !ruby/object:RPG::Map
         list:
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 205
+          parameters:
+          - 2
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &1 !ruby/object:RPG::MoveCommand
+              code: 30
+              parameters:
+              - 5
+            - &2 !ruby/object:RPG::MoveCommand
+              code: 11
+              parameters: []
+            - &3 !ruby/object:RPG::MoveCommand
+              code: 25
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *3
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - Light1
@@ -1905,6 +1943,27 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Attends.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: true
+            list:
+            - &4 !ruby/object:RPG::MoveCommand
+              code: 13
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *4
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -1962,53 +2021,91 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 102
           parameters:
-          - - S'approcher.
-            - Attendre.
+          - - L'attraper.
+            - Renoncer.
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 402
           parameters:
           - 0
-          - S'approcher.
+          - L'attraper.
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 402
+          code: 205
           parameters:
-          - 1
-          - Attendre.
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &5 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 60
+            - &6 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 1
+            - &7 !ruby/object:RPG::MoveCommand
+              code: 12
+              parameters: []
+            - &8 !ruby/object:RPG::MoveCommand
+              code: 12
+              parameters: []
+            - &9 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 4
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 0
-          parameters: []
+          code: 505
+          parameters:
+          - *5
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 404
-          parameters: []
+          indent: 1
+          code: 505
+          parameters:
+          - *6
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
+          code: 505
+          parameters:
+          - *7
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 505
+          parameters:
+          - *8
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 505
+          parameters:
+          - *9
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 101
           parameters:
-          - ''
+          - Light1
           - 0
           - 1
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - "*se gonfle*"
+          - Tout doucement...
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
+          indent: 1
+          code: 230
           parameters:
-          - Croa !
+          - 60
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - Light1
@@ -2016,78 +2113,95 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - "..."
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 102
-          parameters:
-          - - S'approcher.
-            - Feinter
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 402
-          parameters:
-          - 0
-          - S'approcher.
+          - N'est pas peur...
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 402
+          code: 230
           parameters:
-          - 1
-          - Feinter
+          - 100
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 404
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
+          code: 205
           parameters:
-          - ''
-          - 0
-          - 1
           - 2
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &10 !ruby/object:RPG::MoveCommand
+              code: 11
+              parameters: []
+            - &11 !ruby/object:RPG::MoveCommand
+              code: 25
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
+          indent: 1
+          code: 505
           parameters:
-          - "*crache*"
+          - *10
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
+          indent: 1
+          code: 505
           parameters:
-          - Croa !
+          - *11
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
+          indent: 1
+          code: 250
           parameters:
-          - Light1
-          - 0
-          - 0
-          - 2
+          - !ruby/object:RPG::SE
+            name: Absorb1
+            pitch: 100
+            volume: 80
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Merde !
-        - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 111
           parameters:
           - 8
           - 308
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Dungeon9
+            volume: 100
+            pitch: 50
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - La reinette crache !
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -2111,6 +2225,36 @@ root: !ruby/object:RPG::Map
           - 38
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &12 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 4
+            - &13 !ruby/object:RPG::MoveCommand
+              code: 12
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 505
+          parameters:
+          - *12
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 505
+          parameters:
+          - *13
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 101
           parameters:
           - Light1
@@ -2121,38 +2265,17 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - Viens par là toi !
+          - Viens par là !
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 411
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 101
+          code: 250
           parameters:
-          - ''
-          - 0
-          - 1
-          - 1
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 80
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 401
-          parameters:
-          - Light évite le crachat à l'aide de ses vêtements !
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 412
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 126
           parameters:
           - 176
@@ -2160,7 +2283,7 @@ root: !ruby/object:RPG::Map
           - 0
           - 1
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - ''
@@ -2168,16 +2291,34 @@ root: !ruby/object:RPG::Map
           - 1
           - 1
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
           - Reinette attrapée !
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 123
           parameters:
           - A
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 402
+          parameters:
+          - 1
+          - Renoncer.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 404
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
