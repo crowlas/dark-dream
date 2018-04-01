@@ -2178,7 +2178,7 @@ root: !ruby/object:RPG::Map
           code: 111
           parameters:
           - 1
-          - 9
+          - 10
           - 0
           - 2
           - 1

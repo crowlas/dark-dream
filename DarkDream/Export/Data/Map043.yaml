@@ -4495,7 +4495,7 @@ root: !ruby/object:RPG::Map
           indent: 2
           code: 401
           parameters:
-          - Milla est juste une amie.\!
+          - Milia est juste une amie.\!
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 401
@@ -4558,7 +4558,7 @@ root: !ruby/object:RPG::Map
           indent: 2
           code: 401
           parameters:
-          - Avec Milla, on se voit moins depuis
+          - Avec Milia, on se voit moins depuis
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 401
@@ -4634,7 +4634,7 @@ root: !ruby/object:RPG::Map
           indent: 5
           code: 401
           parameters:
-          - Hein ?\! Moi et Milla ?
+          - Hein ?\! Moi et Milia ?
         - !ruby/object:RPG::EventCommand
           indent: 5
           code: 401

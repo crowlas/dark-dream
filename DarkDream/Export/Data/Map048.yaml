@@ -474,7 +474,7 @@ root: !ruby/object:RPG::Map
           - 10
           - 0
           - 0
-          - 1
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101

@@ -299,7 +299,7 @@ root:
       - 42
       - 1
       - 0
-      - 2
+      - 3
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -348,7 +348,7 @@ root:
       - 42
       - 1
       - 0
-      - 2
+      - 3
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -397,7 +397,7 @@ root:
       - 42
       - 1
       - 0
-      - 2
+      - 4
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -446,7 +446,7 @@ root:
       - 42
       - 1
       - 0
-      - 3
+      - 4
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -579,11 +579,11 @@ root:
       indent: 0
       code: 122
       parameters:
-      - 44
-      - 44
+      - 42
+      - 42
       - 1
       - 0
-      - 3
+      - 4
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -681,7 +681,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -868,11 +868,11 @@ root:
       indent: 0
       code: 122
       parameters:
-      - 44
-      - 44
+      - 42
+      - 42
       - 1
       - 0
-      - 5
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -975,7 +975,7 @@ root:
       - 42
       - 1
       - 0
-      - 5
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -1284,7 +1284,7 @@ root:
       - 42
       - 1
       - 0
-      - 6
+      - 7
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -1387,7 +1387,7 @@ root:
       - 44
       - 1
       - 0
-      - 6
+      - 7
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -1490,7 +1490,7 @@ root:
       - 44
       - 1
       - 0
-      - 6
+      - 7
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -2868,11 +2868,25 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
+      code: 122
+      parameters:
+      - 48
+      - 48
+      - 1
+      - 0
+      - 6
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 117
+      parameters:
+      - 15
+    - !ruby/object:RPG::EventCommand
+      indent: 0
       code: 0
       parameters: []
-    span: 0
+    span: 1
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2883,7 +2897,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 0
+      turn_b: 2
   id: 33
 - !ruby/object:RPG::Troop
   members:
@@ -2903,11 +2917,25 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
+      code: 122
+      parameters:
+      - 48
+      - 48
+      - 1
+      - 0
+      - 6
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 117
+      parameters:
+      - 15
+    - !ruby/object:RPG::EventCommand
+      indent: 0
       code: 0
       parameters: []
-    span: 0
+    span: 1
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2918,7 +2946,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 0
+      turn_b: 2
   id: 34
 - !ruby/object:RPG::Troop
   members:
@@ -2933,11 +2961,25 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
+      code: 122
+      parameters:
+      - 42
+      - 42
+      - 1
+      - 0
+      - 7
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 117
+      parameters:
+      - 12
+    - !ruby/object:RPG::EventCommand
+      indent: 0
       code: 0
       parameters: []
-    span: 0
+    span: 1
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2948,7 +2990,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 0
+      turn_b: 2
   id: 35
 - !ruby/object:RPG::Troop
   members:
@@ -2974,7 +3016,7 @@ root:
       - 44
       - 1
       - 0
-      - 3
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3018,7 +3060,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3062,7 +3104,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3111,7 +3153,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3155,7 +3197,7 @@ root:
       - 42
       - 1
       - 0
-      - 6
+      - 8
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3301,7 +3343,7 @@ root:
       - 44
       - 1
       - 0
-      - 4
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3350,7 +3392,7 @@ root:
       - 44
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3394,7 +3436,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3438,7 +3480,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3487,7 +3529,7 @@ root:
       - 48
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3768,7 +3810,7 @@ root:
       - 44
       - 1
       - 0
-      - 5
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3817,7 +3859,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3866,7 +3908,7 @@ root:
       - 42
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3920,7 +3962,7 @@ root:
       - 44
       - 1
       - 0
-      - 3
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -3964,7 +4006,7 @@ root:
       - 46
       - 1
       - 0
-      - 6
+      - 8
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -4294,7 +4336,7 @@ root:
       - 48
       - 1
       - 0
-      - 4
+      - 6
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117
@@ -4401,7 +4443,7 @@ root:
       - 48
       - 1
       - 0
-      - 4
+      - 5
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 117

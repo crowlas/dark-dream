@@ -61,7 +61,7 @@ root: !ruby/object:RPG::Map
             - &1 !ruby/object:RPG::MoveCommand
               code: 29
               parameters:
-              - 3
+              - 2
             - &2 !ruby/object:RPG::MoveCommand
               code: 15
               parameters:
@@ -1653,14 +1653,6 @@ root: !ruby/object:RPG::Map
             gray: 0.0
           - 1
           - true
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 126
-          parameters:
-          - 84
-          - 1
-          - 0
-          - 70
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205
@@ -10823,7 +10815,7 @@ root: !ruby/object:RPG::Map
   parallax_show: true
   scroll_type: 0
   parallax_loop_x: true
-  disable_dashing: false
+  disable_dashing: true
   parallax_sy: -1
   display_name: ''
   specify_battleback: false

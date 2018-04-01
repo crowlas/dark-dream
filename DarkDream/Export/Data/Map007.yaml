@@ -11195,8 +11195,8 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 122
           parameters:
-          - 9
-          - 9
+          - 10
+          - 10
           - 0
           - 0
           - 1
