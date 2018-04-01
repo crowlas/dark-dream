@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: true
+    expanded: false
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -38,7 +38,7 @@ root:
   7: !ruby/object:RPG::MapInfo
     scroll_x: 2000
     name: Forêt de Sanj (SUD)
-    expanded: true
+    expanded: false
     order: 11
     scroll_y: 612
     parent_id: 2
@@ -332,7 +332,7 @@ root:
   48: !ruby/object:RPG::MapInfo
     scroll_x: 1056
     name: Chazay(EST)
-    expanded: true
+    expanded: false
     order: 63
     scroll_y: 608
     parent_id: 56
@@ -379,16 +379,16 @@ root:
     scroll_y: 608
     parent_id: 55
   55: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 532
     name: CheminChazay
     expanded: false
     order: 68
-    scroll_y: 608
+    scroll_y: 910
     parent_id: 6
   56: !ruby/object:RPG::MapInfo
     scroll_x: 1056
     name: Chazay
-    expanded: true
+    expanded: false
     order: 60
     scroll_y: 608
     parent_id: 6
@@ -430,7 +430,7 @@ root:
   62: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Auberge
-    expanded: true
+    expanded: false
     order: 65
     scroll_y: 208
     parent_id: 48

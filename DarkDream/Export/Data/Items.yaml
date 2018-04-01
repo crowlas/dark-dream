@@ -4410,11 +4410,11 @@ root:
 - !ruby/object:RPG::Item
   description: Utile en alchimie.
   name: Reinette des neiges
-  consumable: true
-  occasion: 0
+  consumable: false
+  occasion: 3
   icon_index: 712
-  price: 0
-  scope: 7
+  price: 43
+  scope: 0
   animation_id: 0
   note: ''
   speed: 0

@@ -2902,6 +2902,11 @@ root:
     - Evaluation de la puissance de light par rapport aux autres
   - !ruby/object:RPG::EventCommand
     indent: 2
+    code: 108
+    parameters:
+    - l'expedition comprends 9 hommes en comprenant Light
+  - !ruby/object:RPG::EventCommand
+    indent: 2
     code: 0
     parameters: []
   - !ruby/object:RPG::EventCommand

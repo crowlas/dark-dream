@@ -96,7 +96,7 @@ root:
   - 0
   nickname: Desmark
   description: ''
-  max_level: 44
+  max_level: 48
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: 'Lockfried '
@@ -411,7 +411,7 @@ root:
   name: Blue
   face_index: 4
   character_index: 4
-  initial_level: 8
+  initial_level: 7
   face_name: Tristion
   class_id: 1
   character_name: Tristion
@@ -441,6 +441,26 @@ root:
     code: 52
     data_id: 2
     value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.09
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.13
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.02
   note: "<death event: 11>\r\n<win quotes>\r\n*souffle*\r\n[New Quote]\r\nJe survivrais
     un jour de plus !\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nTout
     n'est pas perdue.\r\n[New Quote]\r\nOnt-ils été généreux ?\r\n</drops quotes>"
@@ -452,7 +472,7 @@ root:
   - 0
   nickname: ''
   description: Maire
-  max_level: 99
+  max_level: 70
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: ''
@@ -509,6 +529,38 @@ root:
     code: 52
     data_id: 2
     value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 1.03
   note: "<death event: 11>\r\n<win quotes>\r\nEnfin terminé !\r\n[New Quote]\r\nIls
     étaient coriace.\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nLaissez-moi
     vous aider.\r\n[New Quote]\r\nSurvivre un jour de plus...\r\n</drops quotes>"
@@ -520,7 +572,7 @@ root:
   - 0
   nickname: ''
   description: Milice
-  max_level: 99
+  max_level: 73
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: "****CHAZAY********"
@@ -565,49 +617,145 @@ root:
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: ''
-  face_index: 0
-  character_index: 0
-  initial_level: 1
-  face_name: ''
+  name: Carole
+  face_index: 5
+  character_index: 5
+  initial_level: 7
+  face_name: Actor1
   class_id: 1
-  character_name: ''
+  character_name: Actor1
   id: 16
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.09
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.07
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 1.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.02
   note: ''
   equips:
+  - 10
   - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  nickname: ''
+  - 34
+  - 7
+  - 97
+  nickname: Rarque
   description: ''
-  max_level: 99
+  max_level: 76
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: ''
+  name: Savilone
   face_index: 0
   character_index: 0
-  initial_level: 1
-  face_name: ''
+  initial_level: 6
+  face_name: Evil
   class_id: 1
-  character_name: ''
+  character_name: Evil
   id: 17
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.06
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.99
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.01
   note: ''
   equips:
+  - 10
+  - 66
   - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  nickname: ''
+  - 8
+  - 94
+  nickname: Dono
   description: ''
-  max_level: 99
+  max_level: 69
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: ''
+  name: "****NOBRIANT********"
   face_index: 0
   character_index: 0
   initial_level: 1
@@ -628,49 +776,117 @@ root:
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: ''
-  face_index: 0
-  character_index: 0
-  initial_level: 1
-  face_name: ''
+  name: David
+  face_index: 4
+  character_index: 4
+  initial_level: 8
+  face_name: Actor2
   class_id: 1
-  character_name: ''
+  character_name: Actor2
   id: 19
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 0
+    value: 1.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 1.11
   note: ''
   equips:
+  - 9
   - 0
   - 0
+  - 7
+  - 95
+  nickname: Otele
+  description: ''
+  max_level: 66
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Soldat
+  face_index: 0
+  character_index: 7
+  initial_level: 6
+  face_name: ''
+  class_id: 1
+  character_name: People4
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  note: ''
+  equips:
+  - 9
+  - 67
+  - 36
+  - 7
   - 0
-  - 0
-  - 0
-  nickname: ''
+  nickname: Lambda
   description: ''
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: ''
-  face_index: 0
-  character_index: 0
-  initial_level: 1
-  face_name: ''
-  class_id: 1
-  character_name: ''
-  id: 20
-  features: []
-  note: ''
-  equips:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  nickname: ''
-  description: ''
-  max_level: 99
-  icon_index: 0
-- !ruby/object:RPG::Actor
-  name: "*********************"
   face_index: 0
   character_index: 0
   initial_level: 1
@@ -691,7 +907,7 @@ root:
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: CAMARADE LIGHT
+  name: ''
   face_index: 0
   character_index: 0
   initial_level: 1
@@ -712,7 +928,7 @@ root:
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: "*********************"
+  name: "****CAMARADE******"
   face_index: 0
   character_index: 0
   initial_level: 1
@@ -753,15 +969,15 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 1
-    value: 1.14
+    value: 1.04
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 4
-    value: 1.14
+    value: 1.08
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 5
-    value: 1.14
+    value: 1.1
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 6
@@ -786,6 +1002,10 @@ root:
     code: 53
     data_id: 4
     value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.02
   note: "<win quotes>\r\nTout le monde va bien ?\r\n[New Quote]\r\nC'était...fun.
     Je crois.\r\n</win quotes>\r\n<level quotes>\r\nMon style gagne en stabilité.\r\n[New
     Quote]\r\nJe peux encore progresser.\r\n</level quotes>\r\n<drops quotes>\r\nY-a
@@ -799,7 +1019,7 @@ root:
   - 0
   nickname: Valchea
   description: ''
-  max_level: 80
+  max_level: 72
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Estelle
@@ -820,7 +1040,7 @@ root:
   - 0
   nickname: ''
   description: ''
-  max_level: 77
+  max_level: 66
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Théo
@@ -841,7 +1061,7 @@ root:
   - 0
   nickname: ''
   description: ''
-  max_level: 66
+  max_level: 64
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Chloé
@@ -862,7 +1082,7 @@ root:
   - 0
   nickname: ''
   description: ''
-  max_level: 80
+  max_level: 76
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Red
@@ -883,7 +1103,7 @@ root:
   - 0
   nickname: ''
   description: ''
-  max_level: 78
+  max_level: 73
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Sylvain
@@ -902,9 +1122,9 @@ root:
   - 35
   - 6
   - 0
-  nickname: ''
+  nickname: Trap
   description: ''
-  max_level: 74
+  max_level: 73
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Raphaël
@@ -946,7 +1166,7 @@ root:
   - 0
   nickname: ''
   description: ''
-  max_level: 90
+  max_level: 77
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Léo
@@ -1009,9 +1229,9 @@ root:
   - 0
   - 3
   - 0
-  nickname: Bouclid
+  nickname: Rapet
   description: ''
-  max_level: 80
+  max_level: 74
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Instructeur Degar
@@ -1032,7 +1252,7 @@ root:
   - 0
   nickname: ''
   description: ''
-  max_level: 74
+  max_level: 72
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: "*******************"
