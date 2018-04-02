@@ -776,7 +776,7 @@ root:
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: David
+  name: Luke
   face_index: 4
   character_index: 4
   initial_level: 8
@@ -842,10 +842,10 @@ root:
   icon_index: 0
 - !ruby/object:RPG::Actor
   name: Soldat
-  face_index: 0
+  face_index: 7
   character_index: 7
   initial_level: 6
-  face_name: ''
+  face_name: People4
   class_id: 1
   character_name: People4
   id: 20
