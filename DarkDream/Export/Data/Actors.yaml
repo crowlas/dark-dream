@@ -748,7 +748,7 @@ root:
   - 10
   - 66
   - 0
-  - 8
+  - 7
   - 94
   nickname: Dono
   description: ''
@@ -876,9 +876,9 @@ root:
     value: 0.0
   note: ''
   equips:
-  - 9
-  - 67
-  - 36
+  - 6
+  - 65
+  - 35
   - 7
   - 0
   nickname: Lambda

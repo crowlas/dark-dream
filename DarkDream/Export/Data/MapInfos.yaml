@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: false
+    expanded: true
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -379,11 +379,11 @@ root:
     scroll_y: 608
     parent_id: 55
   55: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 532
     name: CheminChazay
     expanded: true
     order: 68
-    scroll_y: 608
+    scroll_y: 851
     parent_id: 6
   56: !ruby/object:RPG::MapInfo
     scroll_x: 1056

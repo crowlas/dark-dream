@@ -2688,10 +2688,11 @@ root: !ruby/object:RPG::Map
             - &1 !ruby/object:RPG::MoveCommand
               code: 29
               parameters:
-              - 3
+              - 2
             - &2 !ruby/object:RPG::MoveCommand
-              code: 3
-              parameters: []
+              code: 15
+              parameters:
+              - 150
             - &3 !ruby/object:RPG::MoveCommand
               code: 3
               parameters: []
@@ -2702,16 +2703,16 @@ root: !ruby/object:RPG::Map
               code: 3
               parameters: []
             - &6 !ruby/object:RPG::MoveCommand
-              code: 3
+              code: 4
               parameters: []
             - &7 !ruby/object:RPG::MoveCommand
-              code: 3
+              code: 4
               parameters: []
             - &8 !ruby/object:RPG::MoveCommand
-              code: 3
+              code: 4
               parameters: []
             - &9 !ruby/object:RPG::MoveCommand
-              code: 4
+              code: 3
               parameters: []
             - &10 !ruby/object:RPG::MoveCommand
               code: 3
@@ -2723,6 +2724,9 @@ root: !ruby/object:RPG::Map
               code: 4
               parameters: []
             - &13 !ruby/object:RPG::MoveCommand
+              code: 3
+              parameters: []
+            - &14 !ruby/object:RPG::MoveCommand
               code: 29
               parameters:
               - 4
@@ -2796,9 +2800,9 @@ root: !ruby/object:RPG::Map
           - *13
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 230
+          code: 505
           parameters:
-          - 100
+          - *14
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -2811,17 +2815,22 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "...et là, je l'attrape par le col "
+          - "*rigole*"
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - 'et je lui met une directement '
+          - "...et là, je lui en met une grosse "
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - dans la tronche !
+          - directement dans la tronche !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -2847,25 +2856,30 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Hé !\! Faut pas me chauffer, moi !
+          - "*rigole*"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Faut pas me chauffer, moi !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
           - ''
-          - 0
+          - 5
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - 'La violence !\! '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Tu lui as même pas laissé une chance !?
+          - Sans même l'avertir ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205
@@ -2874,82 +2888,19 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::MoveRoute
             repeat: false
             skippable: false
-            wait: false
-            list:
-            - &14 !ruby/object:RPG::MoveCommand
-              code: 16
-              parameters: []
-            - !ruby/object:RPG::MoveCommand
-              code: 0
-              parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 505
-          parameters:
-          - *14
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - 'Une chance ? '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Euh...\! Si bien sûr, mais...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "..."
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "?"
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 205
-          parameters:
-          - 15
-          - !ruby/object:RPG::MoveRoute
-            repeat: false
-            skippable: true
-            wait: false
+            wait: true
             list:
             - &15 !ruby/object:RPG::MoveCommand
-              code: 1
-              parameters: []
+              code: 15
+              parameters:
+              - 60
             - &16 !ruby/object:RPG::MoveCommand
-              code: 2
+              code: 17
               parameters: []
             - &17 !ruby/object:RPG::MoveCommand
-              code: 16
-              parameters: []
+              code: 15
+              parameters:
+              - 60
             - !ruby/object:RPG::MoveCommand
               code: 0
               parameters: []
@@ -2970,25 +2921,35 @@ root: !ruby/object:RPG::Map
           - *17
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 205
+          code: 101
           parameters:
-          - 16
-          - !ruby/object:RPG::MoveRoute
-            repeat: false
-            skippable: true
-            wait: true
-            list:
-            - &18 !ruby/object:RPG::MoveCommand
-              code: 16
-              parameters: []
-            - !ruby/object:RPG::MoveCommand
-              code: 0
-              parameters: []
+          - Evil
+          - 0
+          - 0
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 505
+          code: 401
           parameters:
-          - *18
+          - 'L''avertir ? '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Euh...\! Si bien sûr, je l'ai averti...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Je lui est dit...\!euh...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3014,7 +2975,57 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - L'expédition ?
+          - "?"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - 15
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &18 !ruby/object:RPG::MoveCommand
+              code: 1
+              parameters: []
+            - &19 !ruby/object:RPG::MoveCommand
+              code: 2
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *18
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *19
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - 16
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: true
+            list:
+            - &20 !ruby/object:RPG::MoveCommand
+              code: 16
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *20
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3027,25 +3038,122 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - C'est exact.\!
+          - C'est exact.\! Light, c'est ça ?\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - Light, c'est ça ?
+          - Le maire m'a annoncé ta venu.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
-          - Evil
-          - 0
+          - Actor1
+          - 5
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - Quoi ?! Cette crevette fait parti...
+          - 'Pour ce qu''il des présentations, '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - je vais faire court.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - L'homme au fond, c'est Philippe.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Celui à côté de moi, c'est Savilone.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Enfin, je suis Carole.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Etant le plus gradé de notre groupe,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - je prendrais en charge le commandement.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Des objections ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Aucune ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "*sourit*"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Super.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 250
@@ -3146,6 +3254,34 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 101
           parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Bien.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'Première mission de notre groupe :'
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - retrouver le reste de l'expédition au
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - lac de Chazay.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
           - ''
           - 0
           - 1
@@ -3155,6 +3291,24 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Objectif de quête mis à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Si vous avez des remarques,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - je reste à l'écoute.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 122
