@@ -485,7 +485,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'EST : Nobriant'
+          - 'EST : Nobriant / Lac de Chazay'
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 111
@@ -2952,6 +2952,11 @@ root: !ruby/object:RPG::Map
           - Je lui est dit...\!euh...
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - Light1
@@ -3048,7 +3053,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 230
           parameters:
-          - 60
+          - 100
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3061,63 +3066,191 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'Pour ce qu''il des présentations, '
+          - Nous ne sommes pas en avance,\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - je vais faire court.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
+          - 'alors procédons rapidement '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - L'homme au fond, c'est Philippe.\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Celui à côté de moi, c'est Savilone.\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Enfin, je suis Carole.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Etant le plus gradé de notre groupe,\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - je prendrais en charge le commandement.\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Des objections ?
+          - aux présentations.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
           parameters:
           - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Philippe, à toi l'honneur.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - ''
+          - 1
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Euh...Oui !\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Soldat de rang A , Philippe Maraicher !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Savilone Dono.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Officier de rang D.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Je suis Carole Rarque,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - une officier de rang B.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Light Desmark.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Soldat de rang B.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Enchanté de tous vous connaître.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Maintenant que l'on connait le nom
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'et le grade de chacun et conformément '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - aux lois qui nous régissent,
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'Je prendrais le commandement '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - de ce groupe.\! Des objections ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3135,7 +3268,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 230
           parameters:
-          - 60
+          - 150
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3153,15 +3286,36 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Super.
+          - Contente de travailler avec vous.
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 250
+          code: 205
           parameters:
-          - !ruby/object:RPG::SE
-            name: Item1
-            pitch: 100
-            volume: 80
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &21 !ruby/object:RPG::MoveCommand
+              code: 3
+              parameters: []
+            - &22 !ruby/object:RPG::MoveCommand
+              code: 3
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *21
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *22
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 224
@@ -3191,7 +3345,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 129
           parameters:
-          - 20
+          - 18
           - 0
           - 1
         - !ruby/object:RPG::EventCommand
@@ -3239,17 +3393,12 @@ root: !ruby/object:RPG::Map
         list:
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 101
+          code: 241
           parameters:
-          - ''
-          - 0
-          - 1
-          - 1
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - De nouveau membres ont rejoins l'équipe !
+          - !ruby/object:RPG::BGM
+            name: Dungeon8
+            volume: 50
+            pitch: 100
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3280,6 +3429,35 @@ root: !ruby/object:RPG::Map
           - lac de Chazay.
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Dungeon8
+            volume: 60
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - De nouveau membres ont rejoins l'équipe !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - ''
@@ -3291,6 +3469,14 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Objectif de quête mis à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Dungeon8
+            volume: 70
+            pitch: 100
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3309,6 +3495,14 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - je reste à l'écoute.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Dungeon8
+            volume: 80
+            pitch: 100
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 122
@@ -3452,7 +3646,7 @@ root: !ruby/object:RPG::Map
           variable_value: 0
           self_switch_ch: A
           item_id: 1
-          actor_id: 20
+          actor_id: 18
         graphic: !ruby/object:RPG::Event::Page::Graphic
           tile_id: 0
           character_name: ''
@@ -3509,7 +3703,7 @@ root: !ruby/object:RPG::Map
           direction: 4
           pattern: 2
         move_type: 0
-        move_speed: 3
+        move_speed: 2
         move_frequency: 3
         move_route: !ruby/object:RPG::MoveRoute
           repeat: true

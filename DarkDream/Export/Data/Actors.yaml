@@ -755,6 +755,51 @@ root:
   max_level: 69
   icon_index: 0
 - !ruby/object:RPG::Actor
+  name: Philippe
+  face_index: 7
+  character_index: 7
+  initial_level: 6
+  face_name: People4
+  class_id: 1
+  character_name: People4
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
+  note: ''
+  equips:
+  - 6
+  - 65
+  - 35
+  - 7
+  - 0
+  nickname: Maraicher
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
   name: "****NOBRIANT********"
   face_index: 0
   character_index: 0
@@ -762,7 +807,7 @@ root:
   face_name: ''
   class_id: 1
   character_name: ''
-  id: 18
+  id: 19
   features: []
   note: ''
   equips:
@@ -783,7 +828,7 @@ root:
   face_name: Actor2
   class_id: 1
   character_name: Actor2
-  id: 19
+  id: 20
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 53
@@ -848,7 +893,7 @@ root:
   face_name: People4
   class_id: 1
   character_name: People4
-  id: 20
+  id: 21
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 53
@@ -882,27 +927,6 @@ root:
   - 7
   - 0
   nickname: Lambda
-  description: ''
-  max_level: 99
-  icon_index: 0
-- !ruby/object:RPG::Actor
-  name: ''
-  face_index: 0
-  character_index: 0
-  initial_level: 1
-  face_name: ''
-  class_id: 1
-  character_name: ''
-  id: 21
-  features: []
-  note: ''
-  equips:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  nickname: ''
   description: ''
   max_level: 99
   icon_index: 0
