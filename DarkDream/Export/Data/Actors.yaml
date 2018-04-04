@@ -674,7 +674,7 @@ root:
     code: 22
     data_id: 1
     value: 0.02
-  note: ''
+  note: "<death event: 11>"
   equips:
   - 10
   - 0
@@ -743,7 +743,7 @@ root:
     code: 21
     data_id: 4
     value: 1.01
-  note: ''
+  note: "<death event: 11>"
   equips:
   - 10
   - 66
@@ -788,7 +788,7 @@ root:
     code: 52
     data_id: 2
     value: 0.0
-  note: ''
+  note: "<death event: 11>"
   equips:
   - 6
   - 65

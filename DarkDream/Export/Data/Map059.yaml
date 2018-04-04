@@ -2182,12 +2182,69 @@ root: !ruby/object:RPG::Map
           indent: 2
           code: 401
           parameters:
-          - '8 Hommes de rang soldat grade A '
+          - '6 Hommes de rang soldat grade A '
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 401
           parameters:
           - minimum ont été réunis en tout.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Que 6 personnes ?
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Actor5
+          - 1
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 'Ce n''est pas la seul grotte qui a été '
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - trouvée...
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Ils ont réparties les effectifs.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Actor5
+          - 1
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - "*aquiesce*"
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 205

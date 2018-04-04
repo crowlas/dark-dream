@@ -435,18 +435,18 @@ root:
     scroll_y: 208
     parent_id: 48
   63: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 532
     name: CheminChazay(EST)
     expanded: true
     order: 71
     scroll_y: 608
     parent_id: 55
   64: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 532
     name: CheminChazay(1,0)
     expanded: true
     order: 72
-    scroll_y: 608
+    scroll_y: 493
     parent_id: 63
   65: !ruby/object:RPG::MapInfo
     scroll_x: 1355
@@ -456,11 +456,11 @@ root:
     scroll_y: 335
     parent_id: 63
   66: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 1387
     name: CheminChazay(1,1)
     expanded: false
     order: 73
-    scroll_y: 608
+    scroll_y: 754
     parent_id: 64
   67: !ruby/object:RPG::MapInfo
     scroll_x: 272

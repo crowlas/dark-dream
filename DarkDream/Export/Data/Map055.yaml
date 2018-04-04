@@ -485,7 +485,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'EST : Nobriant / Lac de Chazay'
+          - 'EST : Nobriant / Etang de Chazay'
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 111
@@ -3222,12 +3222,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'et le grade de chacun et conformément '
+          - 'et le grade de chacun et étant la plus '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - aux lois qui nous régissent,
+          - gradée,
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3421,12 +3421,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - retrouver le reste de l'expédition au
+          - retrouver le reste de l'expédition à
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - lac de Chazay.
+          - l'étang de Chazay.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 250

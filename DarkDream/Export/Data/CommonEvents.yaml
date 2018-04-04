@@ -2904,7 +2904,17 @@ root:
     indent: 2
     code: 108
     parameters:
-    - l'expedition comprends 9 hommes en comprenant Light
+    - l'expedition comprends 7 hommes en comprenant Light
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - 'C''est un effectif faible lié à la repartition des troupes '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - de Nobriant autour des différents nids de démons repérés
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -2949,17 +2959,47 @@ root:
     indent: 2
     code: 108
     parameters:
-    - les transformations des démons sont évoqués
+    - Le groupe rejoins le reste de l'expedition dirigé par David,
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - l'expédition est interrompu par un message annoncant
+    - une connaissance de Carole.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - l'attaque d'une ville.
+    - David et Carole discute de la voie à suivre pour envahir la grotte
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - 'La grotte est etroite et ne permet pas le pasage de plus de trois '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - 'personne à la fois. Afin de limiter les risques lié à la fatigue, '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - le groupe décide d'effectuer un roulement de personnes.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - 'La stratégie est bonne mais chronophage, '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - 'ce qui permettra à Nobriant de subir une attaque '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - en leur absence.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -2975,7 +3015,57 @@ root:
     - 1
     - 4
     - 0
+    - 5
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Attendre que le corps principal de l'expédition
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - vous fasse signe d'entrer dans la grotte.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - 'Le groupe de Light est mis à l''écart de la mission et doit attendre à '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - l'extérieur de la grotte. Alors qu'ils patientent en discutant,
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - 'un cri à l''aide se fait entendre : Nobriant est en danger.'
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
     - 4
+    - 0
+    - 6
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 2
@@ -2994,12 +3084,12 @@ root:
     indent: 2
     code: 108
     parameters:
-    - l'expédition tente de sauver la ville mais est dcimé par
+    - l'expédition tente de sauver la ville mais est décimé par
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - un démon à forme humaine.
+    - un démon particulièrement puissant.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
@@ -3049,7 +3139,7 @@ root:
     indent: 2
     code: 408
     parameters:
-    - Light crois lockfried en se rendant sur les tombes.
+    - Light croise lockfried en se rendant sur les tombes.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
