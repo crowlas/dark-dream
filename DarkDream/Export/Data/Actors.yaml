@@ -821,10 +821,10 @@ root:
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: Luke
+  name: David
   face_index: 4
   character_index: 4
-  initial_level: 8
+  initial_level: 9
   face_name: Actor2
   class_id: 1
   character_name: Actor2
@@ -857,19 +857,31 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 0
-    value: 1.03
+    value: 1.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 1
+    value: 1.5
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 2
-    value: 1.02
+    value: 1.4
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 6
-    value: 1.02
+    value: 1.4
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 4
-    value: 1.01
+    value: 1.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.4
   - !ruby/object:RPG::BaseItem::Feature
     code: 23
     data_id: 9
@@ -886,7 +898,7 @@ root:
   max_level: 66
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: Soldat
+  name: Luke
   face_index: 7
   character_index: 7
   initial_level: 6
@@ -926,28 +938,52 @@ root:
   - 35
   - 7
   - 0
-  nickname: Lambda
+  nickname: kina
   description: ''
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: ''
-  face_index: 0
-  character_index: 0
-  initial_level: 1
-  face_name: ''
+  name: Pole
+  face_index: 7
+  character_index: 7
+  initial_level: 6
+  face_name: People4
   class_id: 1
-  character_name: ''
+  character_name: People4
   id: 22
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 4
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 52
+    data_id: 2
+    value: 0.0
   note: ''
   equips:
+  - 6
+  - 65
+  - 35
+  - 7
   - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  nickname: ''
+  nickname: Eauron
   description: ''
   max_level: 99
   icon_index: 0

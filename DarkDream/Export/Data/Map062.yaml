@@ -1250,6 +1250,36 @@ root: !ruby/object:RPG::Map
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 111
+          parameters:
+          - 1
+          - 4
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Est-ce que ça va ?
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand

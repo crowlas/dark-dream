@@ -2989,7 +2989,12 @@ root:
     indent: 2
     code: 108
     parameters:
-    - 'La stratégie est bonne mais chronophage, '
+    - 'La stratégie, amené habilement par David, '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - 'est bonne mais chronophage, '
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
