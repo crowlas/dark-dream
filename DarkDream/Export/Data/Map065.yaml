@@ -519,7 +519,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Le tout est de savoir,\!
+          - Le tout est de savoir...\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -1417,6 +1417,13 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
+          - 13
+          - 13
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 121
+          parameters:
           - 16
           - 16
           - 0
@@ -1830,12 +1837,20 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Move
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 201
           parameters:
           - 0
           - 77
-          - 23
-          - 25
+          - 26
+          - 38
           - 8
           - 0
         - !ruby/object:RPG::EventCommand
