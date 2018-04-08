@@ -1311,6 +1311,13 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 121
           parameters:
+          - 1
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 121
+          parameters:
           - 13
           - 13
           - 1

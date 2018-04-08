@@ -627,6 +627,28 @@ root: !ruby/object:RPG::Map
           - *2
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: false
+            list:
+            - &3 !ruby/object:RPG::MoveCommand
+              code: 29
+              parameters:
+              - 4
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *3
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - Light1
@@ -637,7 +659,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Qu'est-ce que...
+          - Qu'est-ce que...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - une nouvelle forme ?!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 121
@@ -675,27 +702,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "*reprends son souffle*\\!"
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Aucune idée.\! Je...\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Aucune idée.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 230
-          parameters:
-          - 100
+          - C'était un démon ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
-          - Evil
+          - Light1
           - 0
           - 0
           - 2
@@ -703,14 +715,45 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'On devrais peut être attendre '
+          - C'était un scoot!\! Il faut prendre
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - le groupe de soutien ?
+          - une décision, et vite !
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 102
+          parameters:
+          - - Attendre du soutien.
+            - Attaquer.
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 402
+          parameters:
+          - 0
+          - Attendre du soutien.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Il faut attendre le groupe de soutien.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - On sait pas à quel point il est fort...
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 101
           parameters:
           - Actor1
@@ -718,17 +761,17 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
           - Je...\!
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - Oui,\! ce sera plus sûr.
+          - Oui,\! ce serai plus sûr.
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - Actor1
@@ -736,22 +779,29 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - 'De toute manière,\! '
+          - OK. On retourne à l'étage précédent !
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
+          indent: 1
+          code: 121
           parameters:
-          - ils ne devraient plus tarder...
+          - 1
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 230
+          code: 402
           parameters:
-          - 100
+          - 1
+          - Attaquer.
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - Light1
@@ -759,12 +809,12 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - On devrais peut être reculer.
+          - Il faut le poursuivre.
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - Evil
@@ -772,63 +822,12 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - Hein ?\! Pourquoi ?\!
+          - Quoi ?
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Tant qu'on reste groupé, \!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - on ne risque rien.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Je suis d'accord avec Savilone.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Les démons sont craintifs.\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - 'Ils ne lanceront pas d''initiative '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - contre nous...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 230
-          parameters:
-          - 100
-        - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - Light1
@@ -836,12 +835,22 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - Chaque démon a son caractère.
+          - C'est un scoot !\!
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
+          code: 401
+          parameters:
+          - Il faut le poursuivre et l'éliminer,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - où il ne reviendra pas seul !
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 101
           parameters:
           - Actor1
@@ -849,25 +858,12 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - "..."
+          - Que...quoi ?!
         - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "..."
-        - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 101
           parameters:
           - Light1
@@ -875,56 +871,26 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 0
+          indent: 1
           code: 401
           parameters:
-          - Il y a effectivement des craintifs,\!
+          - Courrez!
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Battle3
+            volume: 100
+            pitch: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 401
-          parameters:
-          - 'mais quel genre de craintif partirai '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - en reconnaissance ?
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 230
-          parameters:
-          - 150
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - 'Compris.\! '
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - On va les attendre à l'étage.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "..."
+          code: 404
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123
@@ -974,6 +940,260 @@ root: !ruby/object:RPG::Map
         priority_type: 0
         trigger: 0
         list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    7: !ruby/object:RPG::Event
+      id: 7
+      name: nop
+      x: 21
+      y: 31
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: true
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: false
+            list:
+            - &4 !ruby/object:RPG::MoveCommand
+              code: 3
+              parameters: []
+            - &5 !ruby/object:RPG::MoveCommand
+              code: 3
+              parameters: []
+            - &6 !ruby/object:RPG::MoveCommand
+              code: 3
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *4
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *5
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *6
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - On recul pour l'instant.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    8: !ruby/object:RPG::Event
+      id: 8
+      name: demon
+      x: 17
+      y: 16
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: true
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 13
+          switch2_id: 16
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: Monster1
+          character_index: 0
+          direction: 6
+          pattern: 1
+        move_type: 3
+        move_speed: 4
+        move_frequency: 5
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: true
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: true
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - On te tiens !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -1363,8 +1583,8 @@ root: !ruby/object:RPG::Map
     - 7664
     - 7688
     - 8060
-    - 3234
-    - 3221
+    - 3235
+    - 3233
     - 3239
     - 7680
     - 7664
@@ -1430,8 +1650,8 @@ root: !ruby/object:RPG::Map
     - 7664
     - 7666
     - 7700
-    - 3218
-    - 3238
+    - 3244
+    - 3342
     - 7698
     - 7665
     - 7664
@@ -1497,7 +1717,7 @@ root: !ruby/object:RPG::Map
     - 7664
     - 7668
     - 7702
-    - 3232
+    - 3338
     - 7707
     - 7673
     - 7664
@@ -1564,7 +1784,7 @@ root: !ruby/object:RPG::Map
     - 7692
     - 7702
     - 8054
-    - 3232
+    - 3340
     - 8051
     - 7704
     - 7692
@@ -1631,7 +1851,7 @@ root: !ruby/object:RPG::Map
     - 8050
     - 8054
     - 8060
-    - 3232
+    - 3242
     - 8057
     - 8051
     - 8050
@@ -6723,7 +6943,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 65
     - 0
     - 0
     - 0
@@ -6790,7 +7009,8 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 73
+    - 0
+    - 0
     - 0
     - 0
     - 0
