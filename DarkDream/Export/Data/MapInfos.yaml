@@ -533,9 +533,9 @@ root:
     scroll_y: 304
     parent_id: 74
   77: !ruby/object:RPG::MapInfo
-    scroll_x: 272
-    name: Grotte
+    scroll_x: 544
+    name: Nid de démon
     expanded: false
     order: 75
-    scroll_y: 208
+    scroll_y: 416
     parent_id: 65
