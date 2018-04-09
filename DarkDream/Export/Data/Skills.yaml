@@ -196,7 +196,7 @@ root:
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
     element_id: -1
-    formula: a.atk * 2 - b.def * 2
+    formula: a.atk * 2 - b.def * 1
     variance: 25
     critical: true
   success_rate: 100
@@ -524,7 +524,7 @@ root:
 - !ruby/object:RPG::Skill
   message2: ''
   description: Absorbe les PV de l'ennemi.
-  name: Vampirisme
+  name: Vampirisme(lv1)
   occasion: 1
   icon_index: 120
   message1: " utilise Vampirisme!"
@@ -539,11 +539,11 @@ root:
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 5
     element_id: -1
-    formula: a.atk * 2 + a.mat * 3 - b.def * 1 - b.mdf * 1.5 + 50
+    formula: a.atk * 2 + a.mat * 2 - b.def * 1 - b.mdf * 1
     variance: 20
     critical: true
   success_rate: 100
-  hit_type: 1
+  hit_type: 2
   stype_id: 2
   tp_cost: 0
   required_wtype_id1: 0
@@ -693,15 +693,15 @@ root:
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "Augmente l'agilité de l'utilisateur\r\npour 3 tours."
   name: Agilité +
   occasion: 0
   icon_index: 12
   message1: ''
-  scope: 1
-  animation_id: 0
+  scope: 11
+  animation_id: 43
   note: ''
-  mp_cost: 15
+  mp_cost: 0
   speed: 0
   id: 21
   features: []
@@ -720,36 +720,36 @@ root:
   success_rate: 100
   hit_type: 0
   stype_id: 2
-  tp_cost: 0
+  tp_cost: 18
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
-  icon_index: 0
-  message1: ''
+  description: Absorbe les PM de l'ennemi.
+  name: Vol de mana(lv1)
+  occasion: 1
+  icon_index: 120
+  message1: " vol des PM !"
   scope: 1
-  animation_id: 0
-  note: ''
+  animation_id: 51
+  note: Chauve-souris
   mp_cost: 0
   speed: 0
   id: 22
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 6
+    element_id: -1
+    formula: a.mat * 2 - b.mdf * 1
     variance: 20
-    critical: false
+    critical: true
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
-  tp_cost: 0
+  hit_type: 2
+  stype_id: 2
+  tp_cost: 30
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
@@ -819,28 +819,28 @@ root:
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
-  icon_index: 0
-  message1: ''
+  description: Absorbe les PV de l'ennemi.
+  name: Vampirisme(lv2)
+  occasion: 1
+  icon_index: 120
+  message1: " utilise Vampirisme(lv2)!"
   scope: 1
-  animation_id: 0
-  note: ''
-  mp_cost: 0
+  animation_id: 49
+  note: Chauve-souris
+  mp_cost: 27
   speed: 0
   id: 25
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 5
+    element_id: -1
+    formula: a.atk * 2 + a.mat * 3 - b.def * 1 - b.mdf * 1
     variance: 20
-    critical: false
+    critical: true
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
+  hit_type: 2
+  stype_id: 2
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0

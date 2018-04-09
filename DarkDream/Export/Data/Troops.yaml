@@ -4470,7 +4470,7 @@ root:
   id: 54
 - !ruby/object:RPG::Troop
   members: []
-  name: ''
+  name: "*******************"
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -4494,8 +4494,13 @@ root:
       turn_b: 0
   id: 55
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 53
+  name: Monstre voilé
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

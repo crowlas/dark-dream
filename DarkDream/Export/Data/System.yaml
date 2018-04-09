@@ -24,13 +24,31 @@ root: !ruby/object:RPG::System
   test_battlers:
   - !ruby/object:RPG::System::TestBattler
     actor_id: 1
-    level: 9
+    level: 10
     equips:
     - 6
     - 6
     - 33
     - 5
     - 98
+  - !ruby/object:RPG::System::TestBattler
+    actor_id: 16
+    level: 7
+    equips:
+    - 10
+    - 0
+    - 34
+    - 7
+    - 97
+  - !ruby/object:RPG::System::TestBattler
+    actor_id: 17
+    level: 6
+    equips:
+    - 10
+    - 66
+    - 0
+    - 7
+    - 94
   _: 7829367
   edit_map_id: 1
   battle_end_me: !ruby/object:RPG::ME
@@ -419,7 +437,7 @@ root: !ruby/object:RPG::System
     - PM
     - TP
     - TP
-  test_troop_id: 29
+  test_troop_id: 56
   boat: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM
