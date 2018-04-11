@@ -288,8 +288,8 @@ root: !ruby/object:RPG::System
   - ''
   - Chasse Lockfried
   - ''
-  - Milice Grégoire mort
-  - Maire Blue mort
+  - ''
+  - ''
   - apparait PNJ !
   - PeauRat-->Mellow
   - LiquideAmorphe-->Mairie

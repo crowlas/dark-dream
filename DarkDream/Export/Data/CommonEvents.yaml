@@ -5637,13 +5637,9 @@ root:
   id: 10
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Death human
+  name: ''
   switch_id: 1
   list:
-  - !ruby/object:RPG::EventCommand
-    indent: 0
-    code: 353
-    parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 0
     code: 0

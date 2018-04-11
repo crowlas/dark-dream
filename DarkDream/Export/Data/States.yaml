@@ -3,28 +3,24 @@ root:
 - 
 - !ruby/object:RPG::State
   message2: " est vaincu !"
-  name: Mort
+  name: Inconscience
   priority: 100
   icon_index: 1
-  message1: " est tombé au combat !"
-  message4: " revient à la vie !"
+  message1: " est tombé inconscient !"
+  message4: est de retour au combat !
   restriction: 4
   release_by_damage: false
   message3: ''
   note: "Le statut #1 est automatiquement infligé\r\nquand les PV atteignent 0."
   id: 1
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 23
-    data_id: 9
-    value: 0.0
+  features: []
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State

@@ -537,12 +537,12 @@ root:
     name: Nid de démon
     expanded: true
     order: 75
-    scroll_y: 558
+    scroll_y: 390
     parent_id: 65
   78: !ruby/object:RPG::MapInfo
     scroll_x: 956
     name: Nid de demon (ss1)
     expanded: false
     order: 76
-    scroll_y: 942
+    scroll_y: 588
     parent_id: 77

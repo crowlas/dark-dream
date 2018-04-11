@@ -127,7 +127,6 @@
 83874013    Tactics Ogre PSP Crafting System             Tactics_Ogre_PSP_Crafting_System.rb
 80953077    Yanfly Engine Ace - Victory Aftermath        Yanfly_Engine_Ace_Victory_Aftermath.rb
 15174056    Basic Enemy HP Bars                          Basic_Enemy_HP_Bars.rb
-54296365    Yanfly Engine Ace - Death Common Events      Yanfly_Engine_Ace_Death_Common_Events.rb
 69395906                                                 EMPTY
 14385854    ▼ Main Process                               EMPTY
 1953025     Main                                         Main.rb

@@ -83,7 +83,7 @@ root:
     code: 61
     data_id: 0
     value: 0.05
-  note: "<death event: 11>\r\n<win quotes>\r\nIls se sont bien battus.\r\n[New Quote]\r\nPuissiez-vous
+  note: "<win quotes>\r\nIls se sont bien battus.\r\n[New Quote]\r\nPuissiez-vous
     trouver la paix.\r\n</win quotes>\r\n<level quotes>\r\nJe me sens...plutôt bien.\r\n[New
     Quote]\r\nA chaque combat, son enseignement.\r\n</level quotes>\r\n<drops quotes>\r\n...\r\n[New
     Quote]\r\nAucune mort ne doit être vaine.\r\n[New Quote]\r\nJ'honorerais votre
@@ -144,11 +144,11 @@ root:
     code: 23
     data_id: 9
     value: 1.05
-  note: "<death event: 11>\r\n<win quotes>\r\nMerci pour le combat !\r\n[New Quote]\r\nBon
-    combat !\r\n[New Quote]\r\nJe deviendrais encore plus fort!\r\n</win quotes>\r\n<level
-    quotes>\r\nJe ne fais que commencer !\r\n[New Quote]\r\nRegarde moi, grand frère
-    !\r\n</level quotes>\r\n<drops quotes>\r\nGrand frère, ça se mange ça ?\r\n[New
-    Quote]\r\nJ'honorerais votre mort.\r\n</drops quotes>"
+  note: "<win quotes>\r\nMerci pour le combat !\r\n[New Quote]\r\nBon combat !\r\n[New
+    Quote]\r\nJe deviendrais encore plus fort!\r\n</win quotes>\r\n<level quotes>\r\nJe
+    ne fais que commencer !\r\n[New Quote]\r\nRegarde moi, grand frère !\r\n</level
+    quotes>\r\n<drops quotes>\r\nGrand frère, ça se mange ça ?\r\n[New Quote]\r\nJ'honorerais
+    votre mort.\r\n</drops quotes>"
   equips:
   - 0
   - 0
@@ -205,7 +205,7 @@ root:
     code: 23
     data_id: 9
     value: 1.05
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 0
   - 0
@@ -246,7 +246,7 @@ root:
     code: 21
     data_id: 6
     value: 1.2
-  note: "<death event: 11>\r\n"
+  note: ''
   equips:
   - 5
   - 4
@@ -291,7 +291,7 @@ root:
     code: 21
     data_id: 6
     value: 1.18
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 11
   - 0
@@ -333,7 +333,7 @@ root:
   character_name: Actor3
   id: 7
   features: []
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 10
   - 0
@@ -354,7 +354,7 @@ root:
   character_name: People3
   id: 8
   features: []
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 0
   - 0
@@ -461,9 +461,9 @@ root:
     code: 21
     data_id: 7
     value: 1.02
-  note: "<death event: 11>\r\n<win quotes>\r\n*souffle*\r\n[New Quote]\r\nJe survivrais
-    un jour de plus !\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nTout
-    n'est pas perdue.\r\n[New Quote]\r\nOnt-ils été généreux ?\r\n</drops quotes>"
+  note: "<win quotes>\r\n*souffle*\r\n[New Quote]\r\nJe survivrais un jour de plus
+    !\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nTout n'est pas perdue.\r\n[New
+    Quote]\r\nOnt-ils été généreux ?\r\n</drops quotes>"
   equips:
   - 9
   - 64
@@ -561,9 +561,9 @@ root:
     code: 23
     data_id: 9
     value: 1.03
-  note: "<death event: 11>\r\n<win quotes>\r\nEnfin terminé !\r\n[New Quote]\r\nIls
-    étaient coriace.\r\n</win quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nLaissez-moi
-    vous aider.\r\n[New Quote]\r\nSurvivre un jour de plus...\r\n</drops quotes>"
+  note: "<win quotes>\r\nEnfin terminé !\r\n[New Quote]\r\nIls étaient coriace.\r\n</win
+    quotes>\r\n<drops quotes>\r\n...\r\n[New Quote]\r\nLaissez-moi vous aider.\r\n[New
+    Quote]\r\nSurvivre un jour de plus...\r\n</drops quotes>"
   equips:
   - 9
   - 63
@@ -674,7 +674,7 @@ root:
     code: 22
     data_id: 1
     value: 0.02
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 10
   - 0
@@ -743,7 +743,7 @@ root:
     code: 21
     data_id: 4
     value: 1.01
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 10
   - 66
@@ -788,7 +788,7 @@ root:
     code: 52
     data_id: 2
     value: 0.0
-  note: "<death event: 11>"
+  note: ''
   equips:
   - 6
   - 65
