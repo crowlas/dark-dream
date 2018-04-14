@@ -255,7 +255,7 @@ root:
   31: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(OUEST)
-    expanded: false
+    expanded: true
     order: 55
     scroll_y: 736
     parent_id: 6
@@ -337,11 +337,11 @@ root:
     scroll_y: 608
     parent_id: 56
   49: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 1280
     name: Chemin de Baséloire (0,-1)
     expanded: false
     order: 56
-    scroll_y: 736
+    scroll_y: 952
     parent_id: 31
   50: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -435,18 +435,18 @@ root:
     scroll_y: 208
     parent_id: 48
   63: !ruby/object:RPG::MapInfo
-    scroll_x: 532
+    scroll_x: 960
     name: CheminChazay(EST)
     expanded: true
     order: 71
     scroll_y: 608
     parent_id: 55
   64: !ruby/object:RPG::MapInfo
-    scroll_x: 532
+    scroll_x: 960
     name: CheminChazay(1,0)
     expanded: false
     order: 72
-    scroll_y: 493
+    scroll_y: 608
     parent_id: 63
   65: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -533,16 +533,16 @@ root:
     scroll_y: 304
     parent_id: 74
   77: !ruby/object:RPG::MapInfo
-    scroll_x: 1611
+    scroll_x: 1072
     name: Nid de démon
     expanded: true
     order: 75
-    scroll_y: 390
+    scroll_y: 942
     parent_id: 65
   78: !ruby/object:RPG::MapInfo
-    scroll_x: 956
+    scroll_x: 1072
     name: Nid de demon (ss1)
     expanded: false
     order: 76
-    scroll_y: 588
+    scroll_y: 306
     parent_id: 77
