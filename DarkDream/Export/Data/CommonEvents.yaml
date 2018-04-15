@@ -2538,7 +2538,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - 'Quête n° 7 : "Chazay en difficultée"'
+    - 'Quête n° 7 : "Ville en difficultée"'
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 401

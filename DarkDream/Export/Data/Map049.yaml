@@ -2217,20 +2217,8 @@ root: !ruby/object:RPG::Map
         direction_fix: false
         through: false
         priority_type: 0
-        trigger: 4
+        trigger: 3
         list:
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 135
-          parameters:
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 129
-          parameters:
-          - 20
-          - 0
-          - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205
@@ -2298,7 +2286,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Où sont les démons ?
+          - 'On est dans les montagnes de '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Baséloire ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -2314,32 +2307,10 @@ root: !ruby/object:RPG::Map
           - "..."
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 230
-          parameters:
-          - 100
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 101
           parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Les démons ne sont pas ici.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 221
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor2
-          - 4
+          - People4
+          - 7
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
@@ -2351,7 +2322,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 230
           parameters:
-          - 100
+          - 200
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -2364,19 +2335,39 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
+          - Ils ne sont pas là.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
           - Faisons demi-tour.
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 129
+          code: 122
           parameters:
-          - 20
+          - 1
           - 1
           - 0
+          - 0
+          - 7
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 135
+          code: 122
           parameters:
-          - 1
+          - 4
+          - 4
+          - 0
+          - 0
+          - 6
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 122
+          parameters:
+          - 16
+          - 16
+          - 0
+          - 0
+          - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123
