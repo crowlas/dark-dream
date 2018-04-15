@@ -38,7 +38,7 @@ root:
   7: !ruby/object:RPG::MapInfo
     scroll_x: 2000
     name: Forêt de Sanj (SUD)
-    expanded: true
+    expanded: false
     order: 11
     scroll_y: 612
     parent_id: 2
@@ -456,11 +456,11 @@ root:
     scroll_y: 628
     parent_id: 63
   66: !ruby/object:RPG::MapInfo
-    scroll_x: 1387
+    scroll_x: 960
     name: CheminChazay(1,1)
     expanded: false
     order: 73
-    scroll_y: 754
+    scroll_y: 608
     parent_id: 64
   67: !ruby/object:RPG::MapInfo
     scroll_x: 272
@@ -472,7 +472,7 @@ root:
   68: !ruby/object:RPG::MapInfo
     scroll_x: 304
     name: Cauchemar 2
-    expanded: false
+    expanded: true
     order: 77
     scroll_y: 628
     parent_id: 0
@@ -480,7 +480,7 @@ root:
     scroll_x: 272
     name: test
     expanded: false
-    order: 78
+    order: 79
     scroll_y: 208
     parent_id: 0
   70: !ruby/object:RPG::MapInfo
@@ -546,3 +546,10 @@ root:
     order: 76
     scroll_y: 624
     parent_id: 77
+  80: !ruby/object:RPG::MapInfo
+    scroll_x: 800
+    name: Nobriant
+    expanded: false
+    order: 78
+    scroll_y: 628
+    parent_id: 68

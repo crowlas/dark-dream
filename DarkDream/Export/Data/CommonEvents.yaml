@@ -3034,27 +3034,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Attendre que le corps principal de l'expédition
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 401
-    parameters:
-    - vous fasse signe d'entrer dans la grotte.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 108
-    parameters:
-    - 'Le groupe de Light est mis à l''écart de la mission et doit attendre à '
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - l'extérieur de la grotte. Alors qu'ils patientent en discutant,
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - 'un cri à l''aide se fait entendre : Nobriant est en danger.'
+    - '"Nettoyer" le nid de démon.'
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -3071,6 +3051,46 @@ root:
     - 4
     - 0
     - 6
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Retourner à l'entrée de la grotte.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - La grotte est vide.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - Les rapports étaient incorrects ?
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 7
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 2
