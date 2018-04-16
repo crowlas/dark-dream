@@ -136,7 +136,7 @@ root:
   21: !ruby/object:RPG::MapInfo
     scroll_x: 2458
     name: Forêt de Sanj (-2,-1)
-    expanded: true
+    expanded: false
     order: 27
     scroll_y: 612
     parent_id: 7
@@ -337,11 +337,11 @@ root:
     scroll_y: 608
     parent_id: 56
   49: !ruby/object:RPG::MapInfo
-    scroll_x: 1387
+    scroll_x: 960
     name: Chemin de Baséloire (0,-1)
     expanded: false
     order: 56
-    scroll_y: 1107
+    scroll_y: 842
     parent_id: 31
   50: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -533,7 +533,7 @@ root:
     scroll_y: 304
     parent_id: 74
   77: !ruby/object:RPG::MapInfo
-    scroll_x: 1611
+    scroll_x: 1072
     name: Nid de démon
     expanded: true
     order: 75
@@ -544,7 +544,7 @@ root:
     name: Nid de demon (ss1)
     expanded: false
     order: 76
-    scroll_y: 306
+    scroll_y: 624
     parent_id: 77
   80: !ruby/object:RPG::MapInfo
     scroll_x: 800

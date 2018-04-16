@@ -2412,7 +2412,7 @@ root: !ruby/object:RPG::Map
         direction_fix: false
         through: false
         priority_type: 0
-        trigger: 3
+        trigger: 4
         list:
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -2539,6 +2539,11 @@ root: !ruby/object:RPG::Map
           - Hum...
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - Actor2
@@ -2562,12 +2567,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Hm ?\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Ah non,\! je ne faisais que réfléchir.
+          - Ce n'est rien...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
@@ -2591,11 +2591,6 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Restez quand même sur vos gardes.\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 230
-          parameters:
-          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3102,7 +3097,7 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 2
-          - 0
+          - 1
           - 0
           - 1
         - !ruby/object:RPG::EventCommand

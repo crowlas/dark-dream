@@ -3104,6 +3104,46 @@ root:
     indent: 2
     code: 401
     parameters:
+    - Trouvez le blessé.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - Le groupe de soutien a été victime d'une embuscade.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - Philippe a été laissé pour mort par un démon arogant.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 8
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
     - Portez secours à la ville à l'EST.
   - !ruby/object:RPG::EventCommand
     indent: 2
