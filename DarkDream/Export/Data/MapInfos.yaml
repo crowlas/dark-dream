@@ -8,11 +8,11 @@ root:
     scroll_y: 208
     parent_id: 0
   1: !ruby/object:RPG::MapInfo
-    scroll_x: 2576
+    scroll_x: 2362
     name: Forêt de Sanj (0,-1)
     expanded: false
     order: 12
-    scroll_y: 1236
+    scroll_y: 1424
     parent_id: 7
   3: !ruby/object:RPG::MapInfo
     scroll_x: 272
@@ -78,18 +78,18 @@ root:
     scroll_y: 208
     parent_id: 8
   13: !ruby/object:RPG::MapInfo
-    scroll_x: 3158
+    scroll_x: 1674
     name: Forêt de Sanj (-1,0)
     expanded: false
     order: 15
-    scroll_y: 1576
+    scroll_y: 612
     parent_id: 7
   14: !ruby/object:RPG::MapInfo
-    scroll_x: 2080
+    scroll_x: 1064
     name: Forêt de Sanj (-1,-1)
     expanded: false
     order: 19
-    scroll_y: 1152
+    scroll_y: 1568
     parent_id: 13
   16: !ruby/object:RPG::MapInfo
     scroll_x: 528
@@ -255,7 +255,7 @@ root:
   31: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(OUEST)
-    expanded: true
+    expanded: false
     order: 55
     scroll_y: 736
     parent_id: 6
@@ -444,7 +444,7 @@ root:
   64: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(1,0)
-    expanded: false
+    expanded: true
     order: 72
     scroll_y: 608
     parent_id: 63
@@ -453,7 +453,7 @@ root:
     name: CheminChazay(0,1)
     expanded: true
     order: 74
-    scroll_y: 628
+    scroll_y: 1492
     parent_id: 63
   66: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -480,7 +480,7 @@ root:
     scroll_x: 272
     name: test
     expanded: false
-    order: 79
+    order: 80
     scroll_y: 208
     parent_id: 0
   70: !ruby/object:RPG::MapInfo
@@ -547,9 +547,16 @@ root:
     scroll_y: 624
     parent_id: 77
   80: !ruby/object:RPG::MapInfo
-    scroll_x: 800
+    scroll_x: 1056
     name: Nobriant
-    expanded: false
+    expanded: true
     order: 78
-    scroll_y: 628
+    scroll_y: 608
     parent_id: 68
+  79: !ruby/object:RPG::MapInfo
+    scroll_x: 800
+    name: Ruines
+    expanded: false
+    order: 79
+    scroll_y: 628
+    parent_id: 80

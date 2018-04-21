@@ -776,7 +776,7 @@ root:
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
-    element_id: 8
+    element_id: -1
     formula: a.atk * 2 - b.def * 2
     variance: 20
     critical: true

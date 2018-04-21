@@ -201,40 +201,6 @@ root:
       enemy_valid: false
       switch_id: 1
       turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 2
   id: 1
 - !ruby/object:RPG::Troop
   members:
@@ -249,25 +215,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -278,7 +230,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 2
 - !ruby/object:RPG::Troop
   members:
@@ -293,25 +245,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -322,7 +260,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 3
 - !ruby/object:RPG::Troop
   members:
@@ -342,25 +280,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -371,7 +295,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 4
 - !ruby/object:RPG::Troop
   members:
@@ -391,25 +315,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -420,7 +330,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 5
 - !ruby/object:RPG::Troop
   members:
@@ -440,25 +350,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -469,7 +365,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 6
 - !ruby/object:RPG::Troop
   members:
@@ -484,25 +380,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -513,7 +395,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 7
 - !ruby/object:RPG::Troop
   members:
@@ -533,25 +415,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -562,7 +430,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 8
 - !ruby/object:RPG::Troop
   members:
@@ -577,25 +445,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -606,7 +460,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 9
 - !ruby/object:RPG::Troop
   members:
@@ -621,25 +475,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -650,7 +490,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 10
 - !ruby/object:RPG::Troop
   members:
@@ -675,25 +515,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -704,7 +530,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 11
 - !ruby/object:RPG::Troop
   members:
@@ -719,25 +545,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -748,7 +560,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 12
 - !ruby/object:RPG::Troop
   members:
@@ -768,25 +580,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -797,7 +595,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 13
 - !ruby/object:RPG::Troop
   members:
@@ -817,25 +615,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -846,7 +630,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 14
 - !ruby/object:RPG::Troop
   members:
@@ -866,25 +650,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -895,7 +665,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 15
 - !ruby/object:RPG::Troop
   members:
@@ -915,25 +685,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -944,7 +700,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 16
 - !ruby/object:RPG::Troop
   members:
@@ -969,25 +725,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -998,7 +740,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 17
 - !ruby/object:RPG::Troop
   members:
@@ -1018,25 +760,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1047,7 +775,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 18
 - !ruby/object:RPG::Troop
   members:
@@ -1067,25 +795,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1096,7 +810,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 19
 - !ruby/object:RPG::Troop
   members:
@@ -1121,25 +835,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1150,7 +850,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 20
 - !ruby/object:RPG::Troop
   members:
@@ -1170,25 +870,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1199,7 +885,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 21
 - !ruby/object:RPG::Troop
   members:
@@ -1219,25 +905,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1248,7 +920,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 22
 - !ruby/object:RPG::Troop
   members:
@@ -1278,25 +950,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 7
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1307,7 +965,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 23
 - !ruby/object:RPG::Troop
   members:
@@ -1327,25 +985,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1356,7 +1000,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 24
 - !ruby/object:RPG::Troop
   members:
@@ -1381,25 +1025,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 7
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1410,7 +1040,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 25
 - !ruby/object:RPG::Troop
   members:
@@ -1435,25 +1065,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1464,7 +1080,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 26
 - !ruby/object:RPG::Troop
   members:
@@ -1484,25 +1100,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 7
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -1513,7 +1115,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 27
 - !ruby/object:RPG::Troop
   members: []
@@ -1829,40 +1431,6 @@ root:
       enemy_valid: true
       switch_id: 1
       turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 9
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 2
   id: 29
 - !ruby/object:RPG::Troop
   members:
@@ -2342,40 +1910,6 @@ root:
       enemy_valid: false
       switch_id: 1
       turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 2
   id: 30
 - !ruby/object:RPG::Troop
   members:
@@ -2761,69 +2295,6 @@ root:
       enemy_valid: false
       switch_id: 1
       turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 313
-      parameters:
-      - 0
-      - 0
-      - 0
-      - 37
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 333
-      parameters:
-      - -1
-      - 0
-      - 37
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 46
-      - 46
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 14
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 2
   id: 31
 - !ruby/object:RPG::Troop
   members: []
@@ -2868,25 +2339,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2897,7 +2354,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 33
 - !ruby/object:RPG::Troop
   members:
@@ -2917,25 +2374,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2946,7 +2389,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 34
 - !ruby/object:RPG::Troop
   members:
@@ -2961,25 +2404,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 7
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2990,7 +2419,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 35
 - !ruby/object:RPG::Troop
   members:
@@ -3010,25 +2439,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3039,7 +2454,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 36
 - !ruby/object:RPG::Troop
   members:
@@ -3054,25 +2469,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3083,7 +2484,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 37
 - !ruby/object:RPG::Troop
   members:
@@ -3098,25 +2499,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3127,7 +2514,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 38
 - !ruby/object:RPG::Troop
   members:
@@ -3147,25 +2534,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3176,7 +2549,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 39
 - !ruby/object:RPG::Troop
   members:
@@ -3189,20 +2562,6 @@ root:
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 8
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 122
@@ -3337,25 +2696,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3366,7 +2711,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 41
 - !ruby/object:RPG::Troop
   members:
@@ -3386,25 +2731,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3415,7 +2746,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 42
 - !ruby/object:RPG::Troop
   members:
@@ -3430,25 +2761,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3459,7 +2776,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 43
 - !ruby/object:RPG::Troop
   members:
@@ -3474,25 +2791,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3503,7 +2806,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 44
 - !ruby/object:RPG::Troop
   members:
@@ -3521,20 +2824,6 @@ root:
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 122
@@ -3804,25 +3093,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3833,7 +3108,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 46
 - !ruby/object:RPG::Troop
   members:
@@ -3853,25 +3128,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3882,7 +3143,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 47
 - !ruby/object:RPG::Troop
   members:
@@ -3902,25 +3163,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3931,7 +3178,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 48
 - !ruby/object:RPG::Troop
   members:
@@ -3956,25 +3203,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 44
-      - 44
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 13
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3985,7 +3218,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 49
 - !ruby/object:RPG::Troop
   members:
@@ -3998,20 +3231,6 @@ root:
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 46
-      - 46
-      - 1
-      - 0
-      - 8
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 14
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 122
@@ -4144,34 +3363,6 @@ root:
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 46
-      - 46
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 14
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 122
@@ -4330,25 +3521,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -4359,7 +3536,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 52
 - !ruby/object:RPG::Troop
   members:
@@ -4374,25 +3551,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -4403,7 +3566,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 53
 - !ruby/object:RPG::Troop
   members:
@@ -4423,39 +3586,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 42
-      - 42
-      - 1
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 12
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 1
-      - 0
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 117
-      parameters:
-      - 15
-    - !ruby/object:RPG::EventCommand
-      indent: 0
       code: 0
       parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -4466,7 +3601,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 54
 - !ruby/object:RPG::Troop
   members: []

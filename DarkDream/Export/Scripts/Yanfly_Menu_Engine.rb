@@ -129,7 +129,7 @@ module YEA
     COMMON_EVENT_COMMANDS ={
     # :command => ["Display Name", EnableSwitch, ShowSwitch, Event ID],
       :event_1 => [        "Journal",           0,          0,        1],
-      :event_2 => [   "Statistiques",            0,          0,        7],
+      :event_2 => [   "Grade",            0,          0,        6],
     } # Do not remove this.
     
     #--------------------------------------------------------------------------
