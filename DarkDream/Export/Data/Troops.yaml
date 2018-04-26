@@ -1914,15 +1914,15 @@ root:
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 240
-    hidden: false
-    x: 216
-    enemy_id: 22
-  - !ruby/object:RPG::Troop::Member
     y: 232
     hidden: false
     x: 328
     enemy_id: 31
+  - !ruby/object:RPG::Troop::Member
+    y: 256
+    hidden: false
+    x: 248
+    enemy_id: 24
   name: 2eme démon
   pages:
   - !ruby/object:RPG::Troop::Page
@@ -2033,7 +2033,7 @@ root:
       code: 339
       parameters:
       - 0
-      - 1
+      - 0
       - 16
       - -1
     - !ruby/object:RPG::EventCommand
@@ -2062,7 +2062,7 @@ root:
       code: 339
       parameters:
       - 0
-      - 0
+      - 1
       - 24
       - -2
     - !ruby/object:RPG::EventCommand
@@ -2077,12 +2077,12 @@ root:
       indent: 0
       code: 401
       parameters:
-      - Laissez tomber la chauve-souris !\!
+      - Laissez tomber les chauve-souris !\!
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 401
       parameters:
-      - Il faut abattre le slime !
+      - Il faut abattre le rat !
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 122
@@ -2119,182 +2119,6 @@ root:
       enemy_valid: false
       switch_id: 1
       turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 111
-      parameters:
-      - 5
-      - 0
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 411
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 1
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 401
-      parameters:
-      - Le slime...\!Merde !
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 401
-      parameters:
-      - Ecartez-vous du marron !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 401
-      parameters:
-      - Il va se transformer !
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 337
-      parameters:
-      - 0
-      - 44
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 224
-      parameters:
-      - !ruby/object:Color
-        red: 255.0
-        green: 255.0
-        blue: 255.0
-        alpha: 255.0
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Collapse3
-        pitch: 105
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 336
-      parameters:
-      - 0
-      - 23
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 0
-      - 3
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 4
-      - 0
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 331
-      parameters:
-      - 0
-      - 0
-      - 1
-      - 5
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 101
-      parameters:
-      - Actor2
-      - 2
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 401
-      parameters:
-      - C'est pas vrai...
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 401
-      parameters:
-      - Restez concentré !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 401
-      parameters:
-      - Ses plaies sont encore ouvertes !
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 2
-      turn_ending: false
-      enemy_hp: 75
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
   id: 31
 - !ruby/object:RPG::Troop
   members: []
@@ -2324,16 +2148,16 @@ root:
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 256
+    y: 240
     hidden: false
     x: 208
     enemy_id: 17
   - !ruby/object:RPG::Troop::Member
-    y: 224
+    y: 248
     hidden: false
-    x: 352
-    enemy_id: 17
-  name: Slime(lv2)*2
+    x: 360
+    enemy_id: 23
+  name: Slime(lv2), Rat(lv1)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -2359,16 +2183,11 @@ root:
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 248
+    y: 240
     hidden: false
-    x: 224
-    enemy_id: 19
-  - !ruby/object:RPG::Troop::Member
-    y: 256
-    hidden: false
-    x: 344
-    enemy_id: 27
-  name: Slime marron(lv1), Slime vert(lv1)
+    x: 288
+    enemy_id: 31
+  name: C-Souris(lv1)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -2564,108 +2383,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 9
-      - 9
-      - 0
-      - 2
-      - 0
-      - 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 111
-      parameters:
-      - 1
-      - 9
-      - 0
-      - 100
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 337
-      parameters:
-      - 0
-      - 44
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 224
-      parameters:
-      - !ruby/object:Color
-        red: 255.0
-        green: 255.0
-        blue: 255.0
-        alpha: 255.0
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Collapse3
-        pitch: 105
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 336
-      parameters:
-      - 0
-      - 25
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 0
-      - 3
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 4
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 331
-      parameters:
-      - 0
-      - 0
-      - 1
-      - 5
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 1
       code: 0
       parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -2676,7 +2398,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 40
 - !ruby/object:RPG::Troop
   members:
@@ -2811,258 +2533,26 @@ root:
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 240
+    y: 232
     hidden: false
-    x: 208
-    enemy_id: 17
+    x: 224
+    enemy_id: 24
   - !ruby/object:RPG::Troop::Member
-    y: 248
+    y: 232
     hidden: false
-    x: 296
-    enemy_id: 20
-  name: Slime(lv2), Slime maron(lv2)
+    x: 320
+    enemy_id: 22
+  name: Rat(lv2), Slime marron(lv4)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 9
-      - 9
-      - 0
-      - 2
-      - 0
-      - 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 111
-      parameters:
-      - 1
-      - 9
-      - 0
-      - 99
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 111
-      parameters:
-      - 5
-      - 1
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 2
       code: 0
       parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 411
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 337
-      parameters:
-      - 1
-      - 44
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 224
-      parameters:
-      - !ruby/object:Color
-        red: 255.0
-        green: 255.0
-        blue: 255.0
-        alpha: 255.0
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Collapse3
-        pitch: 105
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 336
-      parameters:
-      - 1
-      - 21
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 0
-      - 3
-      - 4
-      - 1
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 4
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 331
-      parameters:
-      - 1
-      - 0
-      - 1
-      - 5
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 111
-      parameters:
-      - 1
-      - 9
-      - 0
-      - 100
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 111
-      parameters:
-      - 5
-      - 0
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 411
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 337
-      parameters:
-      - 0
-      - 44
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 224
-      parameters:
-      - !ruby/object:Color
-        red: 255.0
-        green: 255.0
-        blue: 255.0
-        alpha: 255.0
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Collapse3
-        pitch: 105
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 336
-      parameters:
-      - 0
-      - 27
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 0
-      - 3
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 4
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 331
-      parameters:
-      - 0
-      - 0
-      - 1
-      - 5
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3073,7 +2563,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 45
 - !ruby/object:RPG::Troop
   members:
@@ -3233,108 +2723,11 @@ root:
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 9
-      - 9
-      - 0
-      - 2
-      - 0
-      - 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 111
-      parameters:
-      - 1
-      - 9
-      - 0
-      - 100
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 337
-      parameters:
-      - 0
-      - 44
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 224
-      parameters:
-      - !ruby/object:Color
-        red: 255.0
-        green: 255.0
-        blue: 255.0
-        alpha: 255.0
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Collapse3
-        pitch: 105
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 336
-      parameters:
-      - 0
-      - 34
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 0
-      - 3
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 4
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 331
-      parameters:
-      - 0
-      - 0
-      - 1
-      - 5
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 1
       code: 0
       parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3345,7 +2738,7 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 50
 - !ruby/object:RPG::Troop
   members:
@@ -3355,142 +2748,21 @@ root:
     x: 280
     enemy_id: 31
   - !ruby/object:RPG::Troop::Member
-    y: 232
+    y: 248
     hidden: false
-    x: 192
-    enemy_id: 19
-  name: C-Souris(lv1), Slime marron(lv1)
+    x: 392
+    enemy_id: 31
+  name: C-Souris(lv1)*2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand
       indent: 0
-      code: 122
-      parameters:
-      - 9
-      - 9
-      - 0
-      - 2
-      - 0
-      - 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 111
-      parameters:
-      - 1
-      - 9
-      - 0
-      - 100
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 111
-      parameters:
-      - 5
-      - 0
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 2
       code: 0
       parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 411
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 337
-      parameters:
-      - 0
-      - 44
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 224
-      parameters:
-      - !ruby/object:Color
-        red: 255.0
-        green: 255.0
-        blue: 255.0
-        alpha: 255.0
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Collapse3
-        pitch: 105
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 336
-      parameters:
-      - 0
-      - 32
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 0
-      - 3
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 122
-      parameters:
-      - 5
-      - 5
-      - 4
-      - 0
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 331
-      parameters:
-      - 0
-      - 0
-      - 1
-      - 5
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 2
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 1
-      code: 0
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 412
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 1
+    span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
+      turn_valid: false
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -3501,21 +2773,21 @@ root:
       actor_id: 1
       enemy_valid: false
       switch_id: 1
-      turn_b: 2
+      turn_b: 0
   id: 51
 - !ruby/object:RPG::Troop
   members:
-  - !ruby/object:RPG::Troop::Member
-    y: 248
-    hidden: false
-    x: 216
-    enemy_id: 27
   - !ruby/object:RPG::Troop::Member
     y: 224
     hidden: false
     x: 312
     enemy_id: 27
-  name: Slime vert(lv1)*2
+  - !ruby/object:RPG::Troop::Member
+    y: 240
+    hidden: false
+    x: 224
+    enemy_id: 25
+  name: Slime vert(lv1), Rat(lv3)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -3571,16 +2843,16 @@ root:
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
+    y: 240
+    hidden: false
+    x: 352
+    enemy_id: 23
+  - !ruby/object:RPG::Troop::Member
     y: 256
     hidden: false
-    x: 248
-    enemy_id: 22
-  - !ruby/object:RPG::Troop::Member
-    y: 280
-    hidden: false
-    x: 336
-    enemy_id: 23
-  name: Slime marron(lv4), Rat(lv1)
+    x: 256
+    enemy_id: 24
+  name: Rat(lv1), Rat(lv2)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

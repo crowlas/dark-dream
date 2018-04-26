@@ -27,10 +27,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 120
   - 19
@@ -68,6 +64,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 2
   features:
@@ -75,10 +77,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 230
   - 22
@@ -116,6 +114,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 3
   features:
@@ -123,10 +127,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 410
   - 23
@@ -177,10 +177,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 8
-    value: 1.1
   params:
   - 100
   - 17
@@ -218,6 +214,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 5
   features:
@@ -225,10 +227,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 8
-    value: 1.1
   params:
   - 200
   - 20
@@ -266,6 +264,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 6
   features:
@@ -273,10 +277,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 8
-    value: 1.1
   params:
   - 250
   - 21
@@ -314,6 +314,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 7
   features:
@@ -321,10 +327,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 500
   - 24
@@ -362,6 +364,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 8
   features:
@@ -369,10 +377,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 8
-    value: 1.1
   params:
   - 320
   - 22
@@ -410,6 +414,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 9
   features:
@@ -417,10 +427,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 560
   - 25
@@ -458,6 +464,12 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
   note: ''
   id: 10
   features:
@@ -465,10 +477,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 8
-    value: 1.1
   params:
   - 400
   - 24
@@ -506,12 +514,6 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 2
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
   note: ''
   id: 11
   features:
@@ -519,10 +521,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 245
   - 22
@@ -560,12 +558,6 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
   note: ''
   id: 12
   features:
@@ -573,10 +565,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 550
   - 28
@@ -614,12 +602,6 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
   note: ''
   id: 13
   features:
@@ -627,10 +609,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 600
   - 29
@@ -668,12 +646,6 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
   note: ''
   id: 14
   features:
@@ -681,10 +653,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 650
   - 30
@@ -957,10 +925,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 250
   - 23
@@ -1017,10 +981,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 265
   - 24
@@ -1077,10 +1037,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 280
   - 28
@@ -1137,10 +1093,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 310
   - 26
@@ -1184,6 +1136,18 @@ root:
     skill_id: 24
     condition_param2: 0.9
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 14
+    condition_param2: 0.25
+    condition_param1: 0
   note: ''
   id: 23
   features:
@@ -1191,10 +1155,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 565
   - 40
@@ -1238,6 +1198,18 @@ root:
     skill_id: 24
     condition_param2: 0.9
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 14
+    condition_param2: 0.25
+    condition_param1: 0
   note: ''
   id: 24
   features:
@@ -1245,10 +1217,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 610
   - 46
@@ -1292,6 +1260,18 @@ root:
     skill_id: 24
     condition_param2: 0.9
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 14
+    condition_param2: 0.25
+    condition_param1: 0
   note: ''
   id: 25
   features:
@@ -1299,10 +1279,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 750
   - 52
@@ -1346,6 +1322,18 @@ root:
     skill_id: 24
     condition_param2: 0.9
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 14
+    condition_param2: 0.25
+    condition_param1: 0
   note: ''
   id: 26
   features:
@@ -1353,10 +1341,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 1.1
   params:
   - 800
   - 60
@@ -1413,14 +1397,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.25
   params:
   - 180
   - 20
@@ -1477,14 +1453,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.25
   params:
   - 190
   - 22
@@ -1541,14 +1509,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.25
   params:
   - 200
   - 24
@@ -1605,14 +1565,6 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.25
   params:
   - 205
   - 26
@@ -1646,7 +1598,7 @@ root:
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 3
+    rating: 5
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
@@ -1660,7 +1612,13 @@ root:
     condition_type: 2
     rating: 9
     skill_id: 16
-    condition_param2: 0.9
+    condition_param2: 0.8
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 21
+    condition_param2: 0
     condition_param1: 0
   note: ''
   id: 31
@@ -1670,20 +1628,8 @@ root:
     data_id: 0
     value: 0.95
   - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 3
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 4
     value: 0.25
   params:
   - 400
@@ -1718,7 +1664,7 @@ root:
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 3
+    rating: 5
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
@@ -1732,7 +1678,13 @@ root:
     condition_type: 2
     rating: 9
     skill_id: 16
-    condition_param2: 0.9
+    condition_param2: 0.8
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 21
+    condition_param2: 0
     condition_param1: 0
   note: ''
   id: 32
@@ -1742,20 +1694,8 @@ root:
     data_id: 0
     value: 0.95
   - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 3
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 4
     value: 0.25
   params:
   - 415
@@ -1790,7 +1730,7 @@ root:
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 3
+    rating: 5
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
@@ -1804,7 +1744,13 @@ root:
     condition_type: 2
     rating: 9
     skill_id: 16
-    condition_param2: 0.9
+    condition_param2: 0.8
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 21
+    condition_param2: 0
     condition_param1: 0
   note: ''
   id: 33
@@ -1814,20 +1760,8 @@ root:
     data_id: 0
     value: 0.95
   - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 3
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 4
     value: 0.25
   params:
   - 430
@@ -1862,7 +1796,7 @@ root:
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 3
+    rating: 5
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
@@ -1876,7 +1810,13 @@ root:
     condition_type: 2
     rating: 9
     skill_id: 16
-    condition_param2: 0.9
+    condition_param2: 0.8
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 21
+    condition_param2: 0
     condition_param1: 0
   note: ''
   id: 34
@@ -1886,20 +1826,8 @@ root:
     data_id: 0
     value: 0.95
   - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 1.1
-  - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 3
-    value: 0.25
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 4
     value: 0.25
   params:
   - 432

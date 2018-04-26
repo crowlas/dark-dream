@@ -2151,7 +2151,12 @@ root: !ruby/object:RPG::Map
           indent: 2
           code: 401
           parameters:
-          - 7 individus.\! 3 sont déjà transformés.
+          - 7 individus.\! 3 ont un niveau de menace
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - supérieur à 6.
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 101
