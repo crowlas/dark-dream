@@ -820,16 +820,11 @@ root:
     x: 288
     enemy_id: 8
   - !ruby/object:RPG::Troop::Member
-    y: 280
+    y: 256
     hidden: false
-    x: 352
-    enemy_id: 5
-  - !ruby/object:RPG::Troop::Member
-    y: 264
-    hidden: false
-    x: 200
-    enemy_id: 5
-  name: Loup(lv4), Loup(lv2)*2
+    x: 176
+    enemy_id: 10
+  name: Loup(lv4), Loup(lv5)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -925,26 +920,21 @@ root:
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 248
+    y: 264
     hidden: false
     x: 368
-    enemy_id: 2
-  - !ruby/object:RPG::Troop::Member
-    y: 232
-    hidden: false
-    x: 232
-    enemy_id: 2
+    enemy_id: 9
   - !ruby/object:RPG::Troop::Member
     y: 272
     hidden: false
-    x: 184
-    enemy_id: 2
-  - !ruby/object:RPG::Troop::Member
-    y: 280
-    hidden: false
-    x: 304
+    x: 176
     enemy_id: 9
-  name: Sanglier(lv2)*3, Sanglier(lv5)
+  - !ruby/object:RPG::Troop::Member
+    y: 240
+    hidden: false
+    x: 280
+    enemy_id: 7
+  name: Sanglier(lv5)*2, Sanglier(lv4)
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

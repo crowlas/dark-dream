@@ -15,6 +15,12 @@ root:
     condition_param2: 0
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 2
+    condition_param2: 0.2
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 1
     skill_id: 17
@@ -65,6 +71,18 @@ root:
     condition_param2: 0
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 2
+    condition_param2: 0.25
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 2
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
+  - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 1
     skill_id: 17
@@ -114,6 +132,18 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 2
+    condition_param2: 0.25
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 2
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 1
@@ -166,7 +196,13 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 1
+    rating: 3
+    skill_id: 9
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
     skill_id: 17
     condition_param2: 0
     condition_param1: 0
@@ -216,8 +252,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 1
+    rating: 3
+    skill_id: 9
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
     skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 4
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -266,8 +314,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 1
+    rating: 3
+    skill_id: 9
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
     skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 4
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -314,6 +374,18 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 2
+    condition_param2: 0.25
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 2
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 1
@@ -366,8 +438,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 1
+    rating: 3
+    skill_id: 9
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
     skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 4
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -414,6 +498,18 @@ root:
     skill_id: 1
     condition_param2: 0
     condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 3
+    skill_id: 2
+    condition_param2: 0.25
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 2
+    rating: 2
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 1
@@ -466,8 +562,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
-    rating: 1
+    rating: 3
+    skill_id: 9
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
     skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 4
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -1132,10 +1240,10 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 1
-    skill_id: 24
-    condition_param2: 0.9
-    condition_param1: 0
+    rating: 3
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 2
@@ -1144,9 +1252,9 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 3
-    skill_id: 14
-    condition_param2: 0.25
+    rating: 1
+    skill_id: 24
+    condition_param2: 0.9
     condition_param1: 0
   note: ''
   id: 23
@@ -1194,10 +1302,10 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 1
-    skill_id: 24
-    condition_param2: 0.9
-    condition_param1: 0
+    rating: 3
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 2
@@ -1206,9 +1314,9 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 3
-    skill_id: 14
-    condition_param2: 0.25
+    rating: 1
+    skill_id: 24
+    condition_param2: 0.9
     condition_param1: 0
   note: ''
   id: 24
@@ -1256,10 +1364,10 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 1
-    skill_id: 24
-    condition_param2: 0.9
-    condition_param1: 0
+    rating: 3
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 2
@@ -1268,9 +1376,9 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 3
-    skill_id: 14
-    condition_param2: 0.25
+    rating: 1
+    skill_id: 24
+    condition_param2: 0.9
     condition_param1: 0
   note: ''
   id: 25
@@ -1318,10 +1426,10 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 1
-    skill_id: 24
-    condition_param2: 0.9
-    condition_param1: 0
+    rating: 3
+    skill_id: 14
+    condition_param2: 1
+    condition_param1: 0.9
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 2
@@ -1330,9 +1438,9 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 2
-    rating: 3
-    skill_id: 14
-    condition_param2: 0.25
+    rating: 1
+    skill_id: 24
+    condition_param2: 0.9
     condition_param1: 0
   note: ''
   id: 26
@@ -1597,18 +1705,6 @@ root:
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 1
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
     condition_type: 2
     rating: 9
     skill_id: 16
@@ -1616,8 +1712,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
     rating: 2
     skill_id: 21
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -1663,18 +1771,6 @@ root:
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 1
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
     condition_type: 2
     rating: 9
     skill_id: 16
@@ -1682,8 +1778,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
     rating: 2
     skill_id: 21
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -1729,18 +1837,6 @@ root:
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 1
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
     condition_type: 2
     rating: 9
     skill_id: 16
@@ -1748,8 +1844,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
     rating: 2
     skill_id: 21
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -1795,18 +1903,6 @@ root:
   battler_name: Bat
   actions:
   - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 1
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 1
-    skill_id: 17
-    condition_param2: 0
-    condition_param1: 0
-  - !ruby/object:RPG::Enemy::Action
     condition_type: 2
     rating: 9
     skill_id: 16
@@ -1814,8 +1910,20 @@ root:
     condition_param1: 0
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
+    rating: 5
+    skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
     rating: 2
     skill_id: 21
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 17
     condition_param2: 0
     condition_param1: 0
   note: ''

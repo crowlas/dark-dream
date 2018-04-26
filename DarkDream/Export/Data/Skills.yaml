@@ -291,7 +291,7 @@ root:
   message1: " utilise Tacle!"
   scope: 1
   animation_id: 36
-  note: Lockfried
+  note: ''
   mp_cost: 0
   speed: 0
   id: 9
