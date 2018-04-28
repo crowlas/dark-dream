@@ -80,7 +80,7 @@ root:
   13: !ruby/object:RPG::MapInfo
     scroll_x: 1674
     name: Forêt de Sanj (-1,0)
-    expanded: true
+    expanded: false
     order: 15
     scroll_y: 612
     parent_id: 7
@@ -136,14 +136,14 @@ root:
   21: !ruby/object:RPG::MapInfo
     scroll_x: 2458
     name: Forêt de Sanj (-2,-1)
-    expanded: false
+    expanded: true
     order: 27
     scroll_y: 612
     parent_id: 7
   22: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Grotte ami (Julie)
-    expanded: false
+    expanded: true
     order: 28
     scroll_y: 208
     parent_id: 21
@@ -381,14 +381,14 @@ root:
   55: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay
-    expanded: false
+    expanded: true
     order: 68
     scroll_y: 608
     parent_id: 6
   56: !ruby/object:RPG::MapInfo
     scroll_x: 1056
     name: Chazay
-    expanded: true
+    expanded: false
     order: 60
     scroll_y: 608
     parent_id: 6
@@ -453,7 +453,7 @@ root:
     name: CheminChazay(0,1)
     expanded: true
     order: 74
-    scroll_y: 1492
+    scroll_y: 628
     parent_id: 63
   66: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -547,16 +547,16 @@ root:
     scroll_y: 624
     parent_id: 77
   80: !ruby/object:RPG::MapInfo
-    scroll_x: 1056
+    scroll_x: 1064
     name: Nobriant
-    expanded: true
-    order: 78
-    scroll_y: 1290
-    parent_id: 68
-  79: !ruby/object:RPG::MapInfo
-    scroll_x: 800
-    name: Ruines
     expanded: false
     order: 79
-    scroll_y: 628
-    parent_id: 80
+    scroll_y: 840
+    parent_id: 81
+  81: !ruby/object:RPG::MapInfo
+    scroll_x: 532
+    name: Nobriant(ruine)
+    expanded: true
+    order: 78
+    scroll_y: 957
+    parent_id: 68

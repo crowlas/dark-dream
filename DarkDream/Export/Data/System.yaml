@@ -6,7 +6,7 @@ root: !ruby/object:RPG::System
   - Terre
   - Eau
   - Feu
-  start_y: 21
+  start_y: 28
   airship: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM
@@ -53,7 +53,7 @@ root: !ruby/object:RPG::System
     volume: 100
   party_members:
   - 1
-  start_x: 17
+  start_x: 0
   ship: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM
@@ -269,7 +269,7 @@ root: !ruby/object:RPG::System
     volume: 100
     pitch: 90
   version_id: 77323823
-  start_map_id: 80
+  start_map_id: 81
   battler_name: Assassin
   magic_number: 77696160
   switches:
@@ -375,7 +375,7 @@ root: !ruby/object:RPG::System
   - ''
   - ''
   gameover_me: !ruby/object:RPG::ME
-    name: Gameover1
+    name: Gameover2
     pitch: 100
     volume: 100
   game_title: Dark Dream
@@ -433,7 +433,7 @@ root: !ruby/object:RPG::System
     - PM
     - TP
     - TP
-  test_troop_id: 56
+  test_troop_id: 23
   boat: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM

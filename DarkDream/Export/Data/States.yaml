@@ -67,8 +67,8 @@ root:
     data_id: 0
     value: -0.6
   auto_removal_timing: 1
-  min_turns: 3
-  max_turns: 5
+  min_turns: 2
+  max_turns: 2
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false

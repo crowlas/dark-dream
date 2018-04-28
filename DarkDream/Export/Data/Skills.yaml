@@ -502,7 +502,7 @@ root:
   scope: 1
   animation_id: 2
   note: ''
-  mp_cost: 10
+  mp_cost: 15
   speed: 0
   id: 15
   features: []
@@ -621,14 +621,14 @@ root:
 - !ruby/object:RPG::Skill
   message2: ''
   description: Aveugle tous les ennemis.
-  name: Éclat
+  name: Morsure du soleil
   occasion: 1
   icon_index: 3
-  message1: " utilise Éclat!"
+  message1: " lance Morsure du soleil!"
   scope: 2
   animation_id: 33
   note: Elise
-  mp_cost: 0
+  mp_cost: 20
   speed: 0
   id: 19
   features: []
@@ -636,7 +636,7 @@ root:
   - !ruby/object:RPG::UsableItem::Effect
     code: 21
     data_id: 3
-    value1: 0.8
+    value1: 0.75
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
@@ -646,8 +646,8 @@ root:
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
-  tp_cost: 15
+  stype_id: 2
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1

@@ -1137,8 +1137,8 @@ root:
   - !ruby/object:RPG::Troop::Member
     y: 240
     hidden: false
-    x: 256
-    enemy_id: 25
+    x: 272
+    enemy_id: 26
   name: 1er demon
   pages:
   - !ruby/object:RPG::Troop::Page
@@ -1409,9 +1409,9 @@ root:
       parameters: []
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
-      turn_a: 0
+      turn_a: 4
       turn_ending: false
       enemy_hp: 40
       switch_valid: false
@@ -1420,7 +1420,7 @@ root:
       actor_id: 1
       enemy_valid: true
       switch_id: 1
-      turn_b: 0
+      turn_b: 1
   id: 29
 - !ruby/object:RPG::Troop
   members:
@@ -2921,8 +2921,23 @@ root:
       turn_b: 0
   id: 56
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 216
+    hidden: false
+    x: 256
+    enemy_id: 39
+  - !ruby/object:RPG::Troop::Member
+    y: 232
+    hidden: false
+    x: 336
+    enemy_id: 23
+  - !ruby/object:RPG::Troop::Member
+    y: 248
+    hidden: false
+    x: 200
+    enemy_id: 25
+  name: nobriant 1
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

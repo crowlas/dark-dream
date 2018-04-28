@@ -36,12 +36,12 @@ root:
   params:
   - 120
   - 19
-  - 17
   - 19
-  - 17
+  - 21
   - 19
-  - 17
+  - 21
   - 19
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -98,12 +98,12 @@ root:
   params:
   - 230
   - 22
-  - 20
-  - 24
-  - 20
-  - 24
-  - 20
-  - 24
+  - 23
+  - 26
+  - 23
+  - 26
+  - 23
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -160,12 +160,12 @@ root:
   params:
   - 410
   - 23
-  - 21
-  - 25
-  - 21
-  - 25
-  - 21
-  - 25
+  - 24
+  - 27
+  - 24
+  - 27
+  - 24
+  - 27
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -216,12 +216,12 @@ root:
   params:
   - 100
   - 17
+  - 22
   - 19
-  - 17
+  - 22
   - 19
-  - 17
+  - 22
   - 19
-  - 17
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -278,12 +278,12 @@ root:
   params:
   - 200
   - 20
-  - 24
-  - 20
-  - 24
-  - 20
-  - 24
-  - 20
+  - 27
+  - 22
+  - 27
+  - 22
+  - 27
+  - 22
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -340,12 +340,12 @@ root:
   params:
   - 250
   - 21
-  - 25
-  - 21
-  - 25
-  - 21
-  - 25
-  - 21
+  - 28
+  - 23
+  - 28
+  - 23
+  - 28
+  - 23
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -402,12 +402,12 @@ root:
   params:
   - 500
   - 24
-  - 22
-  - 26
-  - 22
-  - 26
-  - 22
-  - 26
+  - 25
+  - 28
+  - 25
+  - 28
+  - 25
+  - 28
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 2
@@ -464,12 +464,12 @@ root:
   params:
   - 320
   - 22
-  - 25
-  - 22
-  - 25
-  - 22
-  - 25
-  - 22
+  - 28
+  - 24
+  - 28
+  - 24
+  - 28
+  - 24
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 2
@@ -526,12 +526,12 @@ root:
   params:
   - 560
   - 25
-  - 23
-  - 27
-  - 23
-  - 27
-  - 23
-  - 27
+  - 26
+  - 29
+  - 26
+  - 29
+  - 26
+  - 29
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -588,12 +588,12 @@ root:
   params:
   - 400
   - 24
-  - 28
-  - 24
-  - 28
-  - 24
-  - 28
-  - 24
+  - 31
+  - 26
+  - 31
+  - 26
+  - 31
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -632,12 +632,12 @@ root:
   params:
   - 245
   - 22
-  - 22
-  - 22
-  - 22
-  - 22
-  - 22
-  - 22
+  - 26
+  - 24
+  - 26
+  - 24
+  - 26
+  - 24
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -676,12 +676,12 @@ root:
   params:
   - 550
   - 28
-  - 26
   - 28
-  - 26
+  - 27
   - 28
-  - 26
+  - 27
   - 28
+  - 27
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -720,11 +720,11 @@ root:
   params:
   - 600
   - 29
-  - 26
+  - 28
   - 29
-  - 26
+  - 28
   - 29
-  - 26
+  - 28
   - 29
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
@@ -764,12 +764,12 @@ root:
   params:
   - 650
   - 30
-  - 27
-  - 30
-  - 27
-  - 30
-  - 27
-  - 30
+  - 29
+  - 31
+  - 29
+  - 31
+  - 29
+  - 31
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
@@ -928,12 +928,12 @@ root:
   params:
   - 150
   - 19
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
-  - 20
+  - 17
+  - 17
+  - 17
+  - 17
+  - 17
+  - 17
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 9
@@ -1036,12 +1036,12 @@ root:
   params:
   - 250
   - 23
-  - 21
-  - 23
-  - 21
-  - 23
-  - 21
-  - 23
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 8
@@ -1092,12 +1092,12 @@ root:
   params:
   - 265
   - 24
-  - 22
-  - 24
-  - 22
-  - 24
-  - 22
-  - 24
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 7
@@ -1148,12 +1148,12 @@ root:
   params:
   - 280
   - 28
-  - 23
-  - 25
-  - 23
-  - 25
-  - 23
-  - 25
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1204,12 +1204,12 @@ root:
   params:
   - 310
   - 26
-  - 24
-  - 26
-  - 24
-  - 26
-  - 24
-  - 26
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1228,7 +1228,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: Rat(lv1)
   gold: 0
-  battler_hue: 40
+  battler_hue: 0
   exp: 21
   battler_name: Rat
   actions:
@@ -1264,14 +1264,14 @@ root:
     data_id: 0
     value: 0.95
   params:
-  - 565
+  - 630
   - 40
   - 26
-  - 30
+  - 28
   - 26
-  - 30
+  - 28
   - 26
-  - 30
+  - 28
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1290,7 +1290,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: Rat(lv2)
   gold: 0
-  battler_hue: 40
+  battler_hue: 30
   exp: 23
   battler_name: Rat
   actions:
@@ -1326,14 +1326,14 @@ root:
     data_id: 0
     value: 0.95
   params:
-  - 610
+  - 700
   - 46
   - 27
-  - 30
+  - 28
   - 27
-  - 30
+  - 28
   - 27
-  - 30
+  - 28
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1352,7 +1352,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: Rat(lv3)
   gold: 0
-  battler_hue: 40
+  battler_hue: 70
   exp: 25
   battler_name: Rat
   actions:
@@ -1388,14 +1388,14 @@ root:
     data_id: 0
     value: 0.95
   params:
-  - 750
+  - 740
   - 52
   - 28
-  - 30
+  - 29
   - 28
-  - 30
+  - 29
   - 28
-  - 30
+  - 29
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 4
@@ -1414,7 +1414,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: Rat(lv4)
   gold: 0
-  battler_hue: 40
+  battler_hue: 100
   exp: 27
   battler_name: Rat
   actions:
@@ -1453,11 +1453,11 @@ root:
   - 800
   - 60
   - 28
-  - 31
+  - 30
   - 28
-  - 31
+  - 30
   - 28
-  - 31
+  - 30
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -1508,12 +1508,12 @@ root:
   params:
   - 180
   - 20
-  - 20
-  - 20
-  - 20
-  - 20
-  - 25
-  - 25
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
+  - 18
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 8
@@ -1564,12 +1564,12 @@ root:
   params:
   - 190
   - 22
-  - 22
-  - 22
-  - 22
-  - 22
-  - 27
-  - 27
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
+  - 19
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 7
@@ -1620,12 +1620,12 @@ root:
   params:
   - 200
   - 24
-  - 23
-  - 23
-  - 23
-  - 23
-  - 28
-  - 28
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 6
@@ -1676,12 +1676,12 @@ root:
   params:
   - 205
   - 26
-  - 24
-  - 24
-  - 24
-  - 24
-  - 30
-  - 30
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
+  - 21
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 5
@@ -1700,7 +1700,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: C-Souris(lv1)
   gold: 0
-  battler_hue: 170
+  battler_hue: 0
   exp: 21
   battler_name: Bat
   actions:
@@ -1742,9 +1742,9 @@ root:
   params:
   - 400
   - 40
-  - 27
+  - 25
   - 24
-  - 27
+  - 25
   - 24
   - 32
   - 32
@@ -1766,7 +1766,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: C-Souris(lv2)
   gold: 0
-  battler_hue: 170
+  battler_hue: 20
   exp: 23
   battler_name: Bat
   actions:
@@ -1808,9 +1808,9 @@ root:
   params:
   - 415
   - 41
-  - 28
+  - 26
   - 24
-  - 28
+  - 26
   - 24
   - 34
   - 34
@@ -1832,7 +1832,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: C-Souris(lv3)
   gold: 0
-  battler_hue: 170
+  battler_hue: 50
   exp: 25
   battler_name: Bat
   actions:
@@ -1874,9 +1874,9 @@ root:
   params:
   - 430
   - 44
-  - 29
+  - 27
   - 24
-  - 29
+  - 27
   - 24
   - 36
   - 36
@@ -1898,7 +1898,7 @@ root:
 - !ruby/object:RPG::Enemy
   name: C-Souris(lv4)
   gold: 0
-  battler_hue: 170
+  battler_hue: 80
   exp: 27
   battler_name: Bat
   actions:
@@ -1940,9 +1940,9 @@ root:
   params:
   - 432
   - 45
-  - 30
+  - 28
   - 25
-  - 30
+  - 28
   - 25
   - 38
   - 38
@@ -1962,16 +1962,34 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Marionnette(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 3
+    skill_id: 15
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 19
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -1981,28 +1999,20 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 400
+  - 40
+  - 28
+  - 25
+  - 28
+  - 25
+  - 28
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2014,16 +2024,34 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Marionnette(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 3
+    skill_id: 15
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 19
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2033,28 +2061,20 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 400
+  - 40
+  - 28
+  - 25
+  - 28
+  - 25
+  - 28
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2066,16 +2086,34 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Marionnette(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 3
+    skill_id: 15
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 19
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2085,28 +2123,20 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 400
+  - 40
+  - 28
+  - 25
+  - 28
+  - 25
+  - 28
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2118,16 +2148,34 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Marionnette(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
     rating: 5
     skill_id: 1
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 3
+    skill_id: 15
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 2
+    skill_id: 17
+    condition_param2: 0
+    condition_param1: 0
+  - !ruby/object:RPG::Enemy::Action
+    condition_type: 0
+    rating: 1
+    skill_id: 19
     condition_param2: 0
     condition_param1: 0
   note: ''
@@ -2137,28 +2185,20 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 400
+  - 40
+  - 28
+  - 25
+  - 28
+  - 25
+  - 28
+  - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2170,11 +2210,11 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Lutin(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2192,25 +2232,21 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
+    value: 0.25
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 250
+  - 40
+  - 30
+  - 30
+  - 30
+  - 30
+  - 40
+  - 40
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2222,11 +2258,11 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Lutin(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2244,25 +2280,21 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
+    value: 0.25
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 250
+  - 40
+  - 30
+  - 30
+  - 30
+  - 30
+  - 40
+  - 40
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2274,11 +2306,11 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Lutin(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2296,25 +2328,21 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
+    value: 0.25
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 250
+  - 40
+  - 30
+  - 30
+  - 30
+  - 30
+  - 40
+  - 40
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2326,11 +2354,11 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Lutin(lv1)
   gold: 0
   battler_hue: 0
-  exp: 0
-  battler_name: ''
+  exp: 30
+  battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -2348,25 +2376,21 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
+    value: 0.25
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 250
+  - 40
+  - 30
+  - 30
+  - 30
+  - 30
+  - 40
+  - 40
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
-    denominator: 1
+    denominator: 3
     kind: 0
-    data_id: 1
+    data_id: 11
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
     kind: 0
@@ -2964,14 +2988,14 @@ root:
     data_id: 4
     value: 0.5
   params:
-  - 900
+  - 1000
   - 80
   - 40
-  - 30
   - 40
-  - 30
   - 40
-  - 30
+  - 40
+  - 40
+  - 40
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
