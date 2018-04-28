@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: true
+    expanded: false
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -239,11 +239,11 @@ root:
     scroll_y: 1976
     parent_id: 2
   29: !ruby/object:RPG::MapInfo
-    scroll_x: 960
+    scroll_x: 532
     name: Baséloire
     expanded: false
     order: 35
-    scroll_y: 842
+    scroll_y: 1166
     parent_id: 6
   30: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -257,14 +257,14 @@ root:
     name: CheminBaséloire(OUEST)
     expanded: false
     order: 55
-    scroll_y: 736
+    scroll_y: 628
     parent_id: 6
   32: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminBaséloire(NORD)
     expanded: false
     order: 41
-    scroll_y: 1056
+    scroll_y: 1482
     parent_id: 6
   34: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -451,9 +451,9 @@ root:
   65: !ruby/object:RPG::MapInfo
     scroll_x: 960
     name: CheminChazay(0,1)
-    expanded: true
+    expanded: false
     order: 74
-    scroll_y: 628
+    scroll_y: 694
     parent_id: 63
   66: !ruby/object:RPG::MapInfo
     scroll_x: 960
@@ -544,7 +544,7 @@ root:
     name: Nid de demon (ss1)
     expanded: false
     order: 76
-    scroll_y: 624
+    scroll_y: 942
     parent_id: 77
   80: !ruby/object:RPG::MapInfo
     scroll_x: 1064
