@@ -2673,7 +2673,7 @@ root: !ruby/object:RPG::Map
         direction_fix: false
         through: false
         priority_type: 1
-        trigger: 4
+        trigger: 3
         list:
         - !ruby/object:RPG::EventCommand
           indent: 0

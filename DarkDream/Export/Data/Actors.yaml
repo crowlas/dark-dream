@@ -824,7 +824,7 @@ root:
   name: David
   face_index: 4
   character_index: 4
-  initial_level: 9
+  initial_level: 7
   face_name: Actor2
   class_id: 1
   character_name: Actor2

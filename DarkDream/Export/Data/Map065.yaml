@@ -595,7 +595,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 10 démons minimums,\!
+          - 7 démons minimums,\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -2035,7 +2035,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Ils auraientt du être là...
+          - Ils auraient du être là...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
@@ -2182,6 +2182,14 @@ root: !ruby/object:RPG::Map
           - 100
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Battle2
+            volume: 50
+            pitch: 70
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - Evil
@@ -2193,6 +2201,14 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Hein ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Battle2
+            volume: 60
+            pitch: 70
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -2213,6 +2229,14 @@ root: !ruby/object:RPG::Map
           - Il est où ?
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Battle2
+            volume: 70
+            pitch: 70
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 101
           parameters:
           - Actor1
@@ -2228,7 +2252,15 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - On était 9 avant...
+          - On était 7 avant...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 241
+          parameters:
+          - !ruby/object:RPG::BGM
+            name: Battle2
+            volume: 80
+            pitch: 70
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -2986,14 +3018,14 @@ root: !ruby/object:RPG::Map
         condition: !ruby/object:RPG::Event::Page::Condition
           switch1_valid: false
           switch2_valid: false
-          variable_valid: false
+          variable_valid: true
           self_switch_valid: false
           item_valid: false
           actor_valid: true
           switch1_id: 1
           switch2_id: 1
-          variable_id: 1
-          variable_value: 0
+          variable_id: 4
+          variable_value: 6
           self_switch_ch: A
           item_id: 1
           actor_id: 17
@@ -3077,8 +3109,8 @@ root: !ruby/object:RPG::Map
     9: !ruby/object:RPG::Event
       id: 9
       name: philippe mourant
-      x: 50
-      y: 22
+      x: 53
+      y: 21
       pages:
       - !ruby/object:RPG::Event::Page
         condition: !ruby/object:RPG::Event::Page::Condition
@@ -3119,6 +3151,15 @@ root: !ruby/object:RPG::Map
         priority_type: 1
         trigger: 0
         list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 243
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 246
+          parameters:
+          - 20
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3398,6 +3439,10 @@ root: !ruby/object:RPG::Map
           - Compris.\! Allons-y !
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 244
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 122
           parameters:
           - 1
@@ -3423,6 +3468,32 @@ root: !ruby/object:RPG::Map
           - 0
           - 0
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Item1
+            pitch: 100
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Objectif de quête mis à jour !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 242
+          parameters:
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123
