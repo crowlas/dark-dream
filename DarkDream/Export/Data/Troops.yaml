@@ -2948,8 +2948,23 @@ root:
       turn_b: 0
   id: 57
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 248
+    hidden: false
+    x: 368
+    enemy_id: 32
+  - !ruby/object:RPG::Troop::Member
+    y: 248
+    hidden: false
+    x: 200
+    enemy_id: 41
+  - !ruby/object:RPG::Troop::Member
+    y: 176
+    hidden: false
+    x: 248
+    enemy_id: 41
+  name: nobriant 2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -2973,8 +2988,18 @@ root:
       turn_b: 0
   id: 58
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 248
+    hidden: false
+    x: 248
+    enemy_id: 37
+  - !ruby/object:RPG::Troop::Member
+    y: 240
+    hidden: false
+    x: 352
+    enemy_id: 35
+  name: nobriant 3
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -2998,8 +3023,23 @@ root:
       turn_b: 0
   id: 59
 - !ruby/object:RPG::Troop
-  members: []
-  name: ''
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 264
+    hidden: false
+    x: 176
+    enemy_id: 26
+  - !ruby/object:RPG::Troop::Member
+    y: 232
+    hidden: false
+    x: 256
+    enemy_id: 26
+  - !ruby/object:RPG::Troop::Member
+    y: 240
+    hidden: false
+    x: 360
+    enemy_id: 25
+  name: nobriant 4
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

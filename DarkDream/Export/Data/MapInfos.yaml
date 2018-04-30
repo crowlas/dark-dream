@@ -3,12 +3,12 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: false
+    expanded: true
     order: 1
     scroll_y: 208
     parent_id: 0
   1: !ruby/object:RPG::MapInfo
-    scroll_x: 1064
+    scroll_x: 2728
     name: Forêt de Sanj (0,-1)
     expanded: true
     order: 12
@@ -31,14 +31,14 @@ root:
   6: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 1
-    expanded: true
+    expanded: false
     order: 34
     scroll_y: 208
     parent_id: 0
   7: !ruby/object:RPG::MapInfo
     scroll_x: 2000
     name: Forêt de Sanj (SUD)
-    expanded: true
+    expanded: false
     order: 11
     scroll_y: 612
     parent_id: 2
@@ -558,5 +558,5 @@ root:
     name: Nobriant(ruine)
     expanded: true
     order: 78
-    scroll_y: 612
+    scroll_y: 804
     parent_id: 68
