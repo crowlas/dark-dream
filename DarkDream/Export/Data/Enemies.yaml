@@ -61,7 +61,7 @@ root:
   name: Sanglier(lv2)
   gold: 0
   battler_hue: 0
-  exp: 6
+  exp: 8
   battler_name: boar(4)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -123,7 +123,7 @@ root:
   name: Sanglier(lv3)
   gold: 0
   battler_hue: 0
-  exp: 8
+  exp: 12
   battler_name: boar(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -185,7 +185,7 @@ root:
   name: Loup(lv1)
   gold: 0
   battler_hue: 0
-  exp: 6
+  exp: 5
   battler_name: wolf(5)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -241,7 +241,7 @@ root:
   name: Loup(lv2)
   gold: 0
   battler_hue: 0
-  exp: 8
+  exp: 10
   battler_name: wolf(4)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -303,7 +303,7 @@ root:
   name: Loup(lv3)
   gold: 0
   battler_hue: 0
-  exp: 10
+  exp: 15
   battler_name: wolf(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -365,7 +365,7 @@ root:
   name: Sanglier(lv4)
   gold: 0
   battler_hue: 0
-  exp: 14
+  exp: 16
   battler_name: boar(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -427,7 +427,7 @@ root:
   name: Loup(lv4)
   gold: 0
   battler_hue: 0
-  exp: 14
+  exp: 20
   battler_name: wolf(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -489,7 +489,7 @@ root:
   name: Sanglier(lv5)
   gold: 0
   battler_hue: 0
-  exp: 16
+  exp: 20
   battler_name: boar(2)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -551,7 +551,7 @@ root:
   name: Loup(lv5)
   gold: 0
   battler_hue: 0
-  exp: 16
+  exp: 25
   battler_name: wolf(2)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -657,7 +657,7 @@ root:
   name: Ours(lv2)
   gold: 0
   battler_hue: 0
-  exp: 18
+  exp: 20
   battler_name: bear(4)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -701,7 +701,7 @@ root:
   name: Ours(lv3)
   gold: 0
   battler_hue: 0
-  exp: 20
+  exp: 30
   battler_name: bear(3)
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -745,7 +745,7 @@ root:
   name: Ours(lv4)
   gold: 0
   battler_hue: 0
-  exp: 22
+  exp: 40
   battler_name: bear(2)
   actions:
   - !ruby/object:RPG::Enemy::Action

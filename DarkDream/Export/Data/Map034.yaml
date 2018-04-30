@@ -1727,8 +1727,9 @@ root: !ruby/object:RPG::Map
           - 3
           - 3
           - 0
-          - 0
-          - 28
+          - 2
+          - 36
+          - 44
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 301

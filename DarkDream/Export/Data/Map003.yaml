@@ -1091,7 +1091,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - A toute l'heure mes chéris.
+          - A tout l'heure mes chéris.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -1104,7 +1104,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 401
           parameters:
-          - A toute à l'heure, maman !
+          - A tout à l'heure, maman !
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 101
@@ -1455,7 +1455,7 @@ root: !ruby/object:RPG::Map
           indent: 6
           code: 401
           parameters:
-          - Objets donnés à Mme.Desmark !
+          - Objets donnés à maman !
         - !ruby/object:RPG::EventCommand
           indent: 6
           code: 101
@@ -2398,7 +2398,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - J'ai finit !
+          - J'ai fini !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 314

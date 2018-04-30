@@ -1913,6 +1913,11 @@ root:
     hidden: false
     x: 248
     enemy_id: 24
+  - !ruby/object:RPG::Troop::Member
+    y: 216
+    hidden: false
+    x: 216
+    enemy_id: 34
   name: 2eme démon
   pages:
   - !ruby/object:RPG::Troop::Page
@@ -2073,24 +2078,6 @@ root:
       code: 401
       parameters:
       - Il faut abattre le rat !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 48
-      - 48
-      - 0
-      - 0
-      - 6
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 122
-      parameters:
-      - 46
-      - 46
-      - 0
-      - 0
-      - 8
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 0

@@ -5,7 +5,7 @@ root:
   name: 'Light '
   face_index: 0
   character_index: 7
-  initial_level: 8
+  initial_level: 7
   face_name: Light1
   class_id: 1
   character_name: Light1
@@ -78,7 +78,7 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 23
     data_id: 9
-    value: 1.4
+    value: 1.5
   - !ruby/object:RPG::BaseItem::Feature
     code: 61
     data_id: 0

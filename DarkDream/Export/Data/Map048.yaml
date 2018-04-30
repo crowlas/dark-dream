@@ -487,19 +487,6 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Capacité en poids de Light augmente de 5 unités !
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - ''
-          - 0
-          - 1
-          - 1
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
           - Vous pouvez désormais rejoindre
         - !ruby/object:RPG::EventCommand
           indent: 0

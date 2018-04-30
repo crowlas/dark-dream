@@ -4285,7 +4285,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - NORD pour l'instant.
+          - nord pour l'instant.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205
@@ -4373,7 +4373,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - NORD pour l'instant.
+          - nord pour l'instant.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 205
