@@ -31,7 +31,7 @@ root:
   6: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 1
-    expanded: false
+    expanded: true
     order: 34
     scroll_y: 208
     parent_id: 0

@@ -3144,67 +3144,37 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Portez secours à la ville à l'EST.
+    - Sauvez Nobriant.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 108
     parameters:
-    - l'expédition tente de sauver la ville mais est décimé par
+    - L'expedition se rend à Nobriant,
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - un démon particulièrement puissant.
+    - mais ne passe pas ses portes qu'elle est attaqué par une
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - Light l'abbat finnalement.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - Il rentre.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - Peu de temps après , il est contacté par un gouverneur
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - pour le féliciter de son acte incroyable.
+    - horde de démon.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 108
     parameters:
-    - Il se rend chez le gouerneur qui l'avertit que Sanj
+    - L'expedition cherche a éliminer ses poursuivants,
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - a été attaqué.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 108
-    parameters:
-    - Sanj est ravagé.
+    - mais remarque une démon de très grande taille qui approche,
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 408
     parameters:
-    - La maison des desmark est intact mais vide.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - Une seconde tombe est présente.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - Light croise lockfried en se rendant sur les tombes.
+    - les forcant à fuir.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -3213,6 +3183,103 @@ root:
     indent: 1
     code: 412
     parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 9
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Fuir.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - Le groupe cherche alors a prévenir Chazay,
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - mais prends vite conscience que cela revient
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - à attirer les démons vers la ville.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - Il change alors de direction, mais pas les démons...
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 0
+    code: 111
+    parameters:
+    - 1
+    - 1
+    - 0
+    - 8
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 108
+    parameters:
+    - Light est déprimé et angoissé par la perte des villes.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 408
+    parameters:
+    - Il cherche à rentrer chez lui.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 108
+    parameters:
+    - Sanj est ravagé.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 408
+    parameters:
+    - La maison des desmark est intact mais vide.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 408
+    parameters:
+    - Une seconde tombe est présente.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 408
+    parameters:
+    - Light croise lockfried en se rendant sur les tombes.
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
