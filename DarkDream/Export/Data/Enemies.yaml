@@ -2024,9 +2024,9 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Marionnette(lv1)
+  name: Marionnette(lv2)
   gold: 0
-  battler_hue: 0
+  battler_hue: 10
   exp: 30
   battler_name: Puppet
   actions:
@@ -2086,9 +2086,9 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Marionnette(lv1)
+  name: Marionnette(lv3)
   gold: 0
-  battler_hue: 0
+  battler_hue: 30
   exp: 30
   battler_name: Puppet
   actions:
@@ -2148,9 +2148,9 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Marionnette(lv1)
+  name: Marionnette(lv4)
   gold: 0
-  battler_hue: 0
+  battler_hue: 50
   exp: 30
   battler_name: Puppet
   actions:
@@ -2258,9 +2258,9 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Lutin(lv1)
+  name: Lutin(lv2)
   gold: 0
-  battler_hue: 0
+  battler_hue: 10
   exp: 30
   battler_name: Imp
   actions:
@@ -2306,9 +2306,9 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Lutin(lv1)
+  name: Lutin(lv3)
   gold: 0
-  battler_hue: 0
+  battler_hue: 30
   exp: 30
   battler_name: Imp
   actions:
@@ -2354,9 +2354,9 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Lutin(lv1)
+  name: Lutin(lv4)
   gold: 0
-  battler_hue: 0
+  battler_hue: 50
   exp: 30
   battler_name: Imp
   actions:
@@ -3012,18 +3012,12 @@ root:
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ''
+  name: Behemot
   gold: 0
-  battler_hue: 0
+  battler_hue: 20
   exp: 0
-  battler_name: ''
-  actions:
-  - !ruby/object:RPG::Enemy::Action
-    condition_type: 0
-    rating: 5
-    skill_id: 1
-    condition_param2: 0
-    condition_param1: 0
+  battler_name: Behemoth
+  actions: []
   note: ''
   id: 54
   features:
@@ -3040,14 +3034,14 @@ root:
     data_id: 1
     value: 0
   params:
-  - 100
-  - 0
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
-  - 10
+  - 6000
+  - 600
+  - 60
+  - 60
+  - 60
+  - 60
+  - 60
+  - 60
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1
