@@ -510,7 +510,7 @@ root:
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
     element_id: 4
-    formula: a.atk * 4 + a.mat * 1 - b.def * 2 - b.mdf * 1
+    formula: a.atk * 2 + a.mat * 4 - b.def * 1 - b.mdf * 2
     variance: 20
     critical: true
   success_rate: 100

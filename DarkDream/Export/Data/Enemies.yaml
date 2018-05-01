@@ -3025,23 +3025,15 @@ root:
     code: 22
     data_id: 0
     value: 0.95
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0.05
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 1
-    value: 0
   params:
-  - 6000
+  - 4000
   - 600
-  - 60
-  - 60
-  - 60
-  - 60
-  - 60
-  - 60
+  - 70
+  - 80
+  - 70
+  - 80
+  - 70
+  - 80
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 1

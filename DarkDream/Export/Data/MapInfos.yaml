@@ -38,7 +38,7 @@ root:
   7: !ruby/object:RPG::MapInfo
     scroll_x: 2000
     name: Forêt de Sanj (SUD)
-    expanded: true
+    expanded: false
     order: 11
     scroll_y: 612
     parent_id: 2
@@ -558,5 +558,5 @@ root:
     name: Nobriant(ruine)
     expanded: true
     order: 78
-    scroll_y: 612
+    scroll_y: 1050
     parent_id: 68

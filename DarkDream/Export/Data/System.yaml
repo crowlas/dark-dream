@@ -433,7 +433,7 @@ root: !ruby/object:RPG::System
     - PM
     - TP
     - TP
-  test_troop_id: 60
+  test_troop_id: 59
   boat: !ruby/object:RPG::System::Vehicle
     start_y: 0
     bgm: !ruby/object:RPG::BGM
