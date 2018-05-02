@@ -3327,8 +3327,8 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 101
           parameters:
-          - Actor2
-          - 4
+          - Light1
+          - 0
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
@@ -3353,8 +3353,8 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 101
           parameters:
-          - Light1
-          - 0
+          - Actor2
+          - 4
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
@@ -3470,6 +3470,13 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
+          code: 121
+          parameters:
+          - 16
+          - 16
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 0
           code: 250
           parameters:
           - !ruby/object:RPG::SE
@@ -3489,11 +3496,6 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Objectif de quête mis à jour !
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 242
-          parameters:
-          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123

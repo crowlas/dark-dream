@@ -435,14 +435,14 @@ root: !ruby/object:RPG::Map
           variable_valid: false
           self_switch_valid: false
           item_valid: false
-          actor_valid: false
+          actor_valid: true
           switch1_id: 16
           switch2_id: 1
           variable_id: 1
           variable_value: 0
           self_switch_ch: A
           item_id: 1
-          actor_id: 1
+          actor_id: 20
         graphic: !ruby/object:RPG::Event::Page::Graphic
           tile_id: 0
           character_name: ''
@@ -465,7 +465,7 @@ root: !ruby/object:RPG::Map
         direction_fix: false
         through: false
         priority_type: 0
-        trigger: 3
+        trigger: 4
         list:
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -475,7 +475,7 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::MoveRoute
             repeat: false
             skippable: false
-            wait: true
+            wait: false
             list:
             - &1 !ruby/object:RPG::MoveCommand
               code: 2
@@ -493,25 +493,13 @@ root: !ruby/object:RPG::Map
               code: 2
               parameters: []
             - &6 !ruby/object:RPG::MoveCommand
-              code: 4
+              code: 2
               parameters: []
             - &7 !ruby/object:RPG::MoveCommand
-              code: 4
+              code: 2
               parameters: []
             - &8 !ruby/object:RPG::MoveCommand
-              code: 4
-              parameters: []
-            - &9 !ruby/object:RPG::MoveCommand
-              code: 4
-              parameters: []
-            - &10 !ruby/object:RPG::MoveCommand
-              code: 4
-              parameters: []
-            - &11 !ruby/object:RPG::MoveCommand
-              code: 4
-              parameters: []
-            - &12 !ruby/object:RPG::MoveCommand
-              code: 4
+              code: 2
               parameters: []
             - !ruby/object:RPG::MoveCommand
               code: 0
@@ -558,24 +546,17 @@ root: !ruby/object:RPG::Map
           - *8
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 505
+          code: 101
           parameters:
-          - *9
+          - Actor2
+          - 4
+          - 0
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 505
+          code: 401
           parameters:
-          - *10
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 505
-          parameters:
-          - *11
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 505
-          parameters:
-          - *12
+          - Maintenant courrez !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -588,12 +569,85 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Merde...\!
+          - Tu veux dire...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - On a pas été suivie ?
+          - Ils sont derrière nous...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - On ne les combats pas ?!\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - On peut..
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 80
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - C'est quoi ce...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Un tremblent de terre ?
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -606,79 +660,28 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Si ce n'est pas le cas,\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - ils ne tarderont pas...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Quoi ?!\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - On laisse la ville brulée ?!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - On entre pas dans un champs de bataille
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - sans plan.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Cependant,\! si tu as envie de mourir,
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - tu peux y aller.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
           - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
@@ -696,12 +699,46 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'Il y avait plein de démons que je '
+          - Une réplique ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - n'avais jamais vu...
+          - A ce moment là ?!\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - C'est quoi ce genre de coïnciden...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -714,7 +751,168 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "..."
+          - On dirais un choc...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Comme ci quelque chose de...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "...quelque chose comme quoi ?"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Non...\! ça peut pas être ça...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - De ?\! Ca peut pas être quoi ?!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 30
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Merde...\! Quelle taille ça peut faire ?!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - De quoi bordel !?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 60
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ce sont des bruits de pas...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
@@ -732,92 +930,83 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Il faut prévenir Chazay.
+          - Courrez vers Chazay !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 112
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 60
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 225
+          parameters:
+          - 3
+          - 3
+          - 40
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 122
+          parameters:
+          - 16
+          - 16
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 111
+          parameters:
+          - 1
+          - 16
+          - 0
+          - 3
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 113
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 413
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
-          - Actor1
-          - 5
+          - People4
+          - 7
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - Tu penses qu'il...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor2
-          - 4
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Ils ont pris une ville.\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Pourquoi n'en attaquerais-t-ils pas
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - une autre ?
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Ce sont des animaux, non ?
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Light1
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Ils se sont réunis massivement et ont
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - réussie à prendre une ville fortifiée.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Light1
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - En matière d'intelligence, \!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - ça n'a...
+          - Attention !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 301
