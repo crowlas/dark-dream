@@ -3177,7 +3177,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Accroche toi, mon gars !
+          - Il faut que tu t'accroches !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3203,12 +3203,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Garde tes forces !\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Tu vas t'en sortir !
+          - Phillipe ! \! Regarde-moi !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3234,12 +3229,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - On a compris, Philippe.\!
+          - T'en fais pas,\!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - On ne les laissera pas ...
+          - on ne les laissera pas ...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3252,7 +3247,20 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - "...No...\\!briant."
+          - "...no..."
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "...briant..."
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3265,7 +3273,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Calme t...\! Hein ?!
+          - On va te sortir de...\! ?!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3338,48 +3346,9 @@ root: !ruby/object:RPG::Map
           - Il est mort.
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "..."
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor2
-          - 4
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "..."
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - People4
-          - 7
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "..."
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 230
           parameters:
-          - 100
+          - 200
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -3418,7 +3387,46 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Je ne sais pas,\! mais on doit y aller.
+          - C'était ses dernières paroles...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - People4
+          - 7
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "..."
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
@@ -3436,7 +3444,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Compris.\! Allons-y !
+          - J'ai compris.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - On y va !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 244
