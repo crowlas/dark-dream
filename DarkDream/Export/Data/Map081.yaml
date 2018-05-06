@@ -220,7 +220,7 @@ root: !ruby/object:RPG::Map
           - -1
           - !ruby/object:RPG::MoveRoute
             repeat: false
-            skippable: false
+            skippable: true
             wait: true
             list:
             - &6 !ruby/object:RPG::MoveCommand
@@ -263,9 +263,9 @@ root: !ruby/object:RPG::Map
           code: 201
           parameters:
           - 0
-          - 64
+          - 79
           - 59
-          - 32
+          - 26
           - 4
           - 0
         - !ruby/object:RPG::EventCommand
