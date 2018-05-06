@@ -400,6 +400,276 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 0
           parameters: []
+    7: !ruby/object:RPG::Event
+      id: 7
+      name: poursuite
+      x: 56
+      y: 14
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: true
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: true
+          switch1_id: 16
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 20
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 4
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 111
+          parameters:
+          - 1
+          - 16
+          - 0
+          - 3
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People4
+          - 7
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Attention !
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 301
+          parameters:
+          - 0
+          - 60
+          - false
+          - false
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 123
+          parameters:
+          - B
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: true
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: B
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 0
+        trigger: 4
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 112
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 225
+          parameters:
+          - 5
+          - 5
+          - 50
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 122
+          parameters:
+          - 16
+          - 16
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 111
+          parameters:
+          - 1
+          - 16
+          - 0
+          - 12
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 122
+          parameters:
+          - 16
+          - 16
+          - 0
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 112
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 225
+          parameters:
+          - 5
+          - 5
+          - 50
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 122
+          parameters:
+          - 16
+          - 16
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 111
+          parameters:
+          - 1
+          - 16
+          - 0
+          - 6
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Down4
+            pitch: 50
+            volume: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 353
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 413
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 413
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
   parallax_sx: 0
   bgm: !ruby/object:RPG::BGM
     name: ''

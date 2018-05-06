@@ -115,7 +115,7 @@ root:
   animation_id: 34
   note: "Light\r\nLockfried"
   mp_cost: 0
-  speed: 0
+  speed: 10
   id: 4
   features: []
   effects:
@@ -150,7 +150,7 @@ root:
   animation_id: 34
   note: ''
   mp_cost: 5
-  speed: 0
+  speed: 5
   id: 5
   features: []
   effects:
@@ -293,7 +293,7 @@ root:
   animation_id: 36
   note: ''
   mp_cost: 0
-  speed: 0
+  speed: 5
   id: 9
   features: []
   effects:
@@ -503,7 +503,7 @@ root:
   animation_id: 2
   note: ''
   mp_cost: 15
-  speed: 0
+  speed: -5
   id: 15
   features: []
   effects: []
@@ -561,7 +561,7 @@ root:
   animation_id: -1
   note: ''
   mp_cost: 3
-  speed: 0
+  speed: -5
   id: 17
   features: []
   effects:
@@ -576,7 +576,7 @@ root:
     formula: a.atk * 5 - b.def * 2
     variance: 20
     critical: true
-  success_rate: 100
+  success_rate: 95
   hit_type: 1
   stype_id: 1
   tp_cost: 11
@@ -595,7 +595,7 @@ root:
   animation_id: 0
   note: Elise
   mp_cost: 0
-  speed: 0
+  speed: 10
   id: 18
   features: []
   effects:
@@ -629,7 +629,7 @@ root:
   animation_id: 33
   note: Elise
   mp_cost: 20
-  speed: 0
+  speed: 10
   id: 19
   features: []
   effects:
@@ -663,7 +663,7 @@ root:
   animation_id: 43
   note: ''
   mp_cost: 0
-  speed: 0
+  speed: 10
   id: 20
   features: []
   effects:
@@ -702,7 +702,7 @@ root:
   animation_id: 43
   note: ''
   mp_cost: 0
-  speed: 0
+  speed: 10
   id: 21
   features: []
   effects:

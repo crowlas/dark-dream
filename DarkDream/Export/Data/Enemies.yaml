@@ -1965,7 +1965,7 @@ root:
   name: Marionnette(lv1)
   gold: 0
   battler_hue: 0
-  exp: 30
+  exp: 25
   battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2062,13 +2062,13 @@ root:
     data_id: 0
     value: 0.95
   params:
-  - 400
+  - 425
   - 40
-  - 28
+  - 29
   - 25
-  - 28
+  - 29
   - 25
-  - 28
+  - 29
   - 25
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
@@ -2089,7 +2089,7 @@ root:
   name: Marionnette(lv3)
   gold: 0
   battler_hue: 30
-  exp: 30
+  exp: 35
   battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2124,14 +2124,14 @@ root:
     data_id: 0
     value: 0.95
   params:
-  - 400
+  - 460
   - 40
-  - 28
-  - 25
-  - 28
-  - 25
-  - 28
-  - 25
+  - 29
+  - 26
+  - 29
+  - 26
+  - 29
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -2151,7 +2151,7 @@ root:
   name: Marionnette(lv4)
   gold: 0
   battler_hue: 50
-  exp: 30
+  exp: 40
   battler_name: Puppet
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2186,14 +2186,14 @@ root:
     data_id: 0
     value: 0.95
   params:
-  - 400
+  - 480
   - 40
-  - 28
-  - 25
-  - 28
-  - 25
-  - 28
-  - 25
+  - 30
+  - 26
+  - 30
+  - 26
+  - 30
+  - 26
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3
@@ -2213,7 +2213,7 @@ root:
   name: Lutin(lv1)
   gold: 0
   battler_hue: 0
-  exp: 30
+  exp: 24
   battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2261,7 +2261,7 @@ root:
   name: Lutin(lv2)
   gold: 0
   battler_hue: 10
-  exp: 30
+  exp: 28
   battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2282,12 +2282,12 @@ root:
     data_id: 1
     value: 0.25
   params:
-  - 250
+  - 275
   - 40
   - 30
+  - 31
   - 30
-  - 30
-  - 30
+  - 31
   - 40
   - 40
   drop_items:
@@ -2309,7 +2309,7 @@ root:
   name: Lutin(lv3)
   gold: 0
   battler_hue: 30
-  exp: 30
+  exp: 32
   battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2330,12 +2330,12 @@ root:
     data_id: 1
     value: 0.25
   params:
-  - 250
+  - 300
   - 40
-  - 30
-  - 30
-  - 30
-  - 30
+  - 31
+  - 31
+  - 31
+  - 31
   - 40
   - 40
   drop_items:
@@ -2357,7 +2357,7 @@ root:
   name: Lutin(lv4)
   gold: 0
   battler_hue: 50
-  exp: 30
+  exp: 36
   battler_name: Imp
   actions:
   - !ruby/object:RPG::Enemy::Action
@@ -2376,16 +2376,16 @@ root:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0.25
+    value: 0.3
   params:
-  - 250
+  - 320
   - 40
-  - 30
-  - 30
-  - 30
-  - 30
-  - 40
-  - 40
+  - 31
+  - 31
+  - 31
+  - 31
+  - 50
+  - 50
   drop_items:
   - !ruby/object:RPG::Enemy::DropItem
     denominator: 3

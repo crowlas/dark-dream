@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: false
+    expanded: true
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -38,7 +38,7 @@ root:
   7: !ruby/object:RPG::MapInfo
     scroll_x: 2000
     name: Forêt de Sanj (SUD)
-    expanded: true
+    expanded: false
     order: 11
     scroll_y: 612
     parent_id: 2
@@ -480,7 +480,7 @@ root:
     scroll_x: 272
     name: test
     expanded: false
-    order: 80
+    order: 81
     scroll_y: 208
     parent_id: 0
   70: !ruby/object:RPG::MapInfo
@@ -559,4 +559,11 @@ root:
     expanded: true
     order: 78
     scroll_y: 612
+    parent_id: 68
+  79: !ruby/object:RPG::MapInfo
+    scroll_x: 960
+    name: RouteNobraint (OUEST)
+    expanded: false
+    order: 80
+    scroll_y: 608
     parent_id: 68
