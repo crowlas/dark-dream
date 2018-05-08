@@ -366,7 +366,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Merde !\! Il faut se dépécher !
+          - Il faut se dépécher !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 223
@@ -885,7 +885,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Courrez vers Chazay !
+          - COURREZ VERS CHAZAY !!!
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 112
@@ -1060,16 +1060,7 @@ root: !ruby/object:RPG::Map
           - 1
           - 16
           - 0
-          - 5
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 122
-          parameters:
-          - 16
-          - 16
-          - 0
-          - 0
+          - 6
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 2
@@ -1112,7 +1103,7 @@ root: !ruby/object:RPG::Map
           - 1
           - 16
           - 0
-          - 5
+          - 12
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 4

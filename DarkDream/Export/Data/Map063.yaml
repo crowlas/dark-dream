@@ -486,16 +486,7 @@ root: !ruby/object:RPG::Map
           - 1
           - 16
           - 0
-          - 15
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 122
-          parameters:
-          - 16
-          - 16
-          - 0
-          - 0
+          - 13
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 2
@@ -521,7 +512,7 @@ root: !ruby/object:RPG::Map
           indent: 3
           code: 230
           parameters:
-          - 60
+          - 50
         - !ruby/object:RPG::EventCommand
           indent: 3
           code: 122
@@ -538,8 +529,12 @@ root: !ruby/object:RPG::Map
           - 1
           - 16
           - 0
-          - 6
+          - 20
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 221
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 4
           code: 250

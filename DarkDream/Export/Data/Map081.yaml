@@ -101,7 +101,7 @@ root: !ruby/object:RPG::Map
           parameters:
           - !ruby/object:RPG::BGM
             name: Scene1
-            volume: 80
+            volume: 100
             pitch: 100
         - !ruby/object:RPG::EventCommand
           indent: 0

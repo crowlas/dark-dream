@@ -491,15 +491,6 @@ root: !ruby/object:RPG::Map
           - Attention !
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 122
-          parameters:
-          - 16
-          - 16
-          - 0
-          - 0
-          - 3
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 301
           parameters:
           - 0
@@ -601,11 +592,9 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 111
           parameters:
+          - 2
+          - A
           - 1
-          - 16
-          - 0
-          - 6
-          - 0
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 205
@@ -673,6 +662,22 @@ root: !ruby/object:RPG::Map
           - Pour l'instant, on n'a pas le choix !
         - !ruby/object:RPG::EventCommand
           indent: 2
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Earth2
+            pitch: 70
+            volume: 100
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 225
+          parameters:
+          - 5
+          - 5
+          - 50
+          - true
+        - !ruby/object:RPG::EventCommand
+          indent: 2
           code: 101
           parameters:
           - Actor2
@@ -722,6 +727,21 @@ root: !ruby/object:RPG::Map
           - Maintenant,\! courrez plus vite !
         - !ruby/object:RPG::EventCommand
           indent: 2
+          code: 123
+          parameters:
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 122
+          parameters:
+          - 16
+          - 16
+          - 0
+          - 0
+          - 7
+        - !ruby/object:RPG::EventCommand
+          indent: 2
           code: 205
           parameters:
           - -1
@@ -757,15 +777,6 @@ root: !ruby/object:RPG::Map
           - 16
           - 0
           - 10
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 122
-          parameters:
-          - 16
-          - 16
-          - 0
-          - 0
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 2
@@ -808,7 +819,7 @@ root: !ruby/object:RPG::Map
           - 1
           - 16
           - 0
-          - 6
+          - 16
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 4

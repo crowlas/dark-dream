@@ -4577,6 +4577,15 @@ root:
       - Il faut fuir !
     - !ruby/object:RPG::EventCommand
       indent: 0
+      code: 122
+      parameters:
+      - 16
+      - 16
+      - 0
+      - 0
+      - 4
+    - !ruby/object:RPG::EventCommand
+      indent: 0
       code: 340
       parameters: []
     - !ruby/object:RPG::EventCommand
