@@ -568,15 +568,15 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 225
           parameters:
-          - 3
-          - 3
+          - 1
+          - 1
           - 40
           - true
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
           parameters:
-          - 80
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -628,20 +628,20 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::SE
             name: Earth2
             pitch: 70
-            volume: 60
+            volume: 65
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 225
           parameters:
-          - 3
-          - 3
+          - 2
+          - 1
           - 40
           - true
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
           parameters:
-          - 100
+          - 60
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -657,22 +657,9 @@ root: !ruby/object:RPG::Map
           - Une réplique ?
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 101
+          code: 230
           parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - A ce moment là ?!\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - C'est quoi ce genre de coïnciden...
+          - 80
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 250
@@ -680,13 +667,13 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::SE
             name: Earth2
             pitch: 70
-            volume: 60
+            volume: 70
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 225
           parameters:
-          - 3
-          - 3
+          - 2
+          - 2
           - 40
           - true
         - !ruby/object:RPG::EventCommand
@@ -706,30 +693,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - On dirais un choc...\!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Comme ci quelque chose de...
+          - Ca se rapproche...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
           parameters:
-          - 100
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - "...quelque chose comme quoi ?"
+          - 80
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 250
@@ -737,13 +706,13 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::SE
             name: Earth2
             pitch: 70
-            volume: 60
+            volume: 75
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 225
           parameters:
           - 3
-          - 3
+          - 2
           - 40
           - true
         - !ruby/object:RPG::EventCommand
@@ -755,28 +724,20 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 101
           parameters:
-          - Light1
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Non...\! ça peut pas être ça...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Actor1
-          - 5
+          - People4
+          - 7
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - De ?\! Ca peut pas être quoi ?!
+          - Il y a une ombre énorme qui dépasse
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - de la ville !
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
@@ -789,7 +750,7 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::SE
             name: Earth2
             pitch: 70
-            volume: 60
+            volume: 80
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 225
@@ -815,64 +776,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Merde...\! Quelle taille ça peut faire ?!
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Evil
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - De quoi bordel !?
+          - Elle se déplace...
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230
           parameters:
           - 60
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 250
-          parameters:
-          - !ruby/object:RPG::SE
-            name: Earth2
-            pitch: 70
-            volume: 60
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 225
-          parameters:
-          - 3
-          - 3
-          - 40
-          - true
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 230
-          parameters:
-          - 60
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - Light1
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - C'est vivant...
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 230
-          parameters:
-          - 100
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -897,12 +806,12 @@ root: !ruby/object:RPG::Map
           - !ruby/object:RPG::SE
             name: Earth2
             pitch: 70
-            volume: 60
+            volume: 80
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 225
           parameters:
-          - 3
+          - 4
           - 3
           - 40
           - true

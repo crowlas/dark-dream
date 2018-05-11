@@ -2921,1107 +2921,6 @@ root:
     enemy_id: 41
   - !ruby/object:RPG::Troop::Member
     y: 208
-    hidden: true
-    x: 344
-    enemy_id: 42
-  - !ruby/object:RPG::Troop::Member
-    y: 248
-    hidden: true
-    x: 240
-    enemy_id: 23
-  - !ruby/object:RPG::Troop::Member
-    y: 256
-    hidden: true
-    x: 328
-    enemy_id: 25
-  - !ruby/object:RPG::Troop::Member
-    y: 200
-    hidden: true
-    x: 256
-    enemy_id: 32
-  name: nobriant 1
-  pages:
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - People4
-      - 7
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - C'est quoi ça ?!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Des lutins...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - "...des lutins ?"
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Tu sais autre chose d'utile ?
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Ils attaquent de manière linéaire.\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Il faut se concentrer sur l'attaque.
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor2
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Vous avez compris !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Faites ce qu'il dit !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Attention, d'autres arrivent !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 335
-      parameters:
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 335
-      parameters:
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 7
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Des démons sont apparus !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 2
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Evil
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Merde ! J'en vois d'autres !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 335
-      parameters:
-      - 4
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 335
-      parameters:
-      - 5
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 7
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Des démons sont apparus !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - People4
-      - 7
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Il faut se replier !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Aucune chance ! \!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - On est encerclé !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor2
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Notre groupe est une proie facile !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Il faut se séparer !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Evil
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Quoi ! \! C'est de la folie !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Non, il a raison !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - 'Il nous faut de l''espace pour nous '
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - battre !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor2
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - OK ! Luke, tu viens avec moi !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - On va bloquer leur renforts !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - People4
-      - 7
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Je te couvre !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Soyez prudent, les gars !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor2
-      - 4
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Et vous, ne vous avisez pas de mourir !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 129
-      parameters:
-      - 21
-      - 1
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 129
-      parameters:
-      - 20
-      - 1
-      - 0
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 7
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Luke et David ont quitté l'équipe !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 4
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  id: 57
-- !ruby/object:RPG::Troop
-  members:
-  - !ruby/object:RPG::Troop::Member
-    y: 232
-    hidden: false
-    x: 224
-    enemy_id: 31
-  - !ruby/object:RPG::Troop::Member
-    y: 216
-    hidden: false
-    x: 344
-    enemy_id: 40
-  - !ruby/object:RPG::Troop::Member
-    y: 248
-    hidden: false
-    x: 296
-    enemy_id: 26
-  - !ruby/object:RPG::Troop::Member
-    y: 256
-    hidden: true
-    x: 368
-    enemy_id: 35
-  name: nobriant 2
-  pages:
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 335
-      parameters:
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 7
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Des démons sont apparus !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 230
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Light !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Une marionnette !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - C'est difficilement prévisible ! \!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Soyez sur vos gardes !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 2
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - 'On s''en sortira pas en faisant des '
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - économies...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Recovery
-        pitch: 100
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Carole boit une potion de vie !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - 150 PV récupérés !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 311
-      parameters:
-      - 0
-      - 16
-      - 0
-      - 0
-      - 150
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: true
-      actor_id: 16
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Evil
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Tss !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Recovery
-        pitch: 100
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Savilone boit une potion de vie !\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - 150 PV récupérés !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 311
-      parameters:
-      - 0
-      - 17
-      - 0
-      - 0
-      - 150
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: true
-      actor_id: 17
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  id: 58
-- !ruby/object:RPG::Troop
-  members:
-  - !ruby/object:RPG::Troop::Member
-    y: 248
-    hidden: false
-    x: 160
-    enemy_id: 39
-  - !ruby/object:RPG::Troop::Member
-    y: 256
-    hidden: false
-    x: 384
-    enemy_id: 40
-  - !ruby/object:RPG::Troop::Member
-    y: 256
-    hidden: false
-    x: 280
-    enemy_id: 26
-  - !ruby/object:RPG::Troop::Member
-    y: 232
-    hidden: true
-    x: 280
-    enemy_id: 54
-  name: nobriant 3
-  pages:
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 242
-      parameters:
-      - 60
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Monster7
-        pitch: 50
-        volume: 60
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 225
-      parameters:
-      - 1
-      - 1
-      - 30
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 1
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Ca n'en finit pas...\!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - A t-on une chance de les repousser ?
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 0
-      turn_ending: false
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Monster7
-        pitch: 50
-        volume: 70
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 225
-      parameters:
-      - 2
-      - 2
-      - 40
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 1
-      turn_ending: true
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Monster7
-        pitch: 50
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 225
-      parameters:
-      - 3
-      - 3
-      - 50
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 230
-      parameters:
-      - 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Vous avez entendu ça ?
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 2
-      turn_ending: true
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Monster7
-        pitch: 50
-        volume: 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 225
-      parameters:
-      - 4
-      - 4
-      - 60
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Evil
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - C'est quoi ce borde...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 241
-      parameters:
-      - !ruby/object:RPG::BGM
-        name: Battle9
-        volume: 100
-        pitch: 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 225
-      parameters:
-      - 5
-      - 5
-      - 70
-      - false
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 335
-      parameters:
-      - 3
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 250
-      parameters:
-      - !ruby/object:RPG::SE
-        name: Earth2
-        pitch: 50
-        volume: 80
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - ''
-      - 0
-      - 1
-      - 1
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Un ennemi apparait !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Evil
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - "*tétanisé*"
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - "*tétanisée*\\!"
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Light...\! c'est quoi ça...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - "*tétanisé*\\!"
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Je...\!je sais pas...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 3
-      turn_ending: true
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  - !ruby/object:RPG::Troop::Page
-    list:
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 1
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - C'est sans espoir...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Il faut s'enfuir.
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - "*serre les dents*"
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 230
-      parameters:
-      - 100
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Light1
-      - 0
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - La ville est condamnée.
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Merde...
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 101
-      parameters:
-      - Actor1
-      - 5
-      - 0
-      - 2
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Merde ! \!
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 401
-      parameters:
-      - Allons-y !
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 221
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 340
-      parameters: []
-    - !ruby/object:RPG::EventCommand
-      indent: 0
-      code: 0
-      parameters: []
-    span: 0
-    condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: true
-      actor_hp: 50
-      turn_a: 4
-      turn_ending: true
-      enemy_hp: 50
-      switch_valid: false
-      enemy_index: 0
-      actor_valid: false
-      actor_id: 1
-      enemy_valid: false
-      switch_id: 1
-      turn_b: 0
-  id: 59
-- !ruby/object:RPG::Troop
-  members:
-  - !ruby/object:RPG::Troop::Member
-    y: 240
-    hidden: false
-    x: 280
-    enemy_id: 39
-  - !ruby/object:RPG::Troop::Member
-    y: 208
-    hidden: false
-    x: 168
-    enemy_id: 41
-  - !ruby/object:RPG::Troop::Member
-    y: 208
     hidden: false
     x: 344
     enemy_id: 42
@@ -4087,13 +2986,13 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 60
+        volume: 75
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
       parameters:
-      - 3
-      - 3
+      - 5
+      - 4
       - 40
       - true
     - !ruby/object:RPG::EventCommand
@@ -4141,13 +3040,13 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 60
+        volume: 80
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
       parameters:
-      - 3
-      - 3
+      - 5
+      - 4
       - 40
       - true
     - !ruby/object:RPG::EventCommand
@@ -4177,13 +3076,13 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 65
+        volume: 85
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
       parameters:
-      - 4
-      - 3
+      - 5
+      - 5
       - 40
       - true
     - !ruby/object:RPG::EventCommand
@@ -4267,13 +3166,13 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 70
+        volume: 90
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
       parameters:
-      - 4
-      - 4
+      - 5
+      - 5
       - 40
       - true
     - !ruby/object:RPG::EventCommand
@@ -4303,13 +3202,13 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 75
+        volume: 95
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
       parameters:
       - 5
-      - 4
+      - 5
       - 45
       - true
     - !ruby/object:RPG::EventCommand
@@ -4401,7 +3300,7 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 80
+        volume: 100
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
@@ -4487,8 +3386,8 @@ root:
       code: 225
       parameters:
       - 6
-      - 6
-      - 60
+      - 5
+      - 50
       - false
     - !ruby/object:RPG::EventCommand
       indent: 0
@@ -4522,13 +3421,13 @@ root:
       - !ruby/object:RPG::SE
         name: Earth2
         pitch: 70
-        volume: 90
+        volume: 100
     - !ruby/object:RPG::EventCommand
       indent: 0
       code: 225
       parameters:
       - 6
-      - 5
+      - 6
       - 55
       - false
     - !ruby/object:RPG::EventCommand
@@ -4987,6 +3886,81 @@ root:
       switch_valid: false
       enemy_index: 0
       actor_valid: true
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 57
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 0
+      parameters: []
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 58
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 0
+      parameters: []
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 59
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand
+      indent: 0
+      code: 0
+      parameters: []
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
       actor_id: 1
       enemy_valid: false
       switch_id: 1
