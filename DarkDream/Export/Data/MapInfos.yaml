@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: false
+    expanded: true
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -480,7 +480,7 @@ root:
     scroll_x: 272
     name: test
     expanded: false
-    order: 85
+    order: 89
     scroll_y: 208
     parent_id: 0
   70: !ruby/object:RPG::MapInfo
@@ -582,11 +582,11 @@ root:
     scroll_y: 805
     parent_id: 48
   84: !ruby/object:RPG::MapInfo
-    scroll_x: 670
+    scroll_x: 736
     name: Ester
     expanded: true
     order: 83
-    scroll_y: 520
+    scroll_y: 608
     parent_id: 68
   85: !ruby/object:RPG::MapInfo
     scroll_x: 272
@@ -595,3 +595,31 @@ root:
     order: 84
     scroll_y: 208
     parent_id: 84
+  86: !ruby/object:RPG::MapInfo
+    scroll_x: 528
+    name: Trecal (port)
+    expanded: true
+    order: 88
+    scroll_y: 304
+    parent_id: 87
+  87: !ruby/object:RPG::MapInfo
+    scroll_x: 528
+    name: Trecal
+    expanded: true
+    order: 85
+    scroll_y: 965
+    parent_id: 68
+  88: !ruby/object:RPG::MapInfo
+    scroll_x: 528
+    name: Trecal(EST)
+    expanded: true
+    order: 86
+    scroll_y: 304
+    parent_id: 87
+  89: !ruby/object:RPG::MapInfo
+    scroll_x: 1056
+    name: Route de Trecal
+    expanded: false
+    order: 87
+    scroll_y: 608
+    parent_id: 88

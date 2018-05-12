@@ -73,27 +73,12 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - nous avons fuis vers la ville portuaire
+          - nous avons fuis
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
           parameters:
-          - se trouvant au Sud, Ester.
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 405
-          parameters:
-          - ''
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 405
-          parameters:
-          - Nous venions d'être balayé par des monstres
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 405
-          parameters:
-          - que l'Homme croyait maitriser.
+          - jusqu'à atteindre la ville portuaire d'Ester.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -103,7 +88,42 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Des villes venaient d'être balayées.
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - Nous venions...non...
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - Des villes venaient d'être balayées
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - par des monstres que l'on croyait maitrisés.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -128,7 +148,22 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
           - Qu'adviendra-t-il de leurs habitants ?
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -158,7 +193,22 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Le colosse, jamais je ne l'oublierais.
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - Le colosse...
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -173,7 +223,37 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Auparavant, j'avais confiance.
+          - "...jamais je ne l'oublierais."
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - 'Auparavant, '
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - j'avais confiance.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -193,12 +273,32 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
           - Si je pouvais les combattre,
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
           parameters:
-          - alors maman les battrait à coup sûre.
+          - alors maman le pouvais aussi.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -218,12 +318,27 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Trouver son origine,
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
           parameters:
-          - et me guérir.
+          - Trouver son origine.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - Me guérir.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -248,7 +363,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Maman et Lockfried sont désormais en danger.
+          - Maman et Lockfried sont en danger.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -258,7 +373,11 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Je dois les protéger !
+          - Je dois rentrer, et vite !
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 221
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
