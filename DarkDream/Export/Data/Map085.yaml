@@ -93,12 +93,12 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Nous venions...non...
+          - Nous venions...
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
           parameters:
-          - ''
+          - non...
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -168,6 +168,66 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - La femme qui tenais l'auberge à bout de bras,
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - le garde qui se souciait du bonheur des villageois,
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - le père qui voulait protéger sa famille,
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - et à qui j'ai dit de garder espoir,
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - et Milia, que Grégoire aimait...
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
           - 'Seront-ils dévorés, '
         - !ruby/object:RPG::EventCommand
           indent: 1
@@ -213,7 +273,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Un monstre qui peut battre une armée...
+          - "...je ne l'oublierais pas."
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -223,7 +283,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - "...jamais je ne l'oublierais."
+          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -243,7 +303,12 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - j'avais confiance.
+          - pendant mon voyage,
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 405
+          parameters:
+          - je gardais confiance.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -264,11 +329,6 @@ root: !ruby/object:RPG::Map
           code: 405
           parameters:
           - mais je pouvais les combattre.
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 405
-          parameters:
-          - ''
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -363,7 +423,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 405
           parameters:
-          - Maman et Lockfried sont en danger.
+          - Maman et Lockfried sont désormais en danger.
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 405
@@ -376,8 +436,81 @@ root: !ruby/object:RPG::Map
           - Je dois rentrer, et vite !
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 221
           parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 211
+          parameters:
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Move
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 201
+          parameters:
+          - 0
+          - 86
+          - 11
+          - 2
+          - 4
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 222
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 1
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Attendez moi.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 122
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 0
+          - 8
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 122
+          parameters:
+          - 4
+          - 4
+          - 0
+          - 0
+          - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -395,11 +528,18 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 230
           parameters:
-          - 100
+          - 300
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 222
-          parameters: []
+          code: 223
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 600
+          - false
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 123

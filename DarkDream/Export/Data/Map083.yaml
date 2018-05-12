@@ -1745,21 +1745,6 @@ root: !ruby/object:RPG::Map
           - 150
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 221
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 223
-          parameters:
-          - !ruby/object:Tone
-            red: 0.0
-            green: 0.0
-            blue: 0.0
-            gray: 0.0
-          - 1
-          - false
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 101
           parameters:
           - Evil
@@ -1861,6 +1846,34 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Au revoir, Savilone.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 129
+          parameters:
+          - 16
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 129
+          parameters:
+          - 17
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 129
+          parameters:
+          - 20
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 129
+          parameters:
+          - 21
+          - 1
+          - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 230

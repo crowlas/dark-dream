@@ -2538,7 +2538,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - 'Quête n° 7 : "Ville en difficultée"'
+    - 'Quête n° 7 : "Villes en difficultées"'
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 401
@@ -3282,14 +3282,27 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 1
-    code: 108
+    code: 101
     parameters:
-    - Light est déprimé et angoissé par la perte des villes.
+    - ''
+    - 0
+    - 0
+    - 2
   - !ruby/object:RPG::EventCommand
     indent: 1
-    code: 408
+    code: 401
     parameters:
-    - Il cherche à rentrer chez lui.
+    - 'Quête n° 8 : "Retour à la maison"'
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 401
+    parameters:
+    - ''
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 401
+    parameters:
+    - 'Objectif en cours :'
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 108
@@ -3310,6 +3323,156 @@ root:
     code: 408
     parameters:
     - Light croise lockfried en se rendant sur les tombes.
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 0
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - Light est déprimé et angoissé par la perte des villes.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - Il cherche à rentrer chez lui.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Rendez-vous à Sanj.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 1
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Rendez-vous à Tarped.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - 'A Trecal, vous pouvez payer un '
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - transport pour vous y rendre.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 2
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 108
+    parameters:
+    - La route est obstrué par des démons.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 408
+    parameters:
+    - Aucun cheval ne sera loué.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Demandez un transport pour Sanj.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 111
+    parameters:
+    - 1
+    - 4
+    - 0
+    - 3
+    - 0
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - ''
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Rendez-vous à pied à Sanj.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 0
+    parameters: []
+  - !ruby/object:RPG::EventCommand
+    indent: 1
+    code: 412
+    parameters: []
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 0
