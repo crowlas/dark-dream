@@ -1448,6 +1448,9 @@ root: !ruby/object:RPG::Map
               code: 2
               parameters: []
             - &4 !ruby/object:RPG::MoveCommand
+              code: 2
+              parameters: []
+            - &5 !ruby/object:RPG::MoveCommand
               code: 29
               parameters:
               - 4
@@ -1476,22 +1479,16 @@ root: !ruby/object:RPG::Map
           - *4
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 223
+          code: 505
           parameters:
-          - !ruby/object:Tone
-            red: -255.0
-            green: -255.0
-            blue: -255.0
-            gray: 0.0
-          - 600
-          - false
+          - *5
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
           parameters:
           - Light1
           - 0
-          - 0
+          - 1
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -1520,6 +1517,102 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 230
           parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Il faut y aller.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "*désorienté*"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "...pourquoi ?\\! Pourquoi ?"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ne perdez pas espoir.  \!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Peut-être ont-ils déjà évacué...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "*larmes aux yeux*\\!"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ne me prends pas pour un idiot...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 223
+          parameters:
+          - !ruby/object:Tone
+            red: -255.0
+            green: -255.0
+            blue: -255.0
+            gray: 0.0
+          - 600
+          - false
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
           - 200
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -1539,6 +1632,250 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Il faut partir.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - "*larmes aux yeux*"
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Partez sans moi.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 50
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - People4
+          - 7
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Quoi ?
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor1
+          - 5
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Il en est hors de question.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ce n'est pas à vous d'en décider.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - People4
+          - 7
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Tu es encore en vie !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - People4
+          - 7
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - On peut tous s'en sortir !
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 221
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 223
+          parameters:
+          - !ruby/object:Tone
+            red: 0.0
+            green: 0.0
+            blue: 0.0
+            gray: 0.0
+          - 1
+          - false
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'Je les retiendrais le plus '
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - longtemps possible...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - People4
+          - 7
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ce n'est pas...
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Evil
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Ne vous avisez pas de vous retourner.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor2
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Je t'avais mal jugé.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor2
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Je les emmenerais en lieu sûr.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Je te le promets.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - Actor2
+          - 4
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Au revoir, Savilone.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 230
+          parameters:
+          - 600
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 201
+          parameters:
+          - 0
+          - 85
+          - 0
+          - 1
+          - 6
+          - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 123
