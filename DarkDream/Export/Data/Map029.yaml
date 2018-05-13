@@ -2186,7 +2186,7 @@ root: !ruby/object:RPG::Map
           indent: 2
           code: 102
           parameters:
-          - - Chazay (9 Gold)
+          - - Chazay (21 Gold)
             - Annuler.
           - 2
         - !ruby/object:RPG::EventCommand
@@ -2194,13 +2194,13 @@ root: !ruby/object:RPG::Map
           code: 402
           parameters:
           - 0
-          - Chazay (9 Gold)
+          - Chazay (21 Gold)
         - !ruby/object:RPG::EventCommand
           indent: 3
           code: 111
           parameters:
           - 7
-          - 9
+          - 21
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 4
@@ -2217,7 +2217,7 @@ root: !ruby/object:RPG::Map
           parameters:
           - 1
           - 0
-          - 9
+          - 21
         - !ruby/object:RPG::EventCommand
           indent: 4
           code: 101
@@ -2230,7 +2230,7 @@ root: !ruby/object:RPG::Map
           indent: 4
           code: 401
           parameters:
-          - 9 Gold dépensés !\!
+          - 21 Gold dépensés !\!
         - !ruby/object:RPG::EventCommand
           indent: 4
           code: 401
@@ -2679,8 +2679,8 @@ root: !ruby/object:RPG::Map
     17: !ruby/object:RPG::Event
       id: 17
       name: panneau
-      x: 33
-      y: 39
+      x: 35
+      y: 38
       pages:
       - !ruby/object:RPG::Event::Page
         condition: !ruby/object:RPG::Event::Page::Condition

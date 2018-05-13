@@ -155,254 +155,6 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 0
           parameters: []
-    8: !ruby/object:RPG::Event
-      id: 8
-      name: Porte
-      x: 27
-      y: 30
-      pages:
-      - !ruby/object:RPG::Event::Page
-        condition: !ruby/object:RPG::Event::Page::Condition
-          switch1_valid: false
-          switch2_valid: false
-          variable_valid: false
-          self_switch_valid: false
-          item_valid: false
-          actor_valid: false
-          switch1_id: 1
-          switch2_id: 1
-          variable_id: 1
-          variable_value: 0
-          self_switch_ch: A
-          item_id: 1
-          actor_id: 1
-        graphic: !ruby/object:RPG::Event::Page::Graphic
-          tile_id: 0
-          character_name: "!Door1"
-          character_index: 1
-          direction: 2
-          pattern: 0
-        move_type: 0
-        move_speed: 3
-        move_frequency: 3
-        move_route: !ruby/object:RPG::MoveRoute
-          repeat: true
-          skippable: false
-          wait: false
-          list:
-          - !ruby/object:RPG::MoveCommand
-            code: 0
-            parameters: []
-        walk_anime: false
-        step_anime: false
-        direction_fix: false
-        through: false
-        priority_type: 1
-        trigger: 0
-        list:
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - ''
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - La porte est fermée.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 0
-          parameters: []
-    7: !ruby/object:RPG::Event
-      id: 7
-      name: Porte
-      x: 26
-      y: 12
-      pages:
-      - !ruby/object:RPG::Event::Page
-        condition: !ruby/object:RPG::Event::Page::Condition
-          switch1_valid: false
-          switch2_valid: false
-          variable_valid: false
-          self_switch_valid: false
-          item_valid: false
-          actor_valid: false
-          switch1_id: 1
-          switch2_id: 1
-          variable_id: 1
-          variable_value: 0
-          self_switch_ch: A
-          item_id: 1
-          actor_id: 1
-        graphic: !ruby/object:RPG::Event::Page::Graphic
-          tile_id: 0
-          character_name: "!Door1"
-          character_index: 1
-          direction: 2
-          pattern: 0
-        move_type: 0
-        move_speed: 3
-        move_frequency: 3
-        move_route: !ruby/object:RPG::MoveRoute
-          repeat: true
-          skippable: false
-          wait: false
-          list:
-          - !ruby/object:RPG::MoveCommand
-            code: 0
-            parameters: []
-        walk_anime: false
-        step_anime: false
-        direction_fix: false
-        through: false
-        priority_type: 1
-        trigger: 0
-        list:
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - ''
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - La porte est fermée.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 0
-          parameters: []
-    5: !ruby/object:RPG::Event
-      id: 5
-      name: Porte
-      x: 1
-      y: 4
-      pages:
-      - !ruby/object:RPG::Event::Page
-        condition: !ruby/object:RPG::Event::Page::Condition
-          switch1_valid: false
-          switch2_valid: false
-          variable_valid: false
-          self_switch_valid: false
-          item_valid: false
-          actor_valid: false
-          switch1_id: 1
-          switch2_id: 1
-          variable_id: 1
-          variable_value: 0
-          self_switch_ch: A
-          item_id: 1
-          actor_id: 1
-        graphic: !ruby/object:RPG::Event::Page::Graphic
-          tile_id: 0
-          character_name: "!Door1"
-          character_index: 1
-          direction: 2
-          pattern: 0
-        move_type: 0
-        move_speed: 3
-        move_frequency: 3
-        move_route: !ruby/object:RPG::MoveRoute
-          repeat: true
-          skippable: false
-          wait: false
-          list:
-          - !ruby/object:RPG::MoveCommand
-            code: 0
-            parameters: []
-        walk_anime: false
-        step_anime: false
-        direction_fix: false
-        through: false
-        priority_type: 1
-        trigger: 0
-        list:
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - ''
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - La porte est fermée.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 0
-          parameters: []
-    4: !ruby/object:RPG::Event
-      id: 4
-      name: Porte
-      x: 2
-      y: 12
-      pages:
-      - !ruby/object:RPG::Event::Page
-        condition: !ruby/object:RPG::Event::Page::Condition
-          switch1_valid: false
-          switch2_valid: false
-          variable_valid: false
-          self_switch_valid: false
-          item_valid: false
-          actor_valid: false
-          switch1_id: 1
-          switch2_id: 1
-          variable_id: 1
-          variable_value: 0
-          self_switch_ch: A
-          item_id: 1
-          actor_id: 1
-        graphic: !ruby/object:RPG::Event::Page::Graphic
-          tile_id: 0
-          character_name: "!Door1"
-          character_index: 1
-          direction: 2
-          pattern: 0
-        move_type: 0
-        move_speed: 3
-        move_frequency: 3
-        move_route: !ruby/object:RPG::MoveRoute
-          repeat: true
-          skippable: false
-          wait: false
-          list:
-          - !ruby/object:RPG::MoveCommand
-            code: 0
-            parameters: []
-        walk_anime: false
-        step_anime: false
-        direction_fix: false
-        through: false
-        priority_type: 1
-        trigger: 0
-        list:
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - ''
-          - 0
-          - 0
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - La porte est fermée.
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 0
-          parameters: []
     1: !ruby/object:RPG::Event
       id: 1
       name: PNJ
@@ -4269,9 +4021,9 @@ root: !ruby/object:RPG::Map
     - 4456
     - 4456
     - 4456
-    - 4846
-    - 1536
-    - 4843
+    - 4842
+    - 4842
+    - 4842
     - 4846
     - 2858
     - 3292
@@ -4534,9 +4286,9 @@ root: !ruby/object:RPG::Map
     - 5554
     - 5554
     - 4842
-    - 4846
-    - 1536
-    - 4843
+    - 4842
+    - 4842
+    - 4842
     - 4842
     - 4846
     - 2859
@@ -4559,7 +4311,7 @@ root: !ruby/object:RPG::Map
     - 5561
     - 5560
     - 5560
-    - 1536
+    - 5560
     - 5560
     - 5560
     - 5560
@@ -5154,7 +4906,7 @@ root: !ruby/object:RPG::Map
     - 5561
     - 5560
     - 5560
-    - 1536
+    - 5560
     - 5560
     - 5560
     - 5564
@@ -7570,8 +7322,8 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 455
     - 0
-    - 298
     - 0
     - 0
     - 158
@@ -7824,8 +7576,8 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 436
     - 0
+    - 436
     - 0
     - 0
     - 436
@@ -7835,7 +7587,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 455
     - 0
-    - 0
+    - 455
     - 0
     - 455
     - 0
@@ -7857,8 +7609,8 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 444
     - 0
+    - 444
     - 0
     - 0
     - 444
@@ -8421,7 +8173,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 436
     - 0
-    - 0
+    - 436
     - 0
     - 436
     - 0
@@ -8454,7 +8206,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 444
     - 0
-    - 0
+    - 444
     - 0
     - 444
     - 0
@@ -9220,15 +8972,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 5
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
     - 0
     - 0
     - 0
@@ -9238,30 +8981,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
     - 0
     - 0
     - 0
@@ -9294,70 +9013,70 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
+    - 5
     - 0
     - 0
     - 0
     - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -9479,280 +9198,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
     - 0
     - 0
     - 0
@@ -9894,6 +9339,313 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 5
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -10104,7 +9856,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 5
+    - 0
     - 0
     - 0
     - 0
