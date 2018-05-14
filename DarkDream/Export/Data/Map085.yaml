@@ -1468,7 +1468,7 @@ root: !ruby/object:RPG::Map
     - 0
   bgs: !ruby/object:RPG::BGS
     name: Sea
-    volume: 50
+    volume: 70
     pitch: 150
   parallax_loop_y: false
   autoplay_bgm: false

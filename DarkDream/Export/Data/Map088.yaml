@@ -689,7 +689,258 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - 'EST :  Forge, Tarped'
+          - 'EST : Armes , Armures'
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'Prochaine ville : Tarped'
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    14: !ruby/object:RPG::Event
+      id: 14
+      name: EV014
+      x: 14
+      y: 4
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 49
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 102
+          parameters:
+          - - Voyager.
+            - Ne rien faire.
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 402
+          parameters:
+          - 0
+          - Voyager.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 102
+          parameters:
+          - - Tarped (16 Gold)
+            - Annuler
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 402
+          parameters:
+          - 0
+          - Tarped (16 Gold)
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 111
+          parameters:
+          - 7
+          - 16
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 242
+          parameters:
+          - 10
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 221
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 125
+          parameters:
+          - 1
+          - 0
+          - 16
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - 16 Gold dépensés !\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Voyage vers Tarped en cours ...
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 230
+          parameters:
+          - 200
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 201
+          parameters:
+          - 0
+          - 29
+          - 14
+          - 31
+          - 2
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 122
+          parameters:
+          - 2
+          - 2
+          - 1
+          - 0
+          - 3
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 322
+          parameters:
+          - 1
+          - Light1
+          - 0
+          - Light1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Destination atteinte.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Bonne journée !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 222
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 401
+          parameters:
+          - Vous n'avez pas assez d'argent !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 402
+          parameters:
+          - 1
+          - Annuler
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 404
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 402
+          parameters:
+          - 1
+          - Ne rien faire.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 404
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -853,8 +1104,8 @@ root: !ruby/object:RPG::Map
     - 2948
     - 3246
     - 2862
-    - 3243
-    - 3245
+    - 3246
+    - 2862
     - 4843
     - 4842
     - 4842

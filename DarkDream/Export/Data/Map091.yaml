@@ -622,7 +622,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 102
           parameters:
-          - - Tarped (16 Gold)
+          - - Humanis (11 Gold)
             - Annuler
           - 2
         - !ruby/object:RPG::EventCommand
@@ -630,32 +630,41 @@ root: !ruby/object:RPG::Map
           code: 402
           parameters:
           - 0
-          - Tarped (16 Gold)
+          - Humanis (11 Gold)
         - !ruby/object:RPG::EventCommand
           indent: 2
+          code: 111
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 8
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 3
           code: 111
           parameters:
           - 7
           - 16
           - 0
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 242
           parameters:
           - 10
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 221
           parameters: []
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 125
           parameters:
           - 1
           - 0
-          - 16
+          - 11
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 101
           parameters:
           - ''
@@ -663,22 +672,22 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 401
           parameters:
-          - 16 Gold dépensés !\!
+          - 11 Gold dépensés !\!
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 401
           parameters:
-          - Voyage vers Tarped en cours ...
+          - Voyage vers Humanis en cours ...
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 230
           parameters:
           - 200
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 201
           parameters:
           - 0
@@ -688,21 +697,7 @@ root: !ruby/object:RPG::Map
           - 2
           - 0
         - !ruby/object:RPG::EventCommand
-          indent: 3
-          code: 121
-          parameters:
-          - 21
-          - 21
-          - 1
-        - !ruby/object:RPG::EventCommand
-          indent: 3
-          code: 121
-          parameters:
-          - 22
-          - 22
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 122
           parameters:
           - 2
@@ -711,7 +706,7 @@ root: !ruby/object:RPG::Map
           - 0
           - 3
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 322
           parameters:
           - 1
@@ -720,12 +715,12 @@ root: !ruby/object:RPG::Map
           - Light1
           - 0
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 117
           parameters:
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 101
           parameters:
           - ''
@@ -733,18 +728,47 @@ root: !ruby/object:RPG::Map
           - 0
           - 2
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 401
           parameters:
           - Destination atteinte.\!
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 401
           parameters:
           - Bonne journée !
         - !ruby/object:RPG::EventCommand
-          indent: 3
+          indent: 4
           code: 222
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 401
+          parameters:
+          - Vous n'avez pas assez d'argent !
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 412
           parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 3
@@ -758,15 +782,15 @@ root: !ruby/object:RPG::Map
           indent: 3
           code: 101
           parameters:
-          - ''
+          - Light1
           - 0
-          - 0
+          - 1
           - 2
         - !ruby/object:RPG::EventCommand
           indent: 3
           code: 401
           parameters:
-          - Vous n'avez pas assez d'argent !
+          - Sûrement un autre jour...
         - !ruby/object:RPG::EventCommand
           indent: 3
           code: 0
@@ -970,6 +994,242 @@ root: !ruby/object:RPG::Map
           - 15
           - 0
           - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    14: !ruby/object:RPG::Event
+      id: 14
+      name: EV014
+      x: 29
+      y: 8
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: "!Door1"
+          character_index: 1
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: false
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 1
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Open1
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - 0
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: false
+            wait: true
+            list:
+            - &8 !ruby/object:RPG::MoveCommand
+              code: 17
+              parameters: []
+            - &9 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 3
+            - &10 !ruby/object:RPG::MoveCommand
+              code: 18
+              parameters: []
+            - &11 !ruby/object:RPG::MoveCommand
+              code: 15
+              parameters:
+              - 3
+            - &12 !ruby/object:RPG::MoveCommand
+              code: 19
+              parameters: []
+            - &13 !ruby/object:RPG::MoveCommand
+              code: 37
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *8
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *9
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *10
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *11
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *12
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *13
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 205
+          parameters:
+          - -1
+          - !ruby/object:RPG::MoveRoute
+            repeat: false
+            skippable: true
+            wait: true
+            list:
+            - &14 !ruby/object:RPG::MoveCommand
+              code: 12
+              parameters: []
+            - !ruby/object:RPG::MoveCommand
+              code: 0
+              parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 505
+          parameters:
+          - *14
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 250
+          parameters:
+          - !ruby/object:RPG::SE
+            name: Move
+            pitch: 100
+            volume: 80
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 201
+          parameters:
+          - 0
+          - 95
+          - 6
+          - 12
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    15: !ruby/object:RPG::Event
+      id: 15
+      name: Direction
+      x: 10
+      y: 14
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 40
+          character_name: ''
+          character_index: 0
+          direction: 2
+          pattern: 0
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'NORD : Mairie'
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'EST : Bar, Autres directions'
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - ''
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - 'Prochaine ville : Humanis'
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0
@@ -1426,12 +1686,12 @@ root: !ruby/object:RPG::Map
     - 2940
     - 2940
     - 2920
-    - 2912
-    - 2912
-    - 2912
-    - 2912
-    - 2912
-    - 2912
+    - 2916
+    - 2940
+    - 2940
+    - 2940
+    - 2940
+    - 2920
     - 2912
     - 2912
     - 2912
@@ -1459,12 +1719,12 @@ root: !ruby/object:RPG::Map
     - 6114
     - 6116
     - 2928
-    - 2916
-    - 2940
-    - 2940
-    - 2940
-    - 2940
-    - 2940
+    - 2936
+    - 2862
+    - 3246
+    - 2862
+    - 3246
+    - 2952
     - 2940
     - 2940
     - 2940
@@ -2716,7 +2976,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 0
+    - 53
     - 0
     - 0
     - 0
