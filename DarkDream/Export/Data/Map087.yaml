@@ -551,11 +551,6 @@ root: !ruby/object:RPG::Map
           - rapide des villes voisines !
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 230
-          parameters:
-          - 200
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 101
           parameters:
           - Light1
@@ -566,7 +561,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - Trecal se trouve à L'Ouest de Sanj.
+          - Cette ville se trouve à L'Ouest de Sanj.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 101
@@ -589,12 +584,12 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - rapidement en demandant un voyage
+          - 'rapidement en passant par Tarped,\! '
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
           parameters:
-          - pour Tarped,\! la ville voisine.
+          - la ville voisine.
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 122

@@ -473,6 +473,11 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 117
+          parameters:
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 230
           parameters:
           - 150
@@ -480,29 +485,6 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 222
           parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 230
-          parameters:
-          - 50
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 101
-          parameters:
-          - Light1
-          - 0
-          - 1
-          - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - Maman,\! Lockfried...\!
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 401
-          parameters:
-          - Attendez moi !
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 122

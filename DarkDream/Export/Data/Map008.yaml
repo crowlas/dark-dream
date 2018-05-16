@@ -4423,10 +4423,10 @@ root: !ruby/object:RPG::Map
           code: 201
           parameters:
           - 0
-          - 29
-          - 14
-          - 31
-          - 2
+          - 101
+          - 60
+          - 21
+          - 8
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 4
