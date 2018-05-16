@@ -3292,7 +3292,7 @@ root:
     indent: 1
     code: 401
     parameters:
-    - 'Quête n° 8 : "Retour à la maison"'
+    - 'Quête n° 8 : "Rentrer à la maison"'
   - !ruby/object:RPG::EventCommand
     indent: 1
     code: 401
@@ -3354,7 +3354,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Rendez-vous à Sanj.
+    - Retournez à Sanj.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0

@@ -3,7 +3,7 @@ root:
   2: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Cauchemar 0
-    expanded: true
+    expanded: false
     order: 1
     scroll_y: 208
     parent_id: 0
@@ -480,7 +480,7 @@ root:
     scroll_x: 272
     name: test
     expanded: false
-    order: 97
+    order: 100
     scroll_y: 208
     parent_id: 0
   70: !ruby/object:RPG::MapInfo
@@ -582,7 +582,7 @@ root:
     scroll_y: 608
     parent_id: 48
   84: !ruby/object:RPG::MapInfo
-    scroll_x: 736
+    scroll_x: 939
     name: Ester
     expanded: false
     order: 83
@@ -599,7 +599,7 @@ root:
     scroll_x: 528
     name: Trecal (port)
     expanded: false
-    order: 91
+    order: 94
     scroll_y: 304
     parent_id: 87
   87: !ruby/object:RPG::MapInfo
@@ -607,62 +607,62 @@ root:
     name: Trecal
     expanded: true
     order: 85
-    scroll_y: 702
+    scroll_y: 628
     parent_id: 68
   88: !ruby/object:RPG::MapInfo
     scroll_x: 528
     name: Trecal(EST)
-    expanded: false
+    expanded: true
     order: 88
     scroll_y: 304
     parent_id: 87
   89: !ruby/object:RPG::MapInfo
-    scroll_x: 1056
+    scroll_x: 638
     name: Route de Trecal
-    expanded: false
+    expanded: true
     order: 89
-    scroll_y: 608
+    scroll_y: 696
     parent_id: 88
   90: !ruby/object:RPG::MapInfo
     scroll_x: 528
     name: Trecal(SUD)
     expanded: false
-    order: 92
+    order: 95
     scroll_y: 304
     parent_id: 87
   91: !ruby/object:RPG::MapInfo
     scroll_x: 528
     name: Trecal (OUEST)
     expanded: false
-    order: 94
+    order: 97
     scroll_y: 304
     parent_id: 87
   92: !ruby/object:RPG::MapInfo
-    scroll_x: 1056
+    scroll_x: 638
     name: RouteTrecal(1.0)
-    expanded: false
+    expanded: true
     order: 90
-    scroll_y: 608
+    scroll_y: 520
     parent_id: 89
   93: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Mairie
     expanded: false
-    order: 95
+    order: 98
     scroll_y: 256
     parent_id: 91
   94: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Auberge
     expanded: false
-    order: 93
+    order: 96
     scroll_y: 208
     parent_id: 90
   95: !ruby/object:RPG::MapInfo
     scroll_x: 272
     name: Bar-Restaurant
     expanded: false
-    order: 96
+    order: 99
     scroll_y: 208
     parent_id: 91
   96: !ruby/object:RPG::MapInfo
@@ -679,3 +679,24 @@ root:
     order: 87
     scroll_y: 208
     parent_id: 87
+  98: !ruby/object:RPG::MapInfo
+    scroll_x: 272
+    name: Marchand d'armes
+    expanded: false
+    order: 92
+    scroll_y: 208
+    parent_id: 88
+  99: !ruby/object:RPG::MapInfo
+    scroll_x: 272
+    name: Marchand d'armures
+    expanded: false
+    order: 93
+    scroll_y: 208
+    parent_id: 88
+  100: !ruby/object:RPG::MapInfo
+    scroll_x: 638
+    name: RouteTrecal(2.0)
+    expanded: false
+    order: 91
+    scroll_y: 612
+    parent_id: 89
