@@ -823,6 +823,258 @@ root: !ruby/object:RPG::Map
           - 200
         - !ruby/object:RPG::EventCommand
           indent: 3
+          code: 111
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 8
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 111
+          parameters:
+          - 1
+          - 4
+          - 0
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 230
+          parameters:
+          - 300
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Des problèmes de démons ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Pourquoi vous me pausez cette question ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Malheureusement, oui.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Les problèmes persistent...
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Des villes ont été attaquées ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Quoi ?\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - N'éxagérons rien.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'Ici,\! on parle "que" de multiples '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - 'disparitions et franchement,\! '
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - ça me suffit.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Vous avez raison.
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Donc...\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Sanj est intact ?
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "*sourit*"
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - De ce que je sais, oui !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Les traités de paix avec les autres pays
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - sont,\! au dernières nouvelles,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - toujours d'actualité !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 230
+          parameters:
+          - 200
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
           code: 201
           parameters:
           - 0
@@ -872,6 +1124,94 @@ root: !ruby/object:RPG::Map
           code: 401
           parameters:
           - Bonne journée !
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 111
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 8
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 111
+          parameters:
+          - 1
+          - 4
+          - 0
+          - 1
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - A vous aussi.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Faîtes attention à vous !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - "*sourit*"
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 401
+          parameters:
+          - Je le ferais !
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 1
+          - 1
+          - 0
+          - 0
+          - 8
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 122
+          parameters:
+          - 4
+          - 4
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 5
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 4
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 3
+          code: 412
+          parameters: []
         - !ruby/object:RPG::EventCommand
           indent: 3
           code: 222

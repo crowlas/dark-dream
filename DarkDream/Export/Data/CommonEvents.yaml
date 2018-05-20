@@ -3414,16 +3414,6 @@ root:
     - 0
   - !ruby/object:RPG::EventCommand
     indent: 2
-    code: 108
-    parameters:
-    - La route est obstrué par des démons.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
-    code: 408
-    parameters:
-    - Aucun cheval ne sera loué.
-  - !ruby/object:RPG::EventCommand
-    indent: 2
     code: 101
     parameters:
     - ''
@@ -3434,7 +3424,25 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Demandez un transport pour Sanj.
+    - Rendez-vous à Sanj.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 101
+    parameters:
+    - Light1
+    - 0
+    - 0
+    - 2
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Sanj se trouve à l'Est de Tarped.
+  - !ruby/object:RPG::EventCommand
+    indent: 2
+    code: 401
+    parameters:
+    - Je dois continuer mon chemin.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0
@@ -3464,7 +3472,7 @@ root:
     indent: 2
     code: 401
     parameters:
-    - Rendez-vous à pied à Sanj.
+    - Rentrez à la maison.
   - !ruby/object:RPG::EventCommand
     indent: 2
     code: 0

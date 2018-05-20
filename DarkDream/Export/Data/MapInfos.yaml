@@ -45,9 +45,9 @@ root:
   8: !ruby/object:RPG::MapInfo
     scroll_x: 1064
     name: Sanj
-    expanded: true
+    expanded: false
     order: 2
-    scroll_y: 612
+    scroll_y: 688
     parent_id: 2
   9: !ruby/object:RPG::MapInfo
     scroll_x: 528
@@ -584,7 +584,7 @@ root:
   84: !ruby/object:RPG::MapInfo
     scroll_x: 736
     name: Ester
-    expanded: true
+    expanded: false
     order: 83
     scroll_y: 608
     parent_id: 68
@@ -607,7 +607,7 @@ root:
     name: Trecal
     expanded: true
     order: 85
-    scroll_y: 742
+    scroll_y: 650
     parent_id: 68
   88: !ruby/object:RPG::MapInfo
     scroll_x: 528
@@ -701,7 +701,7 @@ root:
     scroll_y: 612
     parent_id: 89
   101: !ruby/object:RPG::MapInfo
-    scroll_x: 1472
+    scroll_x: 1056
     name: Tarped
     expanded: false
     order: 100
