@@ -83,7 +83,7 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 0
-          - 308
+          - 303
           - 0
           - 0
         - !ruby/object:RPG::EventCommand

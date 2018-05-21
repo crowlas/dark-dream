@@ -52,19 +52,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Elevé en pleine air.\r\nUtile en cuisine."
+  description: "Redonne 85 PV.\r\nInutilisable en combat."
   name: Steak de sanglier
-  consumable: false
-  occasion: 3
+  consumable: true
+  occasion: 2
   icon_index: 515
   price: 9
-  scope: 0
+  scope: 7
   animation_id: 0
-  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:208\r\n=sanglier braisé\r\n</recipebook>\r\n"
+  note: ''
   speed: 0
   id: 3
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.0
+    value2: 85.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -77,19 +82,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Elevé en pleine air.\r\nUtile en cuisine."
+  description: "Redonne 70 PV.\r\nInutilisable en combat."
   name: Steak de loup
-  consumable: false
-  occasion: 3
+  consumable: true
+  occasion: 2
   icon_index: 515
   price: 8
-  scope: 0
+  scope: 7
   animation_id: 0
-  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:209\r\n=loup braisé\r\n</recipebook>\r\n"
+  note: ''
   speed: 0
   id: 4
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.0
+    value2: 70.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -102,19 +112,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Le meilleur morceau !\r\nUtile en cuisine."
+  description: "Redonne 165 PV.\r\nInutilisable en combat."
   name: Sanglier tendre
-  consumable: false
-  occasion: 3
+  consumable: true
+  occasion: 2
   icon_index: 515
   price: 22
-  scope: 0
+  scope: 7
   animation_id: 0
-  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:211\r\n=sanglier braisé (lv2)\r\n</recipebook>\r\n"
+  note: ''
   speed: 0
   id: 5
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.0
+    value2: 165.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -127,19 +142,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Le meilleur morceau !\r\nUtile en cuisine."
+  description: "Redonne 150 PV.\r\nInutilisable en combat."
   name: Loup tendre
-  consumable: false
-  occasion: 3
+  consumable: true
+  occasion: 2
   icon_index: 515
   price: 19
-  scope: 0
+  scope: 7
   animation_id: 0
-  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:212\r\n=loup braisé (lv2)\r\n</recipebook>\r\n"
+  note: ''
   speed: 0
   id: 6
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.0
+    value2: 150.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -152,19 +172,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Elevé en pleine air.\r\nUtile en cuisine."
+  description: "Redonne 90 PV.\r\nInutilisable en combat."
   name: Steak d'ours
-  consumable: false
-  occasion: 3
+  consumable: true
+  occasion: 2
   icon_index: 515
   price: 11
-  scope: 0
+  scope: 7
   animation_id: 0
-  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:210\r\n=ours braisé\r\n</recipebook>"
+  note: ''
   speed: 0
   id: 7
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.0
+    value2: 90.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -227,19 +252,24 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\r\nUtile en cuisine."
+  description: "Redonne 175 PV.\r\nInutilisable en combat."
   name: Ours tendre
-  consumable: false
-  occasion: 3
+  consumable: true
+  occasion: 2
   icon_index: 515
   price: 23
-  scope: 0
+  scope: 7
   animation_id: 0
-  note: "<recipebook>\r\ncategory:cuisineSimple\r\nitem:213\r\n=ours braisé (lv2)\r\n</recipebook>"
+  note: ''
   speed: 0
   id: 10
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 0.0
+    value2: 175.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5240,24 +5270,19 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 85 PV.\r\nInutilisable en combat."
-  name: Sanglier braisé
+  description: ''
+  name: ''
   consumable: true
-  occasion: 2
-  icon_index: 515
-  price: 10
+  occasion: 0
+  icon_index: 0
+  price: 0
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:003x1\r\n=steack de sanglier\r\n<ingredients>"
+  note: ''
   speed: 0
   id: 208
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 0.0
-    value2: 85.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5270,24 +5295,19 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 70 PV.\r\nInutilisable en combat."
-  name: Loup braisé
+  description: ''
+  name: ''
   consumable: true
-  occasion: 2
-  icon_index: 515
-  price: 9
+  occasion: 0
+  icon_index: 0
+  price: 0
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:004x1\r\n=steack de loup\r\n<ingredients>"
+  note: ''
   speed: 0
   id: 209
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 0.0
-    value2: 70.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5300,24 +5320,19 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 90 PV.\r\nInutilisable en combat."
-  name: Ours braisé
+  description: ''
+  name: ''
   consumable: true
-  occasion: 2
-  icon_index: 515
-  price: 10
+  occasion: 0
+  icon_index: 0
+  price: 0
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:007x1\r\n=steack d'ours\r\n<ingredients>"
+  note: ''
   speed: 0
   id: 210
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 0.0
-    value2: 90.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5330,24 +5345,19 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 165 PV.\r\nInutilisable en combat."
-  name: Sanglier braisé (lv2)
+  description: ''
+  name: ''
   consumable: true
-  occasion: 2
-  icon_index: 515
-  price: 18
+  occasion: 0
+  icon_index: 0
+  price: 0
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:005x1\r\n= sanglier tendre\r\n<ingredients>"
+  note: ''
   speed: 0
   id: 211
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 0.0
-    value2: 165.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5360,24 +5370,19 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 150 PV.\r\nInutilisable en combat."
-  name: Loup braisé (lv2)
+  description: ''
+  name: ''
   consumable: true
-  occasion: 2
-  icon_index: 515
-  price: 16
+  occasion: 0
+  icon_index: 0
+  price: 0
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:006x1\r\n= loup tendre\r\n<ingredients>"
+  note: ''
   speed: 0
   id: 212
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 0.0
-    value2: 150.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5390,24 +5395,19 @@ root:
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Redonne 175 PV.\r\nInutilisable en combat."
-  name: Ours braisé (lv2)
+  description: ''
+  name: ''
   consumable: true
-  occasion: 2
-  icon_index: 515
-  price: 19
+  occasion: 0
+  icon_index: 0
+  price: 0
   scope: 7
   animation_id: 0
-  note: "<ingredients>\r\nse: Fire1, 80, 130\r\nitem:010x1\r\n= ours tendre\r\n<ingredients>"
+  note: ''
   speed: 0
   id: 213
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 0.0
-    value2: 175.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0

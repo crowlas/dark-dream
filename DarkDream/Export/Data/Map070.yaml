@@ -1297,22 +1297,6 @@ root: !ruby/object:RPG::Map
           - 15
         - !ruby/object:RPG::EventCommand
           indent: 0
-          code: 605
-          parameters:
-          - 0
-          - 211
-          - 1
-          - 22
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 0
-          - 212
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
           code: 111
           parameters:
           - 0
@@ -1626,22 +1610,6 @@ root: !ruby/object:RPG::Map
           - 207
           - 1
           - 15
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 0
-          - 211
-          - 1
-          - 22
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 0
-          - 212
-          - 0
-          - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 0

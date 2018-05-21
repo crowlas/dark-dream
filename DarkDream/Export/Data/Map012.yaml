@@ -71,18 +71,10 @@ root: !ruby/object:RPG::Map
           code: 302
           parameters:
           - 0
-          - 304
-          - 1
-          - 60
-          - false
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 0
           - 303
           - 1
-          - 50
+          - 35
+          - false
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 605

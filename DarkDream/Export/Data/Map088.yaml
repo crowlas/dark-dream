@@ -1159,7 +1159,7 @@ root: !ruby/object:RPG::Map
           indent: 5
           code: 401
           parameters:
-          - Faîtes attention à vous !
+          - Faites attention à vous.
         - !ruby/object:RPG::EventCommand
           indent: 5
           code: 101

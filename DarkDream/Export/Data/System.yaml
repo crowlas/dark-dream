@@ -186,7 +186,7 @@ root: !ruby/object:RPG::System
   - ''
   - ''
   - tmp2*
-  - id coffre util
+  - ''
   - Réputation
   - sous-objectif de quete
   - Pierre violette

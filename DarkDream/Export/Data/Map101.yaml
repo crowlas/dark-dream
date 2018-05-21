@@ -306,7 +306,7 @@ root: !ruby/object:RPG::Map
           indent: 1
           code: 102
           parameters:
-          - - Sanj (15 Gold)
+          - - Sanj (19 Gold)
             - Annuler
           - 2
         - !ruby/object:RPG::EventCommand
@@ -314,7 +314,7 @@ root: !ruby/object:RPG::Map
           code: 402
           parameters:
           - 0
-          - Sanj (15 Gold)
+          - Sanj (19 Gold)
         - !ruby/object:RPG::EventCommand
           indent: 2
           code: 111
