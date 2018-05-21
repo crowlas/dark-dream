@@ -2613,6 +2613,360 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 0
           parameters: []
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: true
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 8
+          self_switch_ch: A
+          item_id: 413
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: People3
+          character_index: 3
+          direction: 2
+          pattern: 1
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 111
+          parameters:
+          - 1
+          - 4
+          - 0
+          - 4
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Lockfried ? \! Votre frère ?
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Oui, j'ai entendu parler de lui.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Malheureusement, \!
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - 'j''ai bien peur qu''il ne soit plus en '
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - ville...
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Si je peux vous donner un conseil,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - allez voir le marchand d'armure.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Il vous expliquera la situation.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 111
+          parameters:
+          - 2
+          - A
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 'Si votre frère cherche à gagner en '
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - 'influence,\! il serait logique qu''il '
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - tourne autour d'Humanis.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Cependant,\! il est probable que les
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - missions le pousse à s'en écarter.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - "..."
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 230
+          parameters:
+          - 150
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Si ça peut vous remonter le moral...
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Après l'incident,\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - j'ai croisé le regard de Lockfried.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Il prendra des risques,\! c'est certain.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 230
+          parameters:
+          - 50
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - "...mais mourir ne fait pas parti de ses"
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - objectifs.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Armez-vous de patience.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Vous le retrouverez.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 123
+          parameters:
+          - A
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 411
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Je suis avec vous de tout coeur.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 0
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 412
+          parameters: []
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
   parallax_sx: 0
   bgm: !ruby/object:RPG::BGM
     name: ''
