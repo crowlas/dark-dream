@@ -3172,6 +3172,19 @@ root: !ruby/object:RPG::Map
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 1
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 401
+          parameters:
+          - Objectif de quête mis à jour.
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand

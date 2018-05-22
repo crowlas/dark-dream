@@ -2922,6 +2922,42 @@ root: !ruby/object:RPG::Map
           - Vous le retrouverez.
         - !ruby/object:RPG::EventCommand
           indent: 2
+          code: 230
+          parameters:
+          - 100
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - Light1
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Merci beaucoup.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 101
+          parameters:
+          - People3
+          - 3
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Je vous prie.\!
+        - !ruby/object:RPG::EventCommand
+          indent: 2
+          code: 401
+          parameters:
+          - Restez fort.
+        - !ruby/object:RPG::EventCommand
+          indent: 2
           code: 123
           parameters:
           - A
