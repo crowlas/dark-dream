@@ -60,7 +60,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 401
           parameters:
-          - S'il ya besoin d'ajustement,
+          - S'il y a besoin d'ajustement,
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 401
@@ -80,14 +80,6 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 2
-          - 8
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 2
           - 36
           - 0
           - 0
@@ -96,7 +88,7 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 2
-          - 37
+          - 67
           - 0
           - 0
         - !ruby/object:RPG::EventCommand
@@ -105,14 +97,6 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 68
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 2
-          - 69
           - 0
           - 0
         - !ruby/object:RPG::EventCommand

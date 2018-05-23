@@ -145,10 +145,9 @@ root: !ruby/object:RPG::Map
           code: 102
           parameters:
           - - Armes
-            - Recette
             - Matières premières
             - Au revoir
-          - 4
+          - 3
         - !ruby/object:RPG::EventCommand
           indent: 0
           code: 402
@@ -160,10 +159,18 @@ root: !ruby/object:RPG::Map
           code: 302
           parameters:
           - 1
-          - 4
+          - 3
           - 0
           - 0
           - false
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 605
+          parameters:
+          - 1
+          - 4
+          - 0
+          - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 605
@@ -177,35 +184,11 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 1
-          - 6
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 1
-          - 7
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 1
           - 9
           - 0
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 1
-          code: 605
-          parameters:
-          - 1
-          - 10
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
           code: 0
           parameters: []
         - !ruby/object:RPG::EventCommand
@@ -213,33 +196,6 @@ root: !ruby/object:RPG::Map
           code: 402
           parameters:
           - 1
-          - Recette
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 302
-          parameters:
-          - 0
-          - 255
-          - 0
-          - 0
-          - false
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 0
-          - 256
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 0
-          parameters: []
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 402
-          parameters:
-          - 2
           - Matières premières
         - !ruby/object:RPG::EventCommand
           indent: 1
@@ -266,7 +222,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           code: 402
           parameters:
-          - 3
+          - 2
           - Au revoir
         - !ruby/object:RPG::EventCommand
           indent: 1
@@ -564,22 +520,6 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 2
-          - 67
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 2
-          - 68
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 2
           - 36
           - 0
           - 0
@@ -589,22 +529,6 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 37
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 2
-          - 65
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 1
-          code: 605
-          parameters:
-          - 2
-          - 66
           - 0
           - 0
         - !ruby/object:RPG::EventCommand
@@ -619,9 +543,41 @@ root: !ruby/object:RPG::Map
           - Forge
         - !ruby/object:RPG::EventCommand
           indent: 1
+          code: 126
+          parameters:
+          - 255
+          - 0
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 126
+          parameters:
+          - 256
+          - 0
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
           code: 355
           parameters:
           - call_tocrafting_scene( :forge )
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 126
+          parameters:
+          - 255
+          - 1
+          - 0
+          - 1
+        - !ruby/object:RPG::EventCommand
+          indent: 1
+          code: 126
+          parameters:
+          - 256
+          - 1
+          - 0
+          - 1
         - !ruby/object:RPG::EventCommand
           indent: 1
           code: 0
@@ -733,22 +689,6 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 2
-          - 67
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
-          - 68
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
           - 36
           - 0
           - 0
@@ -758,22 +698,6 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 37
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
-          - 65
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
-          - 66
           - 0
           - 0
         - !ruby/object:RPG::EventCommand
@@ -2236,22 +2160,6 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 2
-          - 67
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 4
-          code: 605
-          parameters:
-          - 2
-          - 68
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 4
-          code: 605
-          parameters:
-          - 2
           - 36
           - 0
           - 0
@@ -2261,22 +2169,6 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 37
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 4
-          code: 605
-          parameters:
-          - 2
-          - 65
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 4
-          code: 605
-          parameters:
-          - 2
-          - 66
           - 0
           - 0
         - !ruby/object:RPG::EventCommand
@@ -2372,22 +2264,6 @@ root: !ruby/object:RPG::Map
           code: 605
           parameters:
           - 2
-          - 67
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
-          - 68
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
           - 36
           - 0
           - 0
@@ -2397,22 +2273,6 @@ root: !ruby/object:RPG::Map
           parameters:
           - 2
           - 37
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
-          - 65
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 2
-          code: 605
-          parameters:
-          - 2
-          - 66
           - 0
           - 0
         - !ruby/object:RPG::EventCommand

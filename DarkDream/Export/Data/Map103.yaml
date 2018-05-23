@@ -5,8 +5,111 @@ root: !ruby/object:RPG::Map
   events:
     1: !ruby/object:RPG::Event
       id: 1
-      name: EV001
-      x: 5
+      name: Marchand
+      x: 12
+      y: 9
+      pages:
+      - !ruby/object:RPG::Event::Page
+        condition: !ruby/object:RPG::Event::Page::Condition
+          switch1_valid: false
+          switch2_valid: false
+          variable_valid: false
+          self_switch_valid: false
+          item_valid: false
+          actor_valid: false
+          switch1_id: 1
+          switch2_id: 1
+          variable_id: 1
+          variable_value: 0
+          self_switch_ch: A
+          item_id: 1
+          actor_id: 1
+        graphic: !ruby/object:RPG::Event::Page::Graphic
+          tile_id: 0
+          character_name: Actor3
+          character_index: 1
+          direction: 4
+          pattern: 1
+        move_type: 0
+        move_speed: 3
+        move_frequency: 3
+        move_route: !ruby/object:RPG::MoveRoute
+          repeat: true
+          skippable: false
+          wait: false
+          list:
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+        walk_anime: true
+        step_anime: false
+        direction_fix: false
+        through: false
+        priority_type: 1
+        trigger: 0
+        list:
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 101
+          parameters:
+          - ''
+          - 0
+          - 0
+          - 2
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 401
+          parameters:
+          - Prenez votre temps.
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 302
+          parameters:
+          - 2
+          - 63
+          - 0
+          - 0
+          - false
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 605
+          parameters:
+          - 2
+          - 65
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 605
+          parameters:
+          - 2
+          - 67
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 605
+          parameters:
+          - 2
+          - 68
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 605
+          parameters:
+          - 2
+          - 69
+          - 0
+          - 0
+        - !ruby/object:RPG::EventCommand
+          indent: 0
+          code: 0
+          parameters: []
+    2: !ruby/object:RPG::Event
+      id: 2
+      name: EV002
+      x: 8
       y: 12
       pages:
       - !ruby/object:RPG::Event::Page
@@ -61,113 +164,10 @@ root: !ruby/object:RPG::Map
           code: 201
           parameters:
           - 0
-          - 88
-          - 9
-          - 4
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 0
-          parameters: []
-    2: !ruby/object:RPG::Event
-      id: 2
-      name: Marchand
-      x: 7
-      y: 6
-      pages:
-      - !ruby/object:RPG::Event::Page
-        condition: !ruby/object:RPG::Event::Page::Condition
-          switch1_valid: false
-          switch2_valid: false
-          variable_valid: false
-          self_switch_valid: false
-          item_valid: false
-          actor_valid: false
-          switch1_id: 1
-          switch2_id: 1
-          variable_id: 1
-          variable_value: 0
-          self_switch_ch: A
-          item_id: 1
-          actor_id: 1
-        graphic: !ruby/object:RPG::Event::Page::Graphic
-          tile_id: 0
-          character_name: Actor4
-          character_index: 7
-          direction: 4
-          pattern: 1
-        move_type: 0
-        move_speed: 3
-        move_frequency: 3
-        move_route: !ruby/object:RPG::MoveRoute
-          repeat: true
-          skippable: false
-          wait: false
-          list:
-          - !ruby/object:RPG::MoveCommand
-            code: 0
-            parameters: []
-        walk_anime: true
-        step_anime: false
-        direction_fix: false
-        through: false
-        priority_type: 1
-        trigger: 0
-        list:
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 101
-          parameters:
-          - ''
-          - 0
-          - 0
+          - 101
+          - 27
+          - 13
           - 2
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 401
-          parameters:
-          - Une lame a attiré votre attention ?
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 302
-          parameters:
-          - 1
-          - 3
-          - 0
-          - 0
-          - false
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 1
-          - 6
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 1
-          - 9
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 1
-          - 10
-          - 0
-          - 0
-        - !ruby/object:RPG::EventCommand
-          indent: 0
-          code: 605
-          parameters:
-          - 1
-          - 11
-          - 0
           - 0
         - !ruby/object:RPG::EventCommand
           indent: 0
@@ -187,227 +187,227 @@ root: !ruby/object:RPG::Map
     ysize: 13
     xsize: 17
     data:
-    - 7572
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7576
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3666
-    - 3652
-    - 3652
-    - 3652
-    - 3652
-    - 3652
-    - 3668
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3648
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3656
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3648
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3656
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3648
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3656
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3648
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3656
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3648
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3632
-    - 3656
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7592
-    - 3672
-    - 3660
-    - 3660
-    - 3660
-    - 3644
-    - 3660
-    - 3670
-    - 7584
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7568
-    - 7598
-    - 7601
-    - 7601
-    - 7601
-    - 7613
-    - 3664
-    - 7611
-    - 7601
-    - 7597
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7596
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7958
-    - 3664
-    - 7955
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7954
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7964
-    - 3664
-    - 7961
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
-    - 7960
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6852
+    - 6876
+    - 6876
+    - 6876
+    - 6876
+    - 6876
+    - 6876
+    - 6876
+    - 6856
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6872
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 6864
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6872
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 6864
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6872
+    - 3283
+    - 3281
+    - 3281
+    - 3293
+    - 2960
+    - 2960
+    - 2960
+    - 6864
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6872
+    - 3280
+    - 2960
+    - 2960
+    - 2960
+    - 2960
+    - 2960
+    - 2960
+    - 6864
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6872
+    - 3280
+    - 2960
+    - 2960
+    - 2960
+    - 2960
+    - 3282
+    - 2960
+    - 6864
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6848
+    - 6872
+    - 3292
+    - 2960
+    - 2960
+    - 2960
+    - 2960
+    - 3288
+    - 2960
+    - 6864
+    - 6848
+    - 6848
+    - 6848
+    - 6876
+    - 6876
+    - 6876
+    - 6876
+    - 6876
+    - 6878
+    - 6881
+    - 6893
+    - 2960
+    - 6891
+    - 6881
+    - 6881
+    - 6881
+    - 6877
+    - 6876
+    - 6876
+    - 6876
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7238
+    - 2960
+    - 7235
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7234
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7244
+    - 2960
+    - 7241
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
+    - 7240
     - 0
     - 0
     - 0
@@ -494,15 +494,32 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 3963
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3955
+    - 3953
+    - 3953
     - 3965
-    - 0
-    - 0
-    - 0
-    - 3962
-    - 0
-    - 0
-    - 0
     - 0
     - 0
     - 0
@@ -528,19 +545,17 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 3963
-    - 3965
     - 0
     - 0
     - 0
-    - 3961
-    - 3965
     - 0
     - 0
+    - 3952
     - 0
     - 0
     - 0
     - 0
+    - 3962
     - 0
     - 0
     - 0
@@ -552,18 +567,18 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 3964
     - 0
     - 0
     - 0
     - 0
+    - 3964
     - 0
     - 0
     - 0
     - 0
     - 0
     - 0
-    - 3963
-    - 3965
     - 0
     - 0
     - 0
@@ -664,10 +679,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 431
-    - 431
-    - 430
-    - 430
     - 0
     - 0
     - 0
@@ -681,11 +692,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 439
-    - 439
-    - 438
-    - 438
-    - 730
     - 0
     - 0
     - 0
@@ -697,6 +703,13 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 394
+    - 394
+    - 395
+    - 395
+    - 734
+    - 734
+    - 735
     - 0
     - 0
     - 0
@@ -707,6 +720,13 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 395
+    - 735
+    - 394
+    - 734
+    - 394
+    - 395
+    - 735
     - 0
     - 0
     - 0
@@ -715,10 +735,12 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 391
-    - 391
     - 0
     - 0
+    - 192
+    - 192
+    - 734
+    - 734
     - 0
     - 0
     - 0
@@ -732,6 +754,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 735
     - 0
     - 0
     - 0
@@ -748,14 +771,12 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 735
     - 0
-    - 387
-    - 402
     - 0
     - 0
     - 0
     - 0
-    - 401
     - 0
     - 0
     - 0
@@ -767,6 +788,7 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
+    - 734
     - 0
     - 0
     - 0
@@ -783,8 +805,42 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 403
-    - 403
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
     - 0
     - 0
     - 0
@@ -970,59 +1026,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 5
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
     - 0
     - 0
     - 0
@@ -1060,9 +1063,6 @@ root: !ruby/object:RPG::Map
     - 0
     - 0
     - 5
-    - 0
-    - 0
-    - 0
     - 0
     - 0
     - 0
@@ -1082,9 +1082,9 @@ root: !ruby/object:RPG::Map
   parallax_show: false
   scroll_type: 0
   parallax_loop_x: false
-  disable_dashing: false
+  disable_dashing: true
   parallax_sy: 0
-  display_name: Marchand d'armes
+  display_name: Armurerie
   specify_battleback: false
   note: ''
   battleback1_name: ''
